@@ -7,14 +7,16 @@ import { Badge } from "@/components/ui/badge";
 import { CORE_VALUES, SITE } from "@/lib/constants";
 
 const structure = [
-  { label: "Designers", value: "2" },
-  { label: "Developers", value: "2" },
-  { label: "Writers", value: "1" },
-  { label: "Marketing", value: "1" },
-  { label: "Founder", value: "1" },
+  { label: "Designers", value: "3" },
+  { label: "Web Developers", value: "3" },
+  { label: "Product Managers", value: "3" },
+  { label: "Mobile Developers", value: "3" },
+  { label: "Devops", value: "3" },
+  { label: "AI Specialists", value: "2" },
+  { label: "Tester", value: "3" },
 ];
 
-export function AboutSection() {
+export function   AboutSection() {
   return (
     <section className="py-24">
       <div className="mx-auto max-w-6xl px-4 sm:px-6">
@@ -26,14 +28,14 @@ export function AboutSection() {
         />
 
         <div className="mt-14 grid gap-6 lg:grid-cols-2">
-          <div className="rounded-2xl border border-border p-8">
+          <div className="rounded-2xl border border-border p-8 shadow-xl">
             <p className="text-xs font-semibold uppercase tracking-widest text-muted-foreground">
               Our philosophy
             </p>
             <div className="mt-6 grid gap-6 sm:grid-cols-2">
               {CORE_VALUES.map((value) => (
                 <div key={value.title} className="flex flex-col gap-3">
-                  <span className="flex size-9 items-center justify-center rounded-full bg-muted">
+                  <span className="flex size-9 items-center justify-center rounded-full bg-muted border shadow-lg">
                     <Icon name={value.icon} className="size-4" />
                   </span>
                   <div>
@@ -47,14 +49,14 @@ export function AboutSection() {
             </div>
           </div>
 
-          <div className="flex flex-col justify-between gap-8 rounded-2xl border border-border p-8">
+          <div className="flex flex-col justify-between gap-8 rounded-2xl border border-border p-8 shadow-xl">
             <div>
               <p className="text-xs font-semibold uppercase tracking-widest text-muted-foreground">
                 Team size & structure
               </p>
               <div className="mt-6 flex flex-wrap gap-2">
                 {structure.map((item) => (
-                  <Badge key={item.label} variant="secondary" className="h-8 gap-2 rounded-full px-3 text-sm font-medium">
+                  <Badge key={item.label} variant="secondary" className="h-8 gap-2 rounded-full px-3 text-sm font-medium shadoe-lg">
                     {item.value}
                     <span className="text-muted-foreground">{item.label}</span>
                   </Badge>

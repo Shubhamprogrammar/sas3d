@@ -7,7 +7,7 @@ import { SITE } from "@/lib/constants";
 
 export function Hero() {
   return (
-    <section className="relative overflow-hidden">
+    <section className="relative overflow-hidden ">
       <div className="mx-auto max-w-6xl px-4 pt-16 pb-8 sm:px-6 sm:pt-24 lg:pt-28">
         <p className="flex items-center gap-2 text-sm text-muted-foreground">
           <span className="inline-flex size-2 rounded-full bg-emerald-500" />
@@ -28,7 +28,7 @@ export function Hero() {
         <div className="mt-8 flex flex-col gap-8 lg:flex-row lg:items-end lg:justify-between">
           <p className="max-w-xl text-lg leading-8 text-muted-foreground">
             {SITE.name} is a senior freelance team of designers, developers and
-            writers. We help early-to-mid-stage companies ship faster and
+            Devops engineers. We help early-to-mid-stage companies ship faster and
             convert better — {SITE.combinedYears} combined years of experience,
             {SITE.projectsDelivered}+ projects delivered.
           </p>
@@ -65,7 +65,7 @@ export function Hero() {
       </div>
 
       <div className="mx-auto max-w-6xl px-4 sm:px-6">
-        <div className="mt-14 grid grid-cols-2 gap-px overflow-hidden rounded-2xl border border-border bg-border sm:grid-cols-4">
+        <div className="mt-14 grid grid-cols-2 gap-px overflow-hidden rounded-2xl border border-border bg-border sm:grid-cols-4 shadow-xl">
           {[
             { value: `${SITE.combinedYears}+`, label: "Years combined" },
             { value: `${SITE.projectsDelivered}+`, label: "Projects delivered" },
