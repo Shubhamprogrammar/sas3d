@@ -4,7 +4,7 @@ import { TECH_STACK } from "@/lib/constants";
 
 export function TechStack({ heading = true }: { heading?: boolean }) {
   return (
-    <section className="bg-muted/40 py-24">
+    <section className="bg-[#3E73A8]/5 py-24">
       <div className="mx-auto max-w-6xl px-4 sm:px-6">
         {heading && (
           <SectionHeading
@@ -17,7 +17,7 @@ export function TechStack({ heading = true }: { heading?: boolean }) {
           {TECH_STACK.map((group) => (
             <div
               key={group.category}
-              className="rounded-xl border border-border bg-background p-6"
+              className="rounded-xl border border-border bg-background p-6 shadow-xl"
             >
               <p className="text-xs font-semibold uppercase tracking-widest text-muted-foreground">
                 {group.category}

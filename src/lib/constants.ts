@@ -30,27 +30,27 @@ export const HIGHLIGHTS = [
 export const TECH_STACK = [
   {
     category: "Design",
-    items: ["Figma", "Framer", "Sketch", "Adobe CC", "Maze", "Storybook"],
+    items: ["Figma", "Framer", "Sketch", "Adobe CC", "Maze", "Storybook", "Zeplin", "Principle", "ProtoPie", "InVision", ],
   },
   {
     category: "Frontend",
-    items: ["React", "Next.js", "TypeScript", "Tailwind CSS", "Vite", "Three.js"],
+    items: ["React", "Next.js", "TypeScript", "JavaScript", "Tailwind CSS", "Vite", "Three.js", "Redux", "Zustand", "Recoil", "React Query", "Gsap", "Framer Motion", "React Three Fiber", "Tanstack Query", "React Hook Form"],
   },
   {
     category: "Backend",
-    items: ["Node.js", "Python", "PostgreSQL", "Prisma", "Supabase", "tRPC"],
+    items: ["Node.js", "Python", "PostgreSQL", "Prisma", "Supabase", "Firebase", "MongoDB", "Express.js", "Django", "Flask", "GraphQL", "REST APIs", ],
   },
   {
-    category: "Content & Marketing",
-    items: ["Sanity", "Contentful", "Notion", "GA4", "Hotjar", "Mailchimp"],
+    category: "Product Management",
+    items: ["Jira", "Trello", "Asana", "Notion", "ClickUp", "Monday.com", "Airtable", "Confluence", "Miro", "Lucidchart", "Figma Jam", "Slack", "Microsoft Teams"],
   },
   {
-    category: "Infrastructure",
-    items: ["Vercel", "AWS", "Docker", "Cloudflare", "Stripe", "Algolia"],
+    category: "Infrastructure & DevOps",
+    items: ["Vercel", "AWS", "Docker", "Cloudflare", "Stripe", "GitHub Actions", "Prometheus", "Kubernetes", "Nginx", "CI/CD Pipelines", "Ubuntu Server", "Google Cloud Platform",],
   },
   {
-    category: "Collaboration",
-    items: ["Slack", "Zoom", "Trello", "Linear", "Figma", "Loom"],
+    category: "QA/Testing",
+    items: ["Jest", "Playwright", "Unit Testing", "Testing Library", "Postman", "Load Testing Tools", "Integration Testing", "End-to-End Testing", "Swagger", "Manual Testing", "Bug Tracking Tools"]
   },
 ] as const;
 
@@ -91,11 +91,11 @@ export const TOOLS = [
 ] as const;
 
 export const SITE = {
-  name: "Craftlab Studio",
-  shortName: "Craftlab",
+  name: "SAS3D Studio",
+  shortName: "SAS3D",
   tagline: "We design & build products that people love to use",
   description:
-    "Craftlab is a senior freelance team of designers, developers and writers helping early-to-mid-stage companies ship fast, high-quality digital products.",
+    "SAS3D is a senior freelance team of designers, developers and Devops engineers helping early-to-mid-stage companies ship fast, high-quality digital products.",
   keywords: [
     "freelance team",
     "web development",
@@ -105,20 +105,20 @@ export const SITE = {
     "marketing",
     "portfolio",
   ],
-  url: "https://craftlab.studio",
-  email: "hello@craftlab.studio",
-  phone: "+1 (555) 013-2211",
+  url: "https://sas3d.in",
+  email: "developers@sas3d.in",
+  phone: "+91 8850093749",
   location: "Remote — worldwide",
-  foundingYear: 2016,
-  teamSize: 7,
-  combinedYears: 40,
-  projectsDelivered: 120,
-  happyClients: 80,
+  foundingYear: 2025,
+  teamSize: 3,
+  combinedYears: 1.5,
+  projectsDelivered: 9,
+  happyClients: 8,
   socials: [
-    { name: "Behance", href: "https://behance.net" },
-    { name: "Dribbble", href: "https://dribbble.com" },
-    { name: "GitHub", href: "https://github.com" },
-    { name: "LinkedIn", href: "https://linkedin.com" },
+    { name: "Instagram", href: "https://sas3d.net" },
+    { name: "Twitter", href: "https://sas3d.com" },
+    { name: "GitHub", href: "https://sas3d.com" },
+    { name: "LinkedIn", href: "https://sas3d.com" },
   ],
   bookingUrl: "https://cal.com",
 } as const;

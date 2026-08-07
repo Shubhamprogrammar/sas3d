@@ -4,7 +4,7 @@ import { HIGHLIGHTS } from "@/lib/constants";
 
 export function Highlights() {
   return (
-    <section id="highlights" className="bg-muted/40 py-24">
+    <section id="highlights" className="bg-[#FA8072]/3 py-24">
       <div className="mx-auto max-w-6xl px-4 sm:px-6">
         <SectionHeading
           eyebrow="Highlights"
@@ -15,7 +15,7 @@ export function Highlights() {
           {HIGHLIGHTS.map((highlight) => (
             <div
               key={highlight.title}
-              className="flex flex-col gap-4 rounded-xl border border-border bg-background p-6"
+              className="flex flex-col gap-4 rounded-xl border border-border bg-background p-6 shadow-xl"
             >
               <span className="flex size-10 items-center justify-center rounded-full bg-muted">
                 <Icon name={highlight.icon} className="size-5" />

@@ -19,7 +19,7 @@ export function ServicesSection() {
           {services.map((service) => (
             <div
               key={service.id}
-              className="group flex flex-col gap-4 rounded-xl border border-border bg-background p-6 transition-colors hover:border-foreground/30"
+              className="group flex flex-col gap-4 rounded-xl border border-border bg-background p-6 transition-colors hover:border-foreground/30 shadow-xl"
             >
               <span className="flex size-10 items-center justify-center rounded-full bg-muted transition-colors group-hover:bg-foreground group-hover:text-background">
                 <Icon name={service.icon} className="size-5" />
