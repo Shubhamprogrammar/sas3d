@@ -40,7 +40,7 @@ export default function AboutPage() {
               <div className="mt-5 flex flex-col gap-4 text-sm leading-7 text-muted-foreground sm:text-base sm:leading-8">
                 <p>
                   {SITE.name} was founded in {SITE.foundingYear} by Sandeep Pal, Abhishek
-                  Sharma and Shubham Maurya after a decade working at agencies where client budgets
+                  Mankumbare and Shubham Maurya after a decade working at agencies where client budgets
                   paid for layers of management. He wanted a different model:
                   experienced craftspeople doing the work directly, at a price
                   that makes sense for early-to-mid-stage companies.
