@@ -27,12 +27,12 @@ export function TeamGrid({
             action={{ label: "Meet everyone", href: "/team" }}
           />
         )}
-        <div className="mt-12 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+        <div className="mt-12 grid gap-4 sm:grid-cols-2 lg:grid-cols-3 ">
           {items.map((member) => (
             <Link
               key={member.slug}
               href={`/team/${member.slug}`}
-              className="group flex flex-col gap-5 rounded-xl border border-border bg-background p-6 transition-colors hover:border-foreground/30"
+              className="group flex flex-col gap-5 rounded-xl border border-border bg-background p-6 transition-colors hover:border-foreground/30 shadow-xl"
             >
               <div className="relative aspect-square overflow-hidden rounded-xl bg-muted">
                 <Image

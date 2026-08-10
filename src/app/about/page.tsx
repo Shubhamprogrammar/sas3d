@@ -33,7 +33,7 @@ export default function AboutPage() {
       <section className="py-20">
         <div className="mx-auto max-w-6xl px-4 sm:px-6">
           <div className="grid gap-6 lg:grid-cols-2">
-            <div className="rounded-2xl border border-border p-8">
+            <div className="rounded-2xl border border-border p-8 shadow-xl">
               <p className="text-xs font-semibold uppercase tracking-widest text-muted-foreground">
                 Our story
               </p>
@@ -61,7 +61,7 @@ export default function AboutPage() {
             </div>
 
             <div className="flex flex-col gap-6">
-              <div className="grid grid-cols-2 gap-px overflow-hidden rounded-2xl border border-border bg-border">
+              <div className="grid grid-cols-2 gap-px overflow-hidden rounded-2xl border border-border bg-border shadow-xl">
                 {stats.map((stat) => (
                   <div key={stat.label} className="flex flex-col gap-1 bg-background p-6">
                     <span className="text-3xl font-semibold tracking-tight">
@@ -73,7 +73,7 @@ export default function AboutPage() {
                   </div>
                 ))}
               </div>
-              <div className="flex flex-1 flex-col justify-center rounded-2xl border border-border p-8">
+              <div className="flex flex-1 flex-col justify-center rounded-2xl border border-border p-8 shadow-xl">
                 <p className="text-sm leading-7 text-muted-foreground">
                   <span className="font-semibold text-foreground">
                     Working philosophy:
@@ -93,11 +93,11 @@ export default function AboutPage() {
             eyebrow="Core values"
             title="How we work, every project"
           />
-          <div className="mt-10 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
+          <div className="mt-10 grid gap-4 sm:grid-cols-2 lg:grid-cols-4 ">
             {CORE_VALUES.map((value) => (
               <div
                 key={value.title}
-                className="flex flex-col gap-4 rounded-xl border border-border bg-background p-6"
+                className="flex flex-col gap-4 rounded-xl border border-border bg-background p-6 shadow-xl"
               >
                 <span className="flex size-10 items-center justify-center rounded-full bg-muted">
                   <Icon name={value.icon} className="size-5" />
