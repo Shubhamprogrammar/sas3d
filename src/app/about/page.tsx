@@ -27,7 +27,7 @@ export default function AboutPage() {
       <PageHeader
         eyebrow="About us"
         title="A small team with a senior bar"
-        description="Craftlab started with one laptop and a simple belief: clients deserve senior work without agency overhead."
+        description="SAS3D started with one laptop and a simple belief: clients deserve senior work without agency overhead."
       />
 
       <section className="py-20">
@@ -39,14 +39,14 @@ export default function AboutPage() {
               </p>
               <div className="mt-5 flex flex-col gap-4 text-sm leading-7 text-muted-foreground sm:text-base sm:leading-8">
                 <p>
-                  {SITE.name} was founded in {SITE.foundingYear} by Abhishek
-                  Sharma after a decade working at agencies where client budgets
+                  {SITE.name} was founded in {SITE.foundingYear} by Sandeep Pal, Abhishek
+                  Sharma and Shubham Maurya after a decade working at agencies where client budgets
                   paid for layers of management. He wanted a different model:
                   experienced craftspeople doing the work directly, at a price
                   that makes sense for early-to-mid-stage companies.
                 </p>
                 <p>
-                  What started as a one-person studio grew slowly and
+                  What started as a three-person studio grew slowly and
                   deliberately. We only add a member when a client need recurs
                   often enough to justify it — which is why today we&apos;re
                   just {SITE.teamSize} people with {SITE.combinedYears} combined
