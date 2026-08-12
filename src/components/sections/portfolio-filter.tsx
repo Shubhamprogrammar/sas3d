@@ -3,11 +3,11 @@
 import * as React from "react";
 
 import { ProjectCard } from "@/components/sections/project-card";
-import { Button } from "@/components/ui/button";
+// import { Button } from "@/components/ui/button";
 import { projects } from "@/data/projects";
 import { cn } from "@/lib/utils";
 
-const categories = ["All", ...Array.from(new Set(projects.map((p) => p.category)))];
+// const categories = ["All", ...Array.from(new Set(projects.map((p) => p.category)))];
 
 export function PortfolioFilter() {
   const [active, setActive] = React.useState("All");
@@ -20,7 +20,7 @@ export function PortfolioFilter() {
   return (
     <section className="py-20">
       <div className="mx-auto max-w-6xl px-4 sm:px-6">
-        <div className="flex flex-wrap items-center gap-2">
+        {/* <div className="flex flex-wrap items-center gap-2">
           {categories.map((category) => (
             <Button
               key={category}
@@ -32,7 +32,7 @@ export function PortfolioFilter() {
               {category}
             </Button>
           ))}
-        </div>
+        </div> */}
 
         <div
           className={cn(
