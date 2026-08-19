@@ -71,35 +71,37 @@ export const projects: Project[] = [
   },
   {
     slug: "luma-saas-dashboard",
-    title: "A SaaS dashboard users actually understand",
-    client: "Luma Analytics",
-    year: "2024",
-    category: "UI/UX Design",
+    title: "A graph-native commerce platform built for relationship intelligence",
+    client: "WEXA.AI",
+    year: "2026",
+    category: "Web Development",
     role: ["Product Design", "UX Research", "Design System", "Web Development", "Devops"],
-    status: "confidential",
-    cover: "/images/projects/p3.svg",
+    status: "live",
+    cover: "/images/projects/s_1.png",
     gallery: [
-      "/images/projects/p3.svg",
-      "/images/projects/p4.svg",
-      "/images/projects/p5.svg",
+      "/images/projects/s_1.png",
+      "/images/projects/s_2.png",
+      "/images/projects/s_3.png",
     ],
     excerpt:
-      "A secure environment credential management platform that helps developers store, organize, and manage sensitive ENV variables in one centralized workspace.",
+      "A graph-first commerce platform where every screen is powered by traversals over a graph database, helping teams explore the hidden relationships between customers, products, sellers, and brands instead of digging through flat relational tables.",
     problem:
-      "Developers were relying on local .env files, shared documents, and unsecured communication channels to manage environment credentials. This made it difficult to keep secrets organized across projects and environments while increasing the risk of accidentally exposing sensitive API keys, database credentials, and configuration values.",
+      "Marketplace data — customers, products, sellers, categories, brands — is deeply relational, but traditional dashboards flatten it into isolated tables and reports. Teams could see individual records, but not how those records connected to one another, making it slow and difficult to answer questions that spanned multiple entities or to spot patterns hidden a few hops away.",
     solution:
-      "We built a centralized ENV credential management platform where developers can securely store, organize, and access environment variables. The experience separates credentials by project and environment, provides a clean dashboard for managing secrets, and simplifies the process of securely working with sensitive configuration values.",
+      "We built a graph-native commerce platform where every screen is powered by traversal queries over a graph database instead of conventional relational lookups. The experience centers on an interactive graph explorer that lets users search for any node — customer, product, seller, or brand — and visually walk its multi-hop connections, backed by dedicated Customer, Product, and Seller intelligence modules for deeper analysis.",
     approach: [
-    "Mapped common developer workflows for creating, storing, updating, and accessing environment credentials across different projects and deployment environments.",
-    "Designed a secure and intuitive dashboard that makes projects, environments, credentials, and secret values easy to manage without exposing sensitive information unnecessarily.",
-    "Built a scalable design system and production-ready web application with a focus on security, usability, responsive design, and reliable deployment workflows."
-  ],
+      "Mapped the core marketplace entities and their relationships — customers, products, sellers, categories, and brands — to define what a graph-first data model needed to support.",
+      "Designed an interactive graph explorer and dedicated intelligence modules (Customer, Product, Seller) that make multi-hop relationships easy to search, traverse, and understand at a glance.",
+      "Built a production-ready platform with an analytics suite, recommendations engine, and live database health monitoring, backed by a scalable design system and reliable deployment workflows."
+    ],
     results: [
       { label: "First report in week 1", value: "22 → 71%" },
       { label: "Activation", value: "+49%" },
       { label: "Churn", value: "-27%" },
     ],
+    liveUrl: "https://shopgraph.vercel.app/",
     tags: ["SaaS", "Dashboard", "IA"],
+    featured: true,
   },
   {
     slug: "meridian-brand-launch",
