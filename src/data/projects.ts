@@ -43,11 +43,11 @@ export const projects: Project[] = [
     category: "Web Development",
     role: ["Product Design", "UX Research", "Design System", "Web Development", "Devops"],
     status: "live",
-    cover: "/images/projects/p2.svg",
+    cover: "/images/projects/e_2.png",
     gallery: [
+      "/images/projects/e_2.png",
       "/images/projects/env_1.png",
-      "/images/projects/p3.svg",
-      "/images/projects/p4.svg",
+      "/images/projects/e_3.png",
     ],
     excerpt:
       "A secure environment credential management platform that helps developers store, organize, and manage sensitive ENV variables in one centralized workspace.",
