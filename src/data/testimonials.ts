@@ -4,7 +4,7 @@ export const testimonials: Testimonial[] = [
   {
     id: "t1",
     quote:
-      "Craftlab rebuilt our storefront and conversions jumped 64% in a single quarter. They're the rare team that understands both design and the business behind it.",
+      "SAS3D rebuilt our storefront and conversions jumped 64% in a single quarter. They're the rare team that understands both design and the business behind it.",
     name: "Laura Kim",
     role: "Head of Growth",
     company: "Northpeak",

@@ -1,4 +1,4 @@
-# Craftlab Studio — Team Portfolio
+# SAS3D Studio — Team Portfolio
 
 A freelance team portfolio built with **Next.js 16 (App Router)**, **TypeScript**, **Tailwind CSS v4** and **shadcn/ui**. UI follows the editorial, metric-led layout of the [Jonny Czar Portfolio 2024](https://www.behance.net/gallery/159150041/Jonny-Czar-Portfolio-2024) reference.
 

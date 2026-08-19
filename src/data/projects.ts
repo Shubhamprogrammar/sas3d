@@ -12,7 +12,7 @@ export const projects: Project[] = [
     cover: "/images/projects/pr_1.png",
     gallery: [
       "/images/projects/pr_1.png",
-      "/images/projects/pr_2.png  ",
+      "/images/projects/pr_2.png ",
       "/images/projects/p3.svg",
     ],
     excerpt:

@@ -7,7 +7,7 @@ import { CtaSection } from "@/components/sections/cta-section";
 export const metadata: Metadata = {
   title: "Team",
   description:
-    "Meet the senior designers, developers, writers and marketers behind Craftlab Studio.",
+    "Meet the senior designers, developers, writers and marketers behind SAS3D Studio.",
 };
 
 export default function TeamPage() {

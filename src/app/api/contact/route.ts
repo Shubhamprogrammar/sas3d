@@ -20,7 +20,7 @@ export async function POST(request: Request) {
 
     // TODO: wire this to your email provider (Resend, SendGrid, etc.).
     // Example with Resend:
-    // await resend.emails.send({ from: "hello@craftlab.studio", to: "hello@craftlab.studio", subject: `New inquiry from ${name}`, text: `${message}\n\n— ${name} <${email}>` });
+    // await resend.emails.send({ from: "hello@SAS3D.studio", to: "hello@SAS3D.studio", subject: `New inquiry from ${name}`, text: `${message}\n\n— ${name} <${email}>` });
 
     console.info("Contact form submission", { name, email, message });
 

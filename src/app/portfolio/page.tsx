@@ -7,7 +7,7 @@ import { CtaSection } from "@/components/sections/cta-section";
 export const metadata: Metadata = {
   title: "Work",
   description:
-    "Case studies from Craftlab Studio — the problems, the approach and the measurable results behind our projects.",
+    "Case studies from SAS3D Studio — the problems, the approach and the measurable results behind our projects.",
 };
 
 export default function PortfolioPage() {

@@ -10,7 +10,7 @@ import { SITE } from "@/lib/constants";
 export const metadata: Metadata = {
   title: "Contact",
   description:
-    "Get in touch with Craftlab Studio — book a free consultation or get a fixed-price quote within one business day.",
+    "Get in touch with SAS3D Studio — book a free consultation or get a fixed-price quote within one business day.",
 };
 
 const details = [
