@@ -56,7 +56,7 @@ export function   AboutSection() {
               </p>
               <div className="mt-6 flex flex-wrap gap-2">
                 {structure.map((item) => (
-                  <Badge key={item.label} variant="secondary" className="h-8 gap-2 rounded-full px-3 text-sm font-medium shadoe-lg">
+                  <Badge key={item.label} variant="secondary" className="h-8 gap-2 rounded-full px-3 text-sm font-medium shadow-lg">
                     {item.value}
                     <span className="text-muted-foreground">{item.label}</span>
                   </Badge>

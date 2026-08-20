@@ -25,11 +25,11 @@ export function ProjectCard({
     >
       <div className="flex items-center justify-between">
         <div className="flex items-center gap-2 text-sm text-muted-foreground">
-          <span className="font-mono text-xs">
+          {/* <span className="font-mono text-xs">
             {String(index + 1).padStart(2, "0")}
-          </span>
-          <span>{project.category}</span>
-          <span className="text-border">/</span>
+          </span> */}
+          {/* <span>{project.category}</span> */}
+          {/* <span className="text-border">/</span> */}
           <span>{project.year}</span>
         </div>
         {project.status === "confidential" ? (

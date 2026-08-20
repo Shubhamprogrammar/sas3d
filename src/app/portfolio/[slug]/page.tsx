@@ -43,16 +43,16 @@ export default async function ProjectPage({
 
   return (
     <>
-      <PageHeader eyebrow={project.category} title={project.title} />
+      <PageHeader eyebrow="Work" title={project.title} />
 
       <section className="py-12">
         <div className="mx-auto max-w-6xl px-4 sm:px-6">
           <div className="flex flex-col gap-6 sm:flex-row sm:items-center sm:justify-between">
             <div className="flex flex-wrap items-center gap-3 text-sm text-muted-foreground">
               <span className="font-medium text-foreground">
-                {project.client}
+                {/* {project.client} */}
               </span>
-              <span className="text-border">/</span>
+              {/* <span className="text-border">/</span> */}
               <span>{project.year}</span>
               <span className="text-border">/</span>
               <div className="flex flex-wrap gap-2">
@@ -172,7 +172,7 @@ export default async function ProjectPage({
             {project.gallery.map((src, i) => (
               <div
                 key={src}
-                className="relative aspect-[16/10] overflow-hidden rounded-xl border border-border bg-muted"
+                className="relative aspect-[16/10] overflow-hidden rounded-lg border border-border bg-muted"
               >
                 <Image
                   src={src}

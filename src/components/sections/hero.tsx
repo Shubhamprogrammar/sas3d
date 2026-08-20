@@ -27,7 +27,7 @@ export function Hero() {
 
         <div className="mt-8 flex flex-col gap-8 lg:flex-row lg:items-end lg:justify-between">
           <p className="max-w-xl text-lg leading-8 text-muted-foreground">
-            {SITE.name} is a senior freelance team of designers, developers and
+            {SITE.name} is a freelance team of designers, developers and
             Devops engineers. We help early-to-mid-stage companies ship faster and
             convert better — {SITE.combinedYears} combined years of experience,
             {SITE.projectsDelivered}+ projects delivered.

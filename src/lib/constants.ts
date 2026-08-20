@@ -95,7 +95,7 @@ export const SITE = {
   shortName: "SAS3D",
   tagline: "We design & build products that people love to use",
   description:
-    "SAS3D is a senior freelance team of designers, developers and Devops engineers helping early-to-mid-stage companies ship fast, high-quality digital products.",
+    "SAS3D is a freelance team of designers, developers and Devops engineers helping early-to-mid-stage companies ship fast, high-quality digital products.",
   keywords: [
     "freelance team",
     "web development",
@@ -120,7 +120,7 @@ export const SITE = {
     { name: "GitHub", href: "https://sas3d.com" },
     { name: "LinkedIn", href: "https://sas3d.com" },
   ],
-  bookingUrl: "https://cal.com",
+  bookingUrl: "https://sas3d.in",
 } as const;
 
 export const NAV_LINKS = [
