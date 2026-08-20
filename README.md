@@ -62,7 +62,7 @@ Placeholder SVGs are generated in `public/images/team/` and `public/images/proje
 
 ## Contact form
 
-The form posts to `src/app/api/contact/route.ts`. It validates with Zod and currently logs submissions. Wire it to an email provider (Resend, SendGrid, etc.) — see the `TODO` in the route. `.env.local` holds keys (copy `.env.example`).
+The form posts to `src/app/api/contact/route.ts`. It validates with Zod and sends via **Resend** — an auto-reply to the visitor confirming their message plus a notification to your team inbox. Set `RESEND_API_KEY` and `CONTACT_EMAIL` in `.env.local` (copy `.env.example`); `CONTACT_FROM` defaults to `onboarding@resend.dev`, so add a verified sender to send from your own domain.
 
 ## Customization
 

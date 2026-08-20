@@ -120,7 +120,7 @@ export const SITE = {
     { name: "GitHub", href: "https://sas3d.com" },
     { name: "LinkedIn", href: "https://sas3d.com" },
   ],
-  bookingUrl: "https://cal.com",
+  bookingUrl: "https://sas3d.in",
 } as const;
 
 export const NAV_LINKS = [
