@@ -93,7 +93,7 @@ export default async function ProjectPage({
               fill
               priority
               sizes="100vw"
-              className="object-cover"
+              className="object-contain"
             />
           </div>
         </div>
@@ -104,10 +104,10 @@ export default async function ProjectPage({
           <div className="grid gap-px overflow-hidden rounded-2xl border border-border bg-border sm:grid-cols-3">
             {project.results.map((metric) => (
               <div key={metric.label} className="flex flex-col gap-1 bg-background px-6 py-8">
-                <span className="text-4xl font-semibold tracking-tight">
+                <span className="break-words text-3xl font-semibold tracking-tight sm:text-4xl">
                   {metric.value}
                 </span>
-                <span className="text-sm text-muted-foreground">
+                <span className="break-words text-sm text-muted-foreground">
                   {metric.label}
                 </span>
               </div>
@@ -172,14 +172,14 @@ export default async function ProjectPage({
             {project.gallery.map((src, i) => (
               <div
                 key={src}
-                className="relative aspect-[16/10] overflow-hidden rounded-lg border border-border bg-muted"
+                className="relative aspect-[16/8] overflow-hidden rounded-lg border border-border bg-muted"
               >
                 <Image
                   src={src}
                   alt={`${project.title} visual ${i + 1}`}
                   fill
                   sizes="(min-width: 640px) 50vw, 100vw"
-                  className="object-cover"
+                  className="object-contain"
                 />
               </div>
             ))}
