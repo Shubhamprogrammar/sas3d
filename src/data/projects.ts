@@ -45,6 +45,7 @@ export const projects: Project[] = [
     status: "live",
     cover: "/images/projects/heart_1.png",
     gallery: [
+      "/images/projects/heart_1.png",
       "/images/projects/heart_2.png",
       "/images/projects/heart_3.png",
     ],
