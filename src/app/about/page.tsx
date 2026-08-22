@@ -11,7 +11,7 @@ import { CORE_VALUES, SITE } from "@/lib/constants";
 export const metadata: Metadata = {
   title: "About Us",
   description:
-    "The story, values and people behind Craftlab Studio — a senior freelance team of designers, developers and writers.",
+    "The story, values and people behind SAS3D Studio — a freelance team of designers, developers and writers.",
 };
 
 const stats = [

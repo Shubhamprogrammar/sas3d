@@ -14,7 +14,7 @@ import { TOOLS } from "@/lib/constants";
 export const metadata: Metadata = {
   title: "Pricing",
   description:
-    "Transparent pricing for Craftlab Studio — fixed-price sprints, full engagements and monthly retainers.",
+    "Transparent pricing for SAS3D Studio — fixed-price sprints, full engagements and monthly retainers.",
 };
 
 export default function PricingPage() {

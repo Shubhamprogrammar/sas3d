@@ -13,7 +13,7 @@ export function Footer() {
               {SITE.name}
             </Link>
             <p className="mt-3 max-w-sm text-sm leading-6 text-muted-foreground">
-              {SITE.tagline}. A senior freelance team of designers, developers
+              {SITE.tagline}. A freelance team of designers, developers
               and writers — remote, worldwide.
             </p>
             <div className="mt-5 flex items-center gap-2">
