@@ -42,13 +42,13 @@ export function ProjectCard({
         )}
       </div>
 
-      <div className="relative aspect-[16/9] overflow-hidden rounded-xl bg-muted">
+      <div className="relative aspect-[16/8] overflow-hidden rounded-xl bg-muted">
         <Image
           src={project.cover}
           alt={project.title}
           fill
           sizes="(min-width: 1024px) 33vw, 100vw"
-          className="object-cover transition-transform duration-500 group-hover:scale-[1.03]"
+          className="object-contain transition-transform duration-500 group-hover:scale-[1.03]"
         />
       </div>
 
@@ -63,11 +63,11 @@ export function ProjectCard({
 
       <div className="mt-auto grid grid-cols-3 divide-x divide-border rounded-xl border border-border bg-muted/40">
         {project.results.slice(0, 3).map((metric) => (
-          <div key={metric.label} className="px-4 py-4">
-            <p className="text-lg font-semibold tracking-tight sm:text-xl">
+          <div key={metric.label} className="min-w-0 px-3 py-4">
+            <p className="break-words text-sm font-semibold tracking-tight sm:text-base">
               {metric.value}
             </p>
-            <p className="mt-0.5 text-xs text-muted-foreground">
+            <p className="mt-0.5 break-words text-xs text-muted-foreground">
               {metric.label}
             </p>
           </div>

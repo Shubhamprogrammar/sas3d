@@ -171,9 +171,9 @@ export const projects: Project[] = [
     tags: ["Grocery", "E-commerce", "Web App"],
   },
   {
-    slug: "streamify-music-streaming",
-    title: "A modern music streaming platform with immersive audio experience",
-    client: "Streamify",
+    slug: "streamify-social-learning",
+    title: "A social learning platform where friends learn languages together",
+    client: "Stremify",
     year: "2026",
     category: "Web Development",
     role: ["Product Design", "UX Research", "Design System", "Web Development", "Devops"],
@@ -185,23 +185,23 @@ export const projects: Project[] = [
       "/images/projects/streamify_3.png",
     ],
     excerpt:
-      "A feature-rich music streaming web application that lets users discover, play, and organize their favorite tracks with a sleek, modern interface inspired by the best in audio streaming.",
+      "A social learning platform built with the MERN stack that lets users connect with friends, chat in real time, and make video calls — so people can learn new languages together in an interactive, engaging way.",
     problem:
-      "Music listeners need a seamless, immersive platform to discover new tracks, organize playlists, and enjoy uninterrupted streaming — but most existing solutions either lack a polished user experience or require complex setup. The challenge was to build a performant, visually appealing streaming platform that feels native and responsive across devices.",
+      "Language learning is often a lonely, repetitive grind. Learners practicing alone quickly lose motivation, most apps offer little real human interaction, and coordinating practice with friends means juggling separate chat and video tools. The challenge was to bring connection, conversation, and collaborative language learning into one seamless social experience.",
     solution:
-      "We designed and built Streamify, a modern music streaming web application with a clean dark UI, real-time audio playback, search and discovery features, playlist management, and a responsive layout that delivers a premium listening experience in the browser.",
+      "We built Stremify, a social learning platform powered by the MERN stack where users connect with friends, chat in real time, and jump into video calls together. By combining social interaction with collaborative language practice, Stremify makes learning new languages fun, social, and effective — keeping learners engaged, accountable, and coming back.",
     approach: [
-      "Mapped the core music listening journey — discovery, playback, playlist management, and library organization — to define the essential product surfaces.",
-      "Designed a sleek, dark-themed UI with intuitive navigation, smooth transitions, and a focus on album artwork and track information that mirrors premium streaming experiences.",
-      "Built a performant single-page application with real-time audio controls, search functionality, and responsive design optimized for both desktop and mobile listening.",
+      "Mapped the core learner journey — connecting with friends, starting conversations, joining video calls, and practicing languages together — to define the essential product surfaces.",
+      "Designed an interactive, engaging interface with friend connections, real-time chat, and seamless video call flows that make collaborative learning feel natural and fun.",
+      "Built a production-ready MERN stack application with MongoDB, Express, React, and Node.js — delivering real-time communication, shared learning experiences, and reliable performance across devices.",
     ],
     results: [
-      { label: "Playback experience", value: "Seamless" },
-      { label: "UI/UX quality", value: "Premium" },
-      { label: "Responsive design", value: "Cross-device" },
+      { label: "Real-time chat", value: "Built-in" },
+      { label: "Video calls", value: "Seamless" },
+      { label: "Learn together", value: "Social" },
     ],
     liveUrl: "https://streamifyweb-umber.vercel.app/",
-    tags: ["Music", "Streaming", "React"],
+    tags: ["Social Learning", "MERN Stack", "Video Calls"],
   },
 ];
 
