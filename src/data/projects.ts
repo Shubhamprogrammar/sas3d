@@ -36,37 +36,38 @@ export const projects: Project[] = [
     featured: true,
   },
   {
-    slug: "northpeak-ecommerce",
-    title: "Store Securely Your ENV Credentials",
-    client: "Northpeak",
+    slug: "open-your-hearts",
+    title: "A community-driven initiative for spreading kindness and support",
+    client: "Open Your Hearts",
     year: "2025",
     category: "Web Development",
     role: ["Product Design", "UX Research", "Design System", "Web Development", "Devops"],
     status: "live",
-    cover: "/images/projects/e_2.png",
+    cover: "/images/projects/heart_1.png",
     gallery: [
-      "/images/projects/e_2.png",
-      "/images/projects/env_1.png",
-      "/images/projects/e_3.png",
+      "/images/projects/heart_1.png",
+      "/images/projects/heart_2.png",
+      "/images/projects/heart_3.png",
     ],
     excerpt:
-      "A secure environment credential management platform that helps developers store, organize, and manage sensitive ENV variables in one centralized workspace.",
+    
+      "A community-driven initiative dedicated to spreading kindness, empathy, and support to those in need.",
     problem:
-      "Developers were relying on local .env files, shared documents, and unsecured communication channels to manage environment credentials. This made it difficult to keep secrets organized across projects and environments while increasing the risk of accidentally exposing sensitive API keys, database credentials, and configuration values.",
+      "Communities often lack a centralized platform to organize and coordinate acts of kindness and support for those in need. Spreading empathy and help requires structured initiatives that can connect people with opportunities to make a difference.",
     solution:
-      "We built a centralized ENV credential management platform where developers can securely store, organize, and access environment variables. The experience separates credentials by project and environment, provides a clean dashboard for managing secrets, and simplifies the process of securely working with sensitive configuration values.",
+      "We designed and built Open Your Hearts, a community platform that enables people to discover, participate in, and contribute to kindness initiatives. The platform connects volunteers with causes, tracks community impact, and creates a space where empathy and support can flourish.",
     approach: [
-    "Mapped common developer workflows for creating, storing, updating, and accessing environment credentials across different projects and deployment environments.",
-    "Designed a secure and intuitive dashboard that makes projects, environments, credentials, and secret values easy to manage without exposing sensitive information unnecessarily.",
-    "Built a scalable design system and production-ready web application with a focus on security, usability, responsive design, and reliable deployment workflows."
-  ],
-    results: [
-      { label: "Centralized credentials", value: "100%" },
-      { label: "Project organization", value: "Multi-env" },
-      { label: "Secure access", value: "Protected" },
+      "Mapped the core community engagement journey — discovering initiatives, participating in events, and tracking collective impact — to define the essential product surfaces.",
+      "Designed a warm, inviting interface with intuitive navigation that encourages community participation and makes it easy to find ways to help.",
+      "Built a responsive web application with event management, volunteer coordination features, and impact tracking to support meaningful community connections."
     ],
-    liveUrl: "https://online-env-vault.vercel.app/",
-    tags: ["E-commerce", "Next.js", "Performance"],
+    results: [
+      { label: "Community impact", value: "Growing" },
+      { label: "Initiatives", value: "Active" },
+      { label: "Engagement", value: "Community-driven" },
+    ],
+    liveUrl: "https://openyourhearts.vercel.app/",
+    tags: ["Community", "Social Impact", "Web App"],
     featured: true,
   },
   {
@@ -157,10 +158,10 @@ export const projects: Project[] = [
     solution:
       "We designed and developed a user-friendly grocery platform that brings essential products into a single online marketplace. Customers can browse categories, discover products, manage their cart, and complete their orders through a simple and streamlined shopping experience designed for both desktop and mobile users.",
     approach: [
-    "Researched common grocery shopping behaviors to understand how users discover products, compare options, manage their carts, and complete online orders.",
-    "Designed a simple category-based navigation and product discovery experience that makes frequently purchased groceries easy to find.",
-    "Built a responsive and scalable web application with a consistent design system, streamlined checkout flow, and reliable deployment architecture."
-  ],
+      "Researched common grocery shopping behaviors to understand how users discover products, compare options, manage their carts, and complete online orders.",
+      "Designed a simple category-based navigation and product discovery experience that makes frequently purchased groceries easy to find.",
+      "Built a responsive and scalable web application with a consistent design system, streamlined checkout flow, and reliable deployment architecture."
+    ],
     results: [
       { label: "Product discovery", value: "Simplified" },
       { label: "Shopping experience", value: "Streamlined" },
