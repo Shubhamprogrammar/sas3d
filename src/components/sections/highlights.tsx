@@ -8,8 +8,8 @@ export function Highlights() {
       <div className="mx-auto max-w-6xl px-4 sm:px-6">
         <SectionHeading
           eyebrow="Highlights"
-          title="Recognition that builds trust"
-          description="Awards, features and ratings from the platforms and communities where we ship work."
+          title="Early milestones that build trust"
+          description="Small, meaningful signs of progress we can earn in our first year—without overstating the work."
         />
         <div className="mt-12 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
           {HIGHLIGHTS.map((highlight) => (

@@ -3,27 +3,27 @@ import { cn } from "@/lib/utils";
 export const HIGHLIGHTS = [
   {
     icon: "award",
-    title: "Best Freelance Studio — 2025",
+    title: "First 10 projects shipped",
     description:
-      "Named among the top 1% of product teams on Upwork for two years running, based on client reviews and on-time delivery.",
+      "A practical first-year milestone: launching thoughtful work for a small group of clients.",
   },
   {
     icon: "trophy",
-    title: "Featured on Product Hunt",
+    title: "Repeat client work",
     description:
-      "Three client launches hit the #1 Product of the Day slot, driving 100k+ visitors to each launch page.",
+      "Earning the chance to support a client again is the kind of trust we want to build.",
   },
   {
     icon: "zap",
-    title: "Featured on UX Collective",
+    title: "A growing portfolio",
     description:
-      "Recognized as a benchmark for structure, clarity and product storytelling in '50 Essential Freelance Portfolios'.",
+      "A handful of finished case studies that show the process, decisions and outcomes behind the work.",
   },
   {
     icon: "star",
-    title: "4.9/5 average rating",
+    title: "Helpful client feedback",
     description:
-      "Across 120+ completed projects and 300+ reviews on Upwork, Fiverr and direct referrals.",
+      "Honest feedback from early collaborators that helps us improve with every project.",
   },
 ] as const;
 
