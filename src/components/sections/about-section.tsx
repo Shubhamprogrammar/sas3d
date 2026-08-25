@@ -7,13 +7,13 @@ import { Badge } from "@/components/ui/badge";
 import { CORE_VALUES, SITE } from "@/lib/constants";
 
 const structure = [
-  { label: "Designers", value: "3" },
+  { label: "Designers", value: "2" },
   { label: "Web Developers", value: "3" },
-  { label: "Product Managers", value: "3" },
-  { label: "Mobile Developers", value: "3" },
-  { label: "Devops", value: "3" },
-  { label: "AI Specialists", value: "2" },
-  { label: "Tester", value: "3" },
+  { label: "Product Managers", value: "1" },
+  { label: "Mobile Developers", value: "2" },
+  { label: "Devops", value: "1" },
+  { label: "AI Specialists", value: "1" },
+  { label: "Tester", value: "2" },
 ];
 
 export function   AboutSection() {

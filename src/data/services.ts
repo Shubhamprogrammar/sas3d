@@ -34,7 +34,7 @@ export const services: Service[] = [
       "Build, automate, and scale reliable infrastructure — CI/CD pipelines, cloud deployments, monitoring, and high-availability systems.",
     deliverables: [
       "CI/CD pipeline setup & automation",
-      "Cloud infrastructure (AWS, Docker, Kubernetes)",
+      "Cloud infrastructure (AWS, DigitalOcean, Docker, Kubernetes)",
       "Monitoring, logging & alerting systems",
       "Infrastructure as Code (Terraform, Ansible)",
     ],

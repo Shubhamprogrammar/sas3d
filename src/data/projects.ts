@@ -5,7 +5,7 @@ export const projects: Project[] = [
     slug: "tomato-food-delivery",
     title: "A full-stack food delivery platform with real-time ordering and admin controls",
     client: "Tomato",
-    year: "2026",
+    year: "2025",
     category: "Web Development",
     role: ["Product Design", "UX Research", "Design System", "Web Development", "Devops"],
     status: "live",
