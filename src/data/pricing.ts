@@ -8,7 +8,7 @@ export const pricingPlans: PricingPlan[] = [
     price: "From $4,900",
     period: "per project",
     features: [
-      "1 dedicated craft lead",
+      "1 dedicated sas3d lead",
       "2-week design or build sprint",
       "Fixed scope & fixed price",
       "Weekly demos & async updates",

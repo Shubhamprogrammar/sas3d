@@ -63,7 +63,7 @@ export function   AboutSection() {
                 ))}
               </div>
               <p className="mt-6 text-sm leading-7 text-muted-foreground">
-                Every project is led by a senior craft lead and staffed with
+                Every project is led by a sas3d lead and staffed with
                 exactly the specialists it needs — never a bench of juniors
                 learning on your budget.
               </p>

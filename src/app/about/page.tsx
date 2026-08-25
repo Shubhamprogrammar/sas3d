@@ -53,8 +53,7 @@ export default function AboutPage() {
                   years of experience and a portfolio we&apos;re proud of.
                 </p>
                 <p>
-                  We stay small on purpose. Every project is led by a senior
-                  craft lead, staffed with exactly the specialists it needs,
+                  We stay small on purpose. Every project is led by a sas3d lead, staffed with exactly the specialists it needs,
                   and reported on honestly — week one to launch.
                 </p>
               </div>

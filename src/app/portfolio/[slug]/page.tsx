@@ -101,9 +101,9 @@ export default async function ProjectPage({
 
       <section className="py-10">
         <div className="mx-auto max-w-6xl px-4 sm:px-6">
-          <div className="grid gap-px overflow-hidden rounded-2xl border border-border bg-border sm:grid-cols-3">
+          <div className="flex flex-wrap gap-6 sm:flex-nowrap overflow-x-auto sm:overflow-visible">
             {project.results.map((metric) => (
-              <div key={metric.label} className="flex flex-col gap-1 bg-background px-6 py-8">
+              <div key={metric.label} className="flex flex-col gap-1 bg-background px-6 py-8 shrink-0 sm:flex-1">
                 <span className="break-words text-3xl font-semibold tracking-tight sm:text-4xl">
                   {metric.value}
                 </span>

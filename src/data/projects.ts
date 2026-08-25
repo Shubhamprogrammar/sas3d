@@ -35,7 +35,7 @@ export const projects: Project[] = [
     tags: ["Food Delivery", "Full-Stack", "React"],
     featured: true,
   },
-  {
+{
     slug: "open-your-hearts",
     title: "A community-driven initiative for spreading kindness and support",
     client: "Open Your Hearts",
@@ -50,24 +50,27 @@ export const projects: Project[] = [
       "/images/projects/heart_3.png",
     ],
     excerpt:
-    
-      "A community-driven initiative dedicated to spreading kindness, empathy, and support to those in need.",
+      "A PWA community platform for organizing kindness initiatives — installable, offline-capable, with real-time notifications. Built with Next.js, TypeScript, and a Node.js/Express backend with Socket.IO.",
     problem:
-      "Communities often lack a centralized platform to organize and coordinate acts of kindness and support for those in need. Spreading empathy and help requires structured initiatives that can connect people with opportunities to make a difference.",
+      "Communities often lack a centralized platform to organize and coordinate acts of kindness and support for those in need. Spreading empathy and help requires structured initiatives that can connect people with opportunities to make a difference — accessible even on low-bandwidth or offline scenarios.",
     solution:
-      "We designed and built Open Your Hearts, a community platform that enables people to discover, participate in, and contribute to kindness initiatives. The platform connects volunteers with causes, tracks community impact, and creates a space where empathy and support can flourish.",
+      "We designed and built Open Your Hearts as a Progressive Web App (PWA) — a community platform that enables people to discover, participate in, and contribute to kindness initiatives. The platform connects volunteers with causes, tracks community impact, and creates a space where empathy and support can flourish, with full offline support and native app-like experience.",
     approach: [
       "Mapped the core community engagement journey — discovering initiatives, participating in events, and tracking collective impact — to define the essential product surfaces.",
       "Designed a warm, inviting interface with intuitive navigation that encourages community participation and makes it easy to find ways to help.",
-      "Built a responsive web application with event management, volunteer coordination features, and impact tracking to support meaningful community connections."
+      "Built a full-stack PWA with Next.js (React, TypeScript, Tailwind) featuring Service Worker for offline caching, Web App Manifest for installability, and Push API for real-time notifications.",
+      "Developed a Node.js/Express backend with MongoDB featuring JWT authentication, real-time Socket.IO notifications, image uploads, social features (follow, likes, bookmarks, comments with @mentions), reporting, daily prompts, and weekly email digests.",
+      "Implemented security hardening: Helmet headers, rate limiting, bcrypt password hashing, input validation, and structured logging with Pino.",
+      "Implemented PWA best practices: offline-first caching strategies, background sync for form submissions, and native install prompts across devices."
     ],
     results: [
       { label: "Community impact", value: "Growing" },
       { label: "Initiatives", value: "Active" },
-      { label: "Engagement", value: "Community-driven" },
+      { label: "Engagement", value: "Community" },
+      { label: "PWA score", value: "95+/100" },
     ],
     liveUrl: "https://openyourhearts.vercel.app/",
-    tags: ["Community", "Social Impact", "Web App"],
+    tags: ["Community", "Social Impact", "PWA", "Full-Stack", "Offline-First", "Real-time", "Socket.IO"],
     featured: true,
   },
   {
