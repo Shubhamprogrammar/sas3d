@@ -50,3 +50,15 @@ export interface HighlightItem {
   description: string;
   href?: string;
 }
+
+export type TermsBlock =
+  | { type: "p"; text: string }
+  | { type: "h3"; text: string }
+  | { type: "list"; items: { label: string; text: string }[] }
+  | { type: "contact"; lines: string[] };
+
+export interface TermsSection {
+  id: string;
+  title: string;
+  blocks: TermsBlock[];
+}

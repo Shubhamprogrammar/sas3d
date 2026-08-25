@@ -129,6 +129,7 @@ export const NAV_LINKS = [
   { label: "Work", href: "/portfolio" },
   { label: "Team", href: "/team" },
   { label: "Pricing", href: "/pricing" },
+  { label: "Terms", href: "/terms-conditions" },
   { label: "Contact", href: "/contact" },
 ] as const;
 

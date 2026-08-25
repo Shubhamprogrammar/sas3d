@@ -23,7 +23,7 @@ export function TeamGrid({
           <SectionHeading
             eyebrow="The team"
             title="Senior people, no pass-through"
-            description="Designers, developers, writers and marketers who have shipped together for years."
+            description="Designers, developers, Devops and Testers who have shipped together for years."
             action={{ label: "Meet everyone", href: "/team" }}
           />
         )}

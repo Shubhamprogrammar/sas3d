@@ -5,7 +5,7 @@ export const pricingPlans: PricingPlan[] = [
     id: "sprint",
     name: "Sprint",
     tagline: "A focused project, shipped fast",
-    price: "From $4,900",
+    price: "From ₹10,900",
     period: "per project",
     features: [
       "1 dedicated sas3d lead",
@@ -20,7 +20,7 @@ export const pricingPlans: PricingPlan[] = [
     id: "engagement",
     name: "Engagement",
     tagline: "End-to-end product delivery",
-    price: "From $14,900",
+    price: "From ₹25,999",
     period: "per project",
     features: [
       "Full cross-functional team",
@@ -37,11 +37,11 @@ export const pricingPlans: PricingPlan[] = [
     id: "retainer",
     name: "Retainer",
     tagline: "A senior team on call",
-    price: "From $6,500",
+    price: "From ₹6,500",
     period: "per month",
     features: [
       "Priority access to the team",
-      "Up to 80 hours/month",
+      "Up to 40 hours/month",
       "Iteration, maintenance & growth",
       "Monthly roadmap & reporting",
       "Pause or cancel anytime",

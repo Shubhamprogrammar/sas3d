@@ -28,11 +28,11 @@ export function Testimonials() {
                 “{testimonial.quote}”
               </blockquote>
               <figcaption className="mt-auto flex items-center gap-3 border-t border-border pt-5">
-                <Avatar
+                {/* <Avatar
                   src={testimonial.avatar}
                   name={testimonial.name}
                   className="size-10"
-                />
+                /> */}
                 <div className="min-w-0">
                   <p className="text-sm font-semibold">{testimonial.name}</p>
                   <p className="truncate text-xs text-muted-foreground">
