@@ -109,7 +109,7 @@ export const SITE = {
   email: "developers@sas3d.in",
   phone: "+91 8850093749",
   location: "Remote — worldwide",
-  foundingYear: 2025,
+  foundingYear: 2026,
   teamSize: 3,
   combinedYears: 1.5,
   projectsDelivered: 9,
