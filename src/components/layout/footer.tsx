@@ -14,7 +14,7 @@ export function Footer() {
             </Link>
             <p className="mt-3 max-w-sm text-sm leading-6 text-muted-foreground">
               {SITE.tagline}. A freelance team of designers, developers
-              and writers — remote, worldwide.
+              and Devops engineers — remote, worldwide.
             </p>
             <div className="mt-5 flex items-center gap-2">
               {SITE.socials.map((social) => (

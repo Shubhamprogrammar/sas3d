@@ -1,4 +1,4 @@
-export type TeamRole = "Designer" | "Developer" | "Writer" | "Marketing" | "Product" | "Founder";
+export type TeamRole = "Designer" | "Developer" | "Devops" | "Marketing" | "Product" | "Founder";
 
 export interface TeamMember {
   slug: string;

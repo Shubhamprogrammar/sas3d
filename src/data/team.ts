@@ -68,7 +68,7 @@ export const team: TeamMember[] = [
   // {
   //   slug: "tom-reyes",
   //   name: "Tom Reyes",
-  //   role: "Writer",
+  //   role: "Devops",
   //   specialty: "Product & marketing copy",
   //   bio: "Tom writes copy that sounds like a smart friend, not a brochure. He leads our brand voice and content strategy work.",
   //   photo: "/images/team/m5.svg",

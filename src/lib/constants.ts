@@ -101,7 +101,7 @@ export const SITE = {
     "web development",
     "UI UX design",
     "product design",
-    "content writing",
+    "devops",
     "marketing",
     "portfolio",
   ],
