@@ -1,38 +1,29 @@
 import { SectionHeading } from "@/components/sections/section-heading";
-import { Badge } from "@/components/ui/badge";
 import { TECH_STACK } from "@/lib/constants";
 
 export function TechStack({ heading = true }: { heading?: boolean }) {
   return (
-    <section className="bg-[#3E73A8]/5 py-24">
-      <div className="mx-auto max-w-6xl px-4 sm:px-6">
+    <section className="section-space bg-muted">
+      <div className="frame">
         {heading && (
           <SectionHeading
-            eyebrow="Skills & tech stack"
             title="Tools we actually use"
-            description="No buzzword padding — the languages, frameworks and software our clients get hands-on work in."
+            description="No buzzword padding: the languages, frameworks and software our clients get hands-on work in."
           />
         )}
-        <div className="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-          {TECH_STACK.map((group) => (
+        <div className="mt-16 grid gap-x-8 gap-y-12 sm:grid-cols-2 md:mt-24 lg:grid-cols-3 lg:gap-y-20">
+          {TECH_STACK.map((group, index) => (
             <div
               key={group.category}
-              className="rounded-xl border border-border bg-background p-6 shadow-xl"
+              data-reveal
+              style={{ "--i": index % 3 } as React.CSSProperties}
             >
-              <p className="text-xs font-semibold uppercase tracking-widest text-muted-foreground">
-                {group.category}
-              </p>
-              <div className="mt-4 flex flex-wrap gap-2">
+              <h3 className="font-medium">{group.category}</h3>
+              <ul className="mt-5 grid grid-cols-2 gap-x-6 gap-y-1 leading-[1.35] text-muted-foreground">
                 {group.items.map((item) => (
-                  <Badge
-                    key={item}
-                    variant="outline"
-                    className="rounded-full px-3 py-1 text-xs font-medium"
-                  >
-                    {item}
-                  </Badge>
+                  <li key={item}>{item}</li>
                 ))}
-              </div>
+              </ul>
             </div>
           ))}
         </div>

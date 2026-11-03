@@ -5,6 +5,7 @@ export interface Metric {
 
 export interface Project {
   slug: string;
+  name: string;
   title: string;
   client: string;
   year: string;

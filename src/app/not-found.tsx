@@ -5,26 +5,23 @@ import { Button } from "@/components/ui/button";
 
 export default function NotFound() {
   return (
-    <section className="flex flex-1 items-center justify-center py-32">
-      <div className="mx-auto max-w-xl px-4 text-center sm:px-6">
-        <p className="font-mono text-sm text-muted-foreground">404</p>
-        <h1 className="mt-4 text-balance text-4xl font-semibold tracking-tight sm:text-5xl">
-          This page took a wrong turn
-        </h1>
-        <p className="mt-4 text-base leading-7 text-muted-foreground">
+    <section className="dark flex flex-1 items-center bg-background py-24 text-foreground md:py-32">
+      <div className="frame">
+        <h1 className="text-display">This page took a wrong turn</h1>
+        <p className="mt-6 max-w-[52ch]">
           The page you&apos;re looking for doesn&apos;t exist or has been moved.
           Let&apos;s get you back to somewhere useful.
         </p>
-        <div className="mt-8 flex justify-center gap-3">
-          <Button asChild size="lg" className="rounded-full">
+        <div className="mt-8 flex flex-wrap items-center gap-x-6 gap-y-3">
+          <Button asChild size="lg">
             <Link href="/">
               Back to home
               <ArrowUpRight />
             </Link>
           </Button>
-          <Button asChild size="lg" variant="outline" className="rounded-full">
-            <Link href="/contact">Contact us</Link>
-          </Button>
+          <Link href="/contact" className="link-quiet font-medium">
+            Contact us
+          </Link>
         </div>
       </div>
     </section>

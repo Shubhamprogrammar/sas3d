@@ -6,7 +6,7 @@ export const team: TeamMember[] = [
     name: "Sandeep Pal",
     role: "Founder",
     specialty: "Product design & engineering",
-    bio: "Sandeep is a full-stack product engineer who builds scalable, high-performance applications from idea to production. With expertise in modern web technologies and cloud infrastructure, he focuses on delivering clean architecture, seamless user experiences, and business-driven solutions.",
+    bio: "Sandeep is a full-stack product engineer who builds scalable, high-performance applications from idea to production. With expertise in modern web technologies and cloud infrastructure, he focuses on delivering clean architecture, smooth user experiences, and business-driven solutions.",
     photo: "/images/team/sandeep_profile.png",
     experienceYears: 3,
     projects: 12,

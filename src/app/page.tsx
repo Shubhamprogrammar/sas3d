@@ -11,14 +11,16 @@ import { TechStack } from "@/components/sections/tech-stack";
 import { TeamGrid } from "@/components/sections/team-grid";
 import { Testimonials } from "@/components/sections/testimonials";
 
+// The page argues in this order: the work, who made it, what they do, how they
+// run a project, who vouches for them, and what it costs.
 export default function Home() {
   return (
     <div>
       <Hero />
+      <PortfolioGrid limit={3} />
       <Highlights />
       <AboutSection />
       <ServicesSection />
-      <PortfolioGrid limit={3} />
       <ProcessSteps />
       <TechStack />
       <Testimonials />

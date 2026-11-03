@@ -5,7 +5,7 @@ export const services: Service[] = [
     id: "web-development",
     title: "Web Development",
     description:
-      "Blazing-fast, scalable websites and web apps built with modern stacks — from marketing sites to complex SaaS products.",
+      "Fast, scalable websites and web apps built with modern stacks — from marketing sites to complex SaaS products.",
     deliverables: [
       "Next.js & React applications",
       "Headless CMS integrations",
@@ -29,7 +29,7 @@ export const services: Service[] = [
   },
   {
     id: "Devops Engineer",
-    title: "Devops Engineer",
+    title: "DevOps Engineer",
     description:
       "Build, automate, and scale reliable infrastructure — CI/CD pipelines, cloud deployments, monitoring, and high-availability systems.",
     deliverables: [

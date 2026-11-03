@@ -6,10 +6,8 @@ import { ArrowLeft, ArrowUpRight, ExternalLink, Lock } from "lucide-react";
 
 import { PageHeader } from "@/components/sections/page-header";
 import { CtaSection } from "@/components/sections/cta-section";
-import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
-import { projects, getProject } from "@/data/projects";
-import { cn } from "@/lib/utils";
+import { projects, getProject, getScreens } from "@/data/projects";
 
 export function generateStaticParams() {
   return projects.map((project) => ({ slug: project.slug }));
@@ -40,180 +38,159 @@ export default async function ProjectPage({
 
   const index = projects.findIndex((p) => p.slug === slug);
   const next = projects[(index + 1) % projects.length];
+  const screens = getScreens(project);
 
   return (
     <>
-      <PageHeader eyebrow="Work" title={project.title} />
+      <PageHeader title={project.name} description={project.title} />
 
-      <section className="py-12">
-        <div className="mx-auto max-w-6xl px-4 sm:px-6">
-          <div className="flex flex-col gap-6 sm:flex-row sm:items-center sm:justify-between">
-            <div className="flex flex-wrap items-center gap-3 text-sm text-muted-foreground">
-              <span className="font-medium text-foreground">
-                {/* {project.client} */}
-              </span>
-              {/* <span className="text-border">/</span> */}
-              <span>{project.year}</span>
-              <span className="text-border">/</span>
-              <div className="flex flex-wrap gap-2">
-                {project.role.map((role) => (
-                  <Badge key={role} variant="outline" className="rounded-full">
-                    {role}
-                  </Badge>
-                ))}
-              </div>
-            </div>
-            <div className="flex items-center gap-3">
-              {project.status === "confidential" ? (
-                <Badge variant="outline" className="gap-1.5 rounded-full px-3 py-1">
-                  <Lock className="size-3.5" />
-                  Confidential client
-                </Badge>
-              ) : (
-                project.liveUrl && (
-                  <Button asChild size="sm" className="rounded-full">
-                    <a
-                      href={project.liveUrl}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      <ExternalLink />
-                      Visit live project
-                    </a>
-                  </Button>
-                )
-              )}
-            </div>
-          </div>
-
-          <div className="mt-8 relative aspect-[16/8] overflow-hidden rounded-2xl border border-border bg-muted">
+      <section className="dark bg-background pb-14 text-foreground md:pb-20">
+        <div className="frame">
+          <div
+            data-load
+            style={{ "--d": "260ms" } as React.CSSProperties}
+            className="relative aspect-[2.1/1] overflow-hidden bg-muted"
+          >
             <Image
               src={project.cover}
-              alt={project.title}
+              alt={`${project.name} main screen`}
               fill
-              priority
+              loading="eager"
               sizes="100vw"
-              className="object-contain"
+              className="object-cover object-top"
             />
           </div>
-        </div>
-      </section>
 
-      <section className="py-10">
-        <div className="mx-auto max-w-6xl px-4 sm:px-6">
-          <div className="flex flex-wrap gap-6 sm:flex-nowrap overflow-x-auto sm:overflow-visible">
-            {project.results.map((metric) => (
-              <div key={metric.label} className="flex flex-col gap-1 bg-background px-6 py-8 shrink-0 sm:flex-1">
-                <span className="break-words text-3xl font-semibold tracking-tight sm:text-4xl">
-                  {metric.value}
-                </span>
-                <span className="break-words text-sm text-muted-foreground">
-                  {metric.label}
-                </span>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      <section className="py-10">
-        <div className="mx-auto max-w-6xl px-4 sm:px-6">
-          <div className="grid gap-10 lg:grid-cols-2">
-            <div>
-              <p className="text-xs font-semibold uppercase tracking-widest text-muted-foreground">
-                The problem
+          <div className="mt-6 flex flex-col gap-5 sm:flex-row sm:items-center sm:justify-between">
+            <p className="text-muted-foreground">
+              {project.year}, {project.role.join(", ")}
+            </p>
+            {project.status === "confidential" ? (
+              <p className="flex shrink-0 items-center gap-1.5 font-medium">
+                <Lock className="size-4" />
+                Confidential client
               </p>
-              <p className="mt-4 text-lg leading-8">{project.problem}</p>
-            </div>
-            <div>
-              <p className="text-xs font-semibold uppercase tracking-widest text-muted-foreground">
-                The solution
-              </p>
-              <p className="mt-4 text-lg leading-8">{project.solution}</p>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section className="py-10">
-        <div className="mx-auto max-w-6xl px-4 sm:px-6">
-          <p className="text-xs font-semibold uppercase tracking-widest text-muted-foreground">
-            Our approach
-          </p>
-          <div className="mt-6 grid gap-4 md:grid-cols-3">
-            {project.approach.map((step, i) => (
-              <div
-                key={step}
-                className="flex flex-col gap-3 rounded-xl border border-border bg-background p-6"
-              >
-                <span className="font-mono text-sm text-muted-foreground">
-                  Step {String(i + 1).padStart(2, "0")}
-                </span>
-                <p className="text-sm leading-6">{step}</p>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      <section className="py-10">
-        <div className="mx-auto max-w-6xl px-4 sm:px-6">
-          <p className="text-xs font-semibold uppercase tracking-widest text-muted-foreground">
-            Selected visuals
-          </p>
-          <div
-            className={cn(
-              "mt-6 grid gap-4",
-              project.gallery.length > 1
-                ? "sm:grid-cols-2"
-                : "sm:grid-cols-1"
+            ) : (
+              project.liveUrl && (
+                <Button asChild className="shrink-0">
+                  <a
+                    href={project.liveUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <ExternalLink />
+                    Visit live project
+                  </a>
+                </Button>
+              )
             )}
-          >
-            {project.gallery.map((src, i) => (
+          </div>
+        </div>
+      </section>
+
+      <section className="section-space">
+        <div className="frame">
+          <h2 className="sr-only">Results</h2>
+          <dl className="grid gap-8 md:grid-cols-3">
+            {project.results.map((metric, metricIndex) => (
+              <div
+                key={metric.label}
+                data-reveal
+                style={{ "--i": metricIndex } as React.CSSProperties}
+              >
+                <dd className="text-head font-light break-words">
+                  {metric.value}
+                </dd>
+                <dt className="mt-2">{metric.label}</dt>
+              </div>
+            ))}
+          </dl>
+
+          <div className="mt-20 grid gap-12 md:mt-32 lg:grid-cols-12">
+            <div data-reveal className="lg:col-span-5">
+              <h2 className="text-lead font-normal">The problem</h2>
+              <p className="mt-4">{project.problem}</p>
+            </div>
+            <div
+              data-reveal
+              style={{ "--i": 1 } as React.CSSProperties}
+              className="lg:col-span-5 lg:col-start-7"
+            >
+              <h2 className="text-lead font-normal">The solution</h2>
+              <p className="mt-4">{project.solution}</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="section-space bg-muted">
+        <div className="frame grid gap-10 lg:grid-cols-12">
+          <h2 data-reveal className="text-head lg:col-span-5">
+            Our approach
+          </h2>
+          <ol className="flex list-decimal flex-col gap-6 pl-6 lg:col-span-6 lg:col-start-7">
+            {project.approach.map((step, stepIndex) => (
+              <li
+                key={step}
+                data-reveal
+                style={{ "--i": stepIndex } as React.CSSProperties}
+                className="pl-2"
+              >
+                {step}
+              </li>
+            ))}
+          </ol>
+        </div>
+      </section>
+
+      <section className="section-space">
+        <div className="frame">
+          <h2 data-reveal className="text-head">
+            Selected visuals
+          </h2>
+          <div className="mt-12 grid gap-2 md:mt-16 md:grid-cols-2">
+            {screens.map((src, screenIndex) => (
               <div
                 key={src}
-                className="relative aspect-[16/8] overflow-hidden rounded-lg border border-border bg-muted"
+                data-reveal="open"
+                style={{ "--i": screenIndex % 2 } as React.CSSProperties}
+                className="relative aspect-[2.1/1] overflow-hidden bg-muted first:md:col-span-2"
               >
                 <Image
                   src={src}
-                  alt={`${project.title} visual ${i + 1}`}
+                  alt={`${project.name} screen ${screenIndex + 1}`}
                   fill
-                  sizes="(min-width: 640px) 50vw, 100vw"
-                  className="object-contain"
+                  sizes="(min-width: 768px) 50vw, 100vw"
+                  className="object-cover object-top"
                 />
               </div>
             ))}
           </div>
-          <div className="mt-6 flex flex-wrap gap-2">
-            {project.tags.map((tag) => (
-              <Badge key={tag} variant="secondary" className="rounded-full">
-                {tag}
-              </Badge>
-            ))}
-          </div>
+          <p className="mt-6 text-muted-foreground">
+            {project.tags.join(", ")}
+          </p>
         </div>
       </section>
 
-      <section className="py-16">
-        <div className="mx-auto max-w-6xl px-4 sm:px-6">
-          <div className="flex flex-col gap-4 border-t border-border pt-10 sm:flex-row sm:items-center sm:justify-between">
-            <Link
-              href="/portfolio"
-              className="inline-flex items-center gap-2 text-sm font-medium underline-offset-4 hover:underline"
-            >
-              <ArrowLeft className="size-4" />
-              Back to all work
+      <section className="bg-muted">
+        <div className="frame flex flex-col gap-8 py-14 md:py-20">
+          {next && (
+            <Link href={`/portfolio/${next.slug}`} className="group block">
+              <span className="flex items-center gap-3 text-head font-light">
+                <span className="link-quiet group-hover:decoration-current">
+                  Next: {next.name}
+                </span>
+                <ArrowUpRight className="size-[0.7em] shrink-0 transition-transform duration-(--t-hover) group-hover:translate-x-1 group-hover:-translate-y-1" />
+              </span>
             </Link>
-            {next && (
-              <Link
-                href={`/portfolio/${next.slug}`}
-                className="group flex items-center gap-3 text-sm font-medium underline-offset-4 hover:underline"
-              >
-                Next project: {next.title}
-                <ArrowUpRight className="size-4 transition-transform group-hover:translate-x-0.5 group-hover:-translate-y-0.5" />
-              </Link>
-            )}
-          </div>
+          )}
+          <Link
+            href="/portfolio"
+            className="link-quiet inline-flex items-center gap-2 self-start font-medium"
+          >
+            <ArrowLeft className="size-4" />
+            Back to all work
+          </Link>
         </div>
       </section>
 

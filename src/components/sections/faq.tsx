@@ -1,34 +1,33 @@
-import {
-  Accordion,
-  AccordionContent,
-  AccordionItem,
-  AccordionTrigger,
-} from "@/components/ui/accordion";
-import { SectionHeading } from "@/components/sections/section-heading";
 import { faqs } from "@/data/pricing";
 
 export function Faq() {
   return (
-    <section className="bg-muted/40 py-24">
-      <div className="mx-auto max-w-6xl px-4 sm:px-6">
-        <div className="grid gap-10 lg:grid-cols-[1fr_1.5fr]">
-          <SectionHeading
-            eyebrow="FAQ"
-            title="Objections, answered"
-            description="The questions every client asks before saying yes."
-          />
-          <Accordion type="single" collapsible className="w-full">
-            {faqs.map((faq) => (
-              <AccordionItem key={faq.question} value={faq.question}>
-                <AccordionTrigger className="py-4 text-left text-base font-medium">
-                  {faq.question}
-                </AccordionTrigger>
-                <AccordionContent className="text-sm leading-7 text-muted-foreground">
-                  {faq.answer}
-                </AccordionContent>
-              </AccordionItem>
-            ))}
-          </Accordion>
+    <section className="section-space bg-muted">
+      <div className="frame grid gap-10 lg:grid-cols-12">
+        <div className="lg:col-span-4">
+          <h2 data-reveal className="text-head">
+            Objections, answered
+          </h2>
+          <p
+            data-reveal
+            style={{ "--i": 1 } as React.CSSProperties}
+            className="mt-5"
+          >
+            The questions every client asks before saying yes.
+          </p>
+        </div>
+        <div className="gap-14 md:columns-2 lg:col-span-7 lg:col-start-6">
+          {faqs.map((faq, index) => (
+            <p
+              key={faq.question}
+              data-reveal
+              style={{ "--i": index % 3 } as React.CSSProperties}
+              className="mb-6 break-inside-avoid"
+            >
+              <strong className="font-medium">{faq.question}</strong>{" "}
+              {faq.answer}
+            </p>
+          ))}
         </div>
       </div>
     </section>

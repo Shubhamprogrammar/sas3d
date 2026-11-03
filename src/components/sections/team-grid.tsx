@@ -3,9 +3,11 @@ import Link from "next/link";
 import { ArrowUpRight } from "lucide-react";
 
 import { SectionHeading } from "@/components/sections/section-heading";
-import { Badge } from "@/components/ui/badge";
 import { team } from "@/data/team";
 import { getInitialsColor, initials } from "@/lib/constants";
+
+// Portraits share one height at unequal widths, the way frames sit on a sheet.
+const SPANS = ["lg:col-span-5", "lg:col-span-4", "lg:col-span-3"];
 
 export function TeamGrid({
   heading = true,
@@ -17,49 +19,53 @@ export function TeamGrid({
   const items = limit ? team.slice(0, limit) : team;
 
   return (
-    <section className="bg-muted/40 py-24">
-      <div className="mx-auto max-w-6xl px-4 sm:px-6">
+    <section className="section-space">
+      <div className="frame">
         {heading && (
           <SectionHeading
-            eyebrow="The team"
             title="Senior people, no pass-through"
-            description="Designers, developers, Devops and Testers who have shipped together for years."
+            description="Designers, developers, DevOps and testers who have shipped together for years."
             action={{ label: "Meet everyone", href: "/team" }}
           />
         )}
-        <div className="mt-12 grid gap-4 sm:grid-cols-2 lg:grid-cols-3 ">
-          {items.map((member) => (
+        <div
+          className={`grid gap-x-2 gap-y-10 sm:grid-cols-2 lg:grid-cols-12 ${heading ? "mt-16 md:mt-24" : ""}`}
+        >
+          {items.map((member, index) => (
             <Link
               key={member.slug}
               href={`/team/${member.slug}`}
-              className="group flex flex-col gap-5 rounded-xl border border-border bg-background p-6 transition-colors hover:border-foreground/30 shadow-xl"
+              className={`group block ${SPANS[index % SPANS.length]}`}
             >
-              <div className="relative aspect-square overflow-hidden rounded-xl bg-muted">
+              <div
+                data-reveal="open"
+                style={{ "--i": index } as React.CSSProperties}
+                className="relative aspect-4/5 overflow-hidden bg-muted lg:aspect-auto lg:h-[clamp(26rem,42vw,40rem)]"
+              >
                 <Image
                   src={member.photo}
                   alt={member.name}
                   fill
-                  sizes="(min-width: 1024px) 20vw, 50vw"
-                  className="object-cover transition-transform duration-500 group-hover:scale-[1.03]"
+                  loading={!heading && index === 0 ? "eager" : "lazy"}
+                  sizes="(min-width: 1024px) 42vw, (min-width: 640px) 50vw, 100vw"
+                  className="object-cover object-top transition-transform duration-500 group-hover:scale-[1.02]"
                 />
               </div>
-              <div className="flex items-start justify-between gap-3">
+              <div
+                data-reveal
+                style={{ "--i": index } as React.CSSProperties}
+                className="mt-3 flex items-start justify-between gap-3"
+              >
                 <div>
-                  <div className="flex items-center gap-2">
-                    <h3 className="text-lg font-semibold tracking-tight">
-                      {member.name}
-                    </h3>
-                    {member.founder && (
-                      <Badge variant="secondary" className="rounded-full">
-                        Founder
-                      </Badge>
-                    )}
-                  </div>
-                  <p className="mt-1 text-sm text-muted-foreground">
-                    {member.role} — {member.specialty}
+                  <h3 className="link-quiet group-hover:decoration-current">
+                    {member.name}
+                  </h3>
+                  <p className="text-muted-foreground">
+                    {member.founder ? "Founder" : member.role},{" "}
+                    {member.specialty}
                   </p>
                 </div>
-                <ArrowUpRight className="mt-1 size-5 shrink-0 text-muted-foreground transition-transform group-hover:translate-x-0.5 group-hover:-translate-y-0.5 group-hover:text-foreground" />
+                <ArrowUpRight className="mt-1 size-5 shrink-0 transition-transform duration-(--t-hover) group-hover:translate-x-0.5 group-hover:-translate-y-0.5" />
               </div>
             </Link>
           ))}

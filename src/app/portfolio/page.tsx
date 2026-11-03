@@ -14,7 +14,6 @@ export default function PortfolioPage() {
   return (
     <>
       <PageHeader
-        eyebrow="Case studies"
         title="Work that moved the numbers"
         description="Every project below breaks down the problem, our approach and — most importantly — the result."
       />

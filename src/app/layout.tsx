@@ -1,28 +1,20 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono, Instrument_Serif } from "next/font/google";
+import { Work_Sans } from "next/font/google";
 import { Navbar } from "@/components/layout/navbar";
 import { Footer } from "@/components/layout/footer";
+import { RevealObserver } from "@/components/layout/reveal-observer";
 import { SITE } from "@/lib/constants";
 import { team } from "@/data/team";
 import "./globals.css";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
-});
-
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
-});
-
-const instrumentSerif = Instrument_Serif({
-  weight: "400",
-  style: ["normal", "italic"],
-  variable: "--font-instrument-serif",
+const workSans = Work_Sans({
+  variable: "--font-work-sans",
   subsets: ["latin"],
   display: "swap",
 });
+
+// Runs before first paint so a stored dark theme never flashes light.
+const bootScript = `(function(){var d=document.documentElement;d.classList.add("js");var s=null;try{s=localStorage.getItem("theme")}catch(e){}var m=window.matchMedia("(prefers-color-scheme: dark)").matches;d.classList.toggle("dark",s?s==="dark":m)})()`;
 
 export const metadata: Metadata = {
   title: {
@@ -87,10 +79,11 @@ export default function RootLayout({
   return (
     <html
       lang="en"
-      className={`${geistSans.variable} ${geistMono.variable} ${instrumentSerif.variable} h-full antialiased`}
+      className={`${workSans.variable} h-full antialiased`}
       suppressHydrationWarning
     >
       <body className="min-h-full flex flex-col">
+        <script dangerouslySetInnerHTML={{ __html: bootScript }} />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd).replace(/</g, "\\u003c") }}
@@ -98,6 +91,7 @@ export default function RootLayout({
         <Navbar />
         <main className="flex flex-1 flex-col">{children}</main>
         <Footer />
+        <RevealObserver />
       </body>
     </html>
   );

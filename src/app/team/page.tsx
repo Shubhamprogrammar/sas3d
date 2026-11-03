@@ -14,7 +14,6 @@ export default function TeamPage() {
   return (
     <>
       <PageHeader
-        eyebrow="The team"
         title="Senior people, no pass-through"
         description="Three specialists who have shipped together for years. Every project is led by a sas3d lead and staffed with exactly the skills it needs."
       />

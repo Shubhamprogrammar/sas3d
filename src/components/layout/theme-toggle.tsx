@@ -1,26 +1,23 @@
 "use client";
 
-import * as React from "react";
 import { Moon, Sun } from "lucide-react";
 
 import { Button } from "@/components/ui/button";
 
 export function ThemeToggle() {
-  React.useEffect(() => {
-    const stored = window.localStorage.getItem("theme");
-    const prefersDark = window.matchMedia(
-      "(prefers-color-scheme: dark)"
-    ).matches;
-    const shouldBeDark = stored ? stored === "dark" : prefersDark;
-    document.documentElement.classList.toggle("dark", shouldBeDark);
-  }, []);
-
+  // The stored theme is applied by the boot script in the root layout.
   const toggle = () => {
     const isDark = document.documentElement.classList.contains("dark");
     document.documentElement.classList.toggle("dark", !isDark);
-    window.localStorage.setItem("theme", !isDark ? "dark" : "light");
+    try {
+      window.localStorage.setItem("theme", !isDark ? "dark" : "light");
+    } catch {
+      // Storage can be blocked; the theme still applies for this page view.
+    }
   };
 
+  // The bar is always on the dark field, so the icons key off <html>, not the
+  // dark variant.
   return (
     <Button
       variant="ghost"
@@ -28,8 +25,8 @@ export function ThemeToggle() {
       aria-label="Toggle theme"
       onClick={toggle}
     >
-      <Sun className="hidden dark:block" />
-      <Moon className="dark:hidden" />
+      <Sun className="hidden [html.dark_&]:block" />
+      <Moon className="[html.dark_&]:hidden" />
     </Button>
   );
 }

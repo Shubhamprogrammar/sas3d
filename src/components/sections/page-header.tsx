@@ -1,23 +1,22 @@
 export function PageHeader({
-  eyebrow,
   title,
   description,
 }: {
-  eyebrow: string;
   title: string;
   description?: string;
 }) {
   return (
-    <section className="border-b border-border/60 bg-muted/30">
-      <div className="mx-auto max-w-6xl px-4 py-16 sm:px-6 sm:py-20">
-        <p className="text-xs font-semibold uppercase tracking-widest text-muted-foreground">
-          {eyebrow}
-        </p>
-        <h1 className="mt-4 max-w-3xl text-balance text-4xl font-semibold leading-[1.05] tracking-tight sm:text-5xl lg:text-6xl">
+    <section className="dark bg-background text-foreground">
+      <div className="frame grid gap-6 pt-16 pb-20 md:pt-24 md:pb-28 lg:grid-cols-12 lg:items-end">
+        <h1 data-load style={{ "--d": "60ms" } as React.CSSProperties} className="text-head md:text-display lg:col-span-7">
           {title}
         </h1>
         {description && (
-          <p className="mt-6 max-w-2xl text-base leading-7 text-muted-foreground sm:text-lg sm:leading-8">
+          <p
+            data-load
+            style={{ "--d": "180ms" } as React.CSSProperties}
+            className="max-w-[60ch] lg:col-span-4 lg:col-start-9"
+          >
             {description}
           </p>
         )}

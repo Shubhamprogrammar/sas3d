@@ -1,61 +1,37 @@
 import Link from "next/link";
 import { ArrowUpRight } from "lucide-react";
 
-import { cn } from "@/lib/utils";
-
 export function SectionHeading({
-  eyebrow,
   title,
   description,
-  align = "left",
   action,
 }: {
-  eyebrow?: string;
   title: string;
   description?: string;
-  align?: "left" | "center";
   action?: { label: string; href: string };
 }) {
   return (
-    <div
-      className={cn(
-        "flex flex-col gap-4",
-        align === "center" && "items-center text-center"
-      )}
-    >
-      {eyebrow && (
-        <p className="text-xs font-semibold uppercase tracking-widest text-muted-foreground">
-          {eyebrow}
-        </p>
-      )}
-      <div
-        className={cn(
-          "flex w-full flex-col gap-6 md:flex-row md:items-end md:justify-between",
-          align === "center" && "md:flex-col md:items-center"
-        )}
-      >
-        <h2 className="max-w-2xl text-balance text-3xl font-semibold tracking-tight sm:text-4xl md:text-5xl">
-          {title}
-        </h2>
-        {action && (
-          <Link
-            href={action.href}
-            className="group inline-flex shrink-0 items-center gap-1.5 text-sm font-medium text-foreground underline-offset-4 hover:underline"
-          >
-            {action.label}
-            <ArrowUpRight className="size-4 transition-transform group-hover:translate-x-0.5 group-hover:-translate-y-0.5" />
-          </Link>
-        )}
-      </div>
-      {description && (
-        <p
-          className={cn(
-            "max-w-xl text-base leading-7 text-muted-foreground",
-            align === "center" && "mx-auto"
-          )}
+    <div className="grid gap-6 lg:grid-cols-12 lg:items-end">
+      <h2 data-reveal className="text-head lg:col-span-7">
+        {title}
+      </h2>
+      {(description || action) && (
+        <div
+          data-reveal
+          style={{ "--i": 1 } as React.CSSProperties}
+          className="flex flex-col items-start gap-4 lg:col-span-4 lg:col-start-9"
         >
-          {description}
-        </p>
+          {description && <p className="max-w-[60ch]">{description}</p>}
+          {action && (
+            <Link
+              href={action.href}
+              className="link-quiet group inline-flex items-center gap-1.5 font-medium"
+            >
+              {action.label}
+              <ArrowUpRight className="size-4 transition-transform duration-(--t-hover) group-hover:translate-x-0.5 group-hover:-translate-y-0.5" />
+            </Link>
+          )}
+        </div>
       )}
     </div>
   );

@@ -3,11 +3,12 @@ import type { Project } from "@/types";
 export const projects: Project[] = [
   {
     slug: "tomato-food-delivery",
+    name: "Tomato",
     title: "A full-stack food delivery platform with real-time ordering and admin controls",
     client: "Tomato",
     year: "2025",
     category: "Web Development",
-    role: ["Product Design", "UX Research", "Design System", "Web Development", "Devops"],
+    role: ["Product Design", "UX Research", "Design System", "Web Development", "DevOps"],
     status: "live",
     cover: "/images/projects/food_1.png",
     gallery: [
@@ -16,7 +17,7 @@ export const projects: Project[] = [
       "/images/projects/food_3.png",
     ],
     excerpt:
-      "A modern full-stack food delivery platform with seamless user experience, real-time admin controls, secure Stripe payments, and order tracking — built with React, Node.js, and MongoDB.",
+      "A modern full-stack food delivery platform with smooth user experience, real-time admin controls, secure Stripe payments, and order tracking — built with React, Node.js, and MongoDB.",
     problem:
       "Building a food delivery platform requires handling multiple complex workflows simultaneously — user authentication, real-time menu browsing, cart management, secure payment processing, order tracking, and an admin panel for restaurant management. The challenge was to deliver a production-grade experience across all these surfaces with a clean, maintainable codebase.",
     solution:
@@ -37,11 +38,12 @@ export const projects: Project[] = [
   },
 {
     slug: "open-your-hearts",
+    name: "Open Your Hearts",
     title: "A community-driven initiative for spreading kindness and support",
     client: "Open Your Hearts",
     year: "2025",
     category: "Web Development",
-    role: ["Product Design", "UX Research", "Design System", "Web Development", "Devops"],
+    role: ["Product Design", "UX Research", "Design System", "Web Development", "DevOps"],
     status: "live",
     cover: "/images/projects/heart_1.png",
     gallery: [
@@ -75,11 +77,12 @@ export const projects: Project[] = [
   },
   {
     slug: "luma-saas-dashboard",
+    name: "ShopGraph",
     title: "A graph-native commerce platform built for relationship intelligence",
     client: "WEXA.AI",
     year: "2026",
     category: "Web Development",
-    role: ["Product Design", "UX Research", "Design System", "Web Development", "Devops"],
+    role: ["Product Design", "UX Research", "Design System", "Web Development", "DevOps"],
     status: "live",
     cover: "/images/projects/s_1.png",
     gallery: [
@@ -109,11 +112,12 @@ export const projects: Project[] = [
   },
   {
     slug: "launchflow-internal-ops",
+    name: "Internal operations platform",
     title: "Internal operations platform for growing companies",
     client: "Confidential",
     year: "2026",
     category: "Web Development",
-    role: ["Product Design", "UX Research", "Design System", "Web Development", "Devops"],
+    role: ["Product Design", "UX Research", "Design System", "Web Development", "DevOps"],
     status: "confidential",
     cover: "/images/projects/launchflow_1.png",
     gallery: [
@@ -142,11 +146,12 @@ export const projects: Project[] = [
   },
   {
     slug: "atlas-content-platform",
+    name: "CelebCart",
     title: "Grocery is One Step a way from Your Door",
     client: "Atlas",
     year: "2024",
     category: "Content Writing",
-    role: ["Product Design", "UX Research", "Design System", "Web Development", "Devops"],
+    role: ["Product Design", "UX Research", "Design System", "Web Development", "DevOps"],
     status: "live",
     cover: "/images/projects/celeb_1.png",
     gallery: [
@@ -175,11 +180,12 @@ export const projects: Project[] = [
   },
   {
     slug: "streamify-social-learning",
+    name: "Streamify",
     title: "A social learning platform where friends learn languages together",
     client: "Stremify",
     year: "2026",
     category: "Web Development",
-    role: ["Product Design", "UX Research", "Design System", "Web Development", "Devops"],
+    role: ["Product Design", "UX Research", "Design System", "Web Development", "DevOps"],
     status: "live",
     cover: "/images/projects/streamify_1.png",
     gallery: [
@@ -190,23 +196,28 @@ export const projects: Project[] = [
     excerpt:
       "A social learning platform built with the MERN stack that lets users connect with friends, chat in real time, and make video calls — so people can learn new languages together in an interactive, engaging way.",
     problem:
-      "Language learning is often a lonely, repetitive grind. Learners practicing alone quickly lose motivation, most apps offer little real human interaction, and coordinating practice with friends means juggling separate chat and video tools. The challenge was to bring connection, conversation, and collaborative language learning into one seamless social experience.",
+      "Language learning is often a lonely, repetitive grind. Learners practicing alone quickly lose motivation, most apps offer little real human interaction, and coordinating practice with friends means juggling separate chat and video tools. The challenge was to bring connection, conversation, and collaborative language learning into one smooth social experience.",
     solution:
       "We built Stremify, a social learning platform powered by the MERN stack where users connect with friends, chat in real time, and jump into video calls together. By combining social interaction with collaborative language practice, Stremify makes learning new languages fun, social, and effective — keeping learners engaged, accountable, and coming back.",
     approach: [
       "Mapped the core learner journey — connecting with friends, starting conversations, joining video calls, and practicing languages together — to define the essential product surfaces.",
-      "Designed an interactive, engaging interface with friend connections, real-time chat, and seamless video call flows that make collaborative learning feel natural and fun.",
+      "Designed an interactive, engaging interface with friend connections, real-time chat, and smooth video call flows that make collaborative learning feel natural and fun.",
       "Built a production-ready MERN stack application with MongoDB, Express, React, and Node.js — delivering real-time communication, shared learning experiences, and reliable performance across devices.",
     ],
     results: [
       { label: "Real-time chat", value: "Built-in" },
-      { label: "Video calls", value: "Seamless" },
+      { label: "Video calls", value: "Smooth" },
       { label: "Learn together", value: "Social" },
     ],
     liveUrl: "https://streamifyweb-umber.vercel.app/",
     tags: ["Social Learning", "MERN Stack", "Video Calls"],
   },
 ];
+
+// The real screenshots of a project, without placeholder drawings.
+export function getScreens(project: Project): string[] {
+  return project.gallery.filter((src) => !src.endsWith(".svg"));
+}
 
 export function getProject(slug: string): Project | undefined {
   return projects.find((project) => project.slug === slug);

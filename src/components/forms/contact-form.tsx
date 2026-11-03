@@ -8,7 +8,6 @@ import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { Textarea } from "@/components/ui/textarea";
 import { contactSchema } from "@/lib/validations";
-import { cn } from "@/lib/utils";
 
 type Status = "idle" | "submitting" | "success" | "error";
 
@@ -58,12 +57,12 @@ export function ContactForm() {
 
   if (status === "success") {
     return (
-      <div className="flex flex-col items-start gap-4 rounded-2xl border border-border p-8">
-        <CheckCircle2 className="size-8 text-emerald-500" />
-        <h3 className="text-xl font-semibold tracking-tight">
-          Thanks — message sent!
-        </h3>
-        <p className="text-sm leading-6 text-muted-foreground">
+      <div role="status" className="flex flex-col items-start gap-4 bg-muted p-6 sm:p-8">
+        <CheckCircle2 className="size-8" />
+        <h2 className="text-head">
+          Thanks, message sent
+        </h2>
+        <p>
           We&apos;ll get back to you within one business day. In the meantime,
           feel free to book a call directly.
         </p>
@@ -81,11 +80,12 @@ export function ContactForm() {
     <form
       onSubmit={onSubmit}
       noValidate
-      className="flex flex-col gap-5 rounded-2xl border border-border p-6 sm:p-8"
+      className="flex flex-col gap-6 bg-muted p-5 sm:p-8"
     >
-      <div className="grid gap-5 sm:grid-cols-2">
+      <h2 className="text-lead font-normal">Tell us about your project</h2>
+      <div className="grid gap-6 sm:grid-cols-2">
         <div className="flex flex-col gap-2">
-          <Label htmlFor="name">Name</Label>
+          <Label htmlFor="name" className="text-body font-normal">Name</Label>
           <Input
             id="name"
             name="name"
@@ -93,14 +93,15 @@ export function ContactForm() {
             value={values.name}
             onChange={update("name")}
             aria-invalid={!!errors.name}
-            className="h-11"
+            aria-describedby={errors.name ? "name-error" : undefined}
+            className="h-12 bg-background px-3 text-body"
           />
           {errors.name && (
-            <p className="text-xs text-destructive">{errors.name}</p>
+            <p id="name-error" className="text-small text-destructive">{errors.name}</p>
           )}
         </div>
         <div className="flex flex-col gap-2">
-          <Label htmlFor="email">Email address</Label>
+          <Label htmlFor="email" className="text-body font-normal">Email address</Label>
           <Input
             id="email"
             name="email"
@@ -109,16 +110,17 @@ export function ContactForm() {
             value={values.email}
             onChange={update("email")}
             aria-invalid={!!errors.email}
-            className="h-11"
+            aria-describedby={errors.email ? "email-error" : undefined}
+            className="h-12 bg-background px-3 text-body"
           />
           {errors.email && (
-            <p className="text-xs text-destructive">{errors.email}</p>
+            <p id="email-error" className="text-small text-destructive">{errors.email}</p>
           )}
         </div>
       </div>
 
       <div className="flex flex-col gap-2">
-        <Label htmlFor="message">Tell us about your project</Label>
+        <Label htmlFor="message" className="text-body font-normal">Your project</Label>
         <Textarea
           id="message"
           name="message"
@@ -127,15 +129,16 @@ export function ContactForm() {
           value={values.message}
           onChange={update("message")}
           aria-invalid={!!errors.message}
-          className="min-h-36 resize-y"
+          aria-describedby={errors.message ? "message-error" : undefined}
+          className="min-h-44 resize-y bg-background px-3 py-2.5 text-body"
         />
         {errors.message && (
-          <p className="text-xs text-destructive">{errors.message}</p>
+          <p id="message-error" className="text-small text-destructive">{errors.message}</p>
         )}
       </div>
 
       {status === "error" && (
-        <p className="rounded-lg bg-destructive/10 px-4 py-3 text-sm text-destructive">
+        <p role="alert" className="bg-background px-4 py-3 text-destructive">
           Something went wrong sending your message. Please try again, or email
           us directly.
         </p>
@@ -145,7 +148,7 @@ export function ContactForm() {
         type="submit"
         size="lg"
         disabled={status === "submitting"}
-        className="h-11 w-full rounded-full"
+        className="w-full sm:w-auto sm:self-start"
       >
         {status === "submitting" ? (
           <>
@@ -159,11 +162,7 @@ export function ContactForm() {
           </>
         )}
       </Button>
-      <p
-        className={cn(
-          "text-center text-xs text-muted-foreground"
-        )}
-      >
+      <p className="text-small text-muted-foreground">
         We reply within one business day. No spam, ever.
       </p>
     </form>
