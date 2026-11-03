@@ -17,20 +17,22 @@ export function Hero() {
         </p>
 
         <h1 className="mt-8 max-w-4xl text-balance text-4xl font-semibold leading-[1.05] tracking-tight sm:text-6xl lg:text-7xl">
-          We design &amp; build products{" "}
+          We Build Websites, Business Software &amp; AI Automations{" "}
+          <br />
           <span className="font-display italic font-normal">
-            people love
+            That Help Businesses Grow.....
           </span>
           <br />
-          to use.
+          {/* to use. */}
         </h1>
 
         <div className="mt-8 flex flex-col gap-8 lg:flex-row lg:items-end lg:justify-between">
           <p className="max-w-xl text-lg leading-8 text-muted-foreground">
-            {SITE.name} is a freelance team of designers, developers and
+            {/* {SITE.name} is a freelance team of designers, developers and
             Devops engineers. We help early-to-mid-stage companies ship faster and
             convert better — {SITE.combinedYears} combined years of experience,
-            {SITE.projectsDelivered}+ projects delivered.
+            {SITE.projectsDelivered}+ projects delivered. */}
+            From business websites and custom web applications to AI-powered automation and scalable backend systems, {SITE.name} helps businesses turn ideas into reliable digital products.
           </p>
 
           <div className="flex flex-col gap-4 sm:flex-row lg:flex-col lg:items-end">

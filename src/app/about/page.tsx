@@ -39,22 +39,13 @@ export default function AboutPage() {
               </p>
               <div className="mt-5 flex flex-col gap-4 text-sm leading-7 text-muted-foreground sm:text-base sm:leading-8">
                 <p>
-                  {SITE.name} was founded in {SITE.foundingYear} by Sandeep Pal, Abhishek
-                  Mankumbare and Shubham Maurya after a decade working at agencies where client budgets
-                  paid for layers of management. He wanted a different model:
-                  experienced craftspeople doing the work directly, at a price
-                  that makes sense for early-to-mid-stage companies.
+                  Founded in {SITE.foundingYear} by Sandeep Pal, Abhishek Mankumbare, and Shubham Maurya, {SITE.name} was built with one vision: making high-quality software development accessible to growing businesses without unnecessary agency overhead.
                 </p>
                 <p>
-                  What started as a three-person studio grew slowly and
-                  deliberately. We only add a member when a client need recurs
-                  often enough to justify it — which is why today we&apos;re
-                  just {SITE.teamSize} people with {SITE.combinedYears} combined
-                  years of experience and a portfolio we&apos;re proud of.
+                  We believe in direct collaboration between clients and engineers. From planning and development to deployment, our founders stay actively involved, ensuring every project gets the right expertise, attention, and transparent communication.
                 </p>
                 <p>
-                  We stay small on purpose. Every project is led by a sas3d lead, staffed with exactly the specialists it needs,
-                  and reported on honestly — week one to launch.
+                 We choose to stay a focused three-person team by design. No unnecessary management layers, no empty promises — just thoughtful engineering, honest collaboration, and reliable digital solutions that help businesses grow.
                 </p>
               </div>
             </div>

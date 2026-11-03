@@ -12,7 +12,7 @@ export function Testimonials() {
         <SectionHeading
           eyebrow="Testimonials"
           title="Clients who said yes"
-          description="Reviews from the founders and leaders we've shipped with — including ratings from Upwork and Fiverr."
+          description="Reviews from the founders and leaders we've shipped with — including ratings from Our Website ."
         />
         <div className="mt-12 grid gap-4 md:grid-cols-2 lg:grid-cols-3">
           {testimonials.map((testimonial) => (
