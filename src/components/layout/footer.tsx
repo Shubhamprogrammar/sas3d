@@ -66,9 +66,9 @@ export function Footer() {
               <li>{SITE.location}</li>
               <li>
                 <a
-                  href={SITE.bookingUrl}
-                  target="_blank"
-                  rel="noopener noreferrer"
+                  href="/contact"
+                  // target="_blank"
+                  // rel="noopener noreferrer"
                   className="transition-colors hover:text-foreground"
                 >
                   Book a free consultation

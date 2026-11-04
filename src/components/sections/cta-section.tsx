@@ -48,7 +48,11 @@ export function CtaSection() {
                 variant="outline"
                 className="h-11 rounded-full border-background/30 bg-transparent px-6 text-background hover:bg-background/10 hover:text-background"
               >
-                <Link href={SITE.bookingUrl} target="_blank" rel="noopener noreferrer">
+                <Link href="/contact" 
+                
+                // target="_blank" 
+                // rel="noopener noreferrer"
+                >
                   <Calendar />
                   Book a call
                 </Link>

@@ -68,7 +68,7 @@ export function ContactForm() {
           feel free to book a call directly.
         </p>
         <Button asChild variant="outline">
-          <a href="https://sas3d.in" target="_blank" rel="noopener noreferrer">
+          <a href="/contact" target="_blank" rel="noopener noreferrer">
             Book a call
             <ArrowUpRight />
           </a>
