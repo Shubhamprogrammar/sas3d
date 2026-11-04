@@ -10,6 +10,7 @@ import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { projects, getProject } from "@/data/projects";
 import { cn } from "@/lib/utils";
+import { pageSeo } from "@/lib/seo";
 
 export function generateStaticParams() {
   return projects.map((project) => ({ slug: project.slug }));
@@ -26,6 +27,7 @@ export async function generateMetadata({
   return {
     title: project.title,
     description: project.excerpt,
+    ...pageSeo(`/portfolio/${project.slug}`),
   };
 }
 

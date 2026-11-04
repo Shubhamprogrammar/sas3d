@@ -115,12 +115,12 @@ export const SITE = {
   projectsDelivered: 9,
   happyClients: 8,
   socials: [
-    { name: "Instagram", href: "https://sas3d.net" },
+    { name: "Instagram", href: "https://www.instagram.com/sas3dev/" },
     { name: "Twitter", href: "https://sas3d.com" },
     { name: "GitHub", href: "https://github.com/sas3dev" },
     { name: "LinkedIn", href: "https://sas3d.com" },
   ],
-  bookingUrl: "https://sas3d.in",
+  bookingUrl: "mailto:sas3dev@gmail.com?subject=Book%20a%20free%2030-min%20consultation",
 } as const;
 
 export const NAV_LINKS = [

@@ -7,11 +7,13 @@ import { CtaSection } from "@/components/sections/cta-section";
 import { TeamGrid } from "@/components/sections/team-grid";
 import { Icon } from "@/components/icon";
 import { CORE_VALUES, SITE } from "@/lib/constants";
+import { pageSeo } from "@/lib/seo";
 
 export const metadata: Metadata = {
   title: "About Us",
   description:
     "The story, values and people behind SAS3D Studio — a freelance team of designers, developers and Devops engineers.",
+  ...pageSeo("/about"),
 };
 
 const stats = [

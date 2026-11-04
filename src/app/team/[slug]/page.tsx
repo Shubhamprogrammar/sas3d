@@ -6,9 +6,12 @@ import { ArrowLeft, ArrowUpRight } from "lucide-react";
 
 import { CtaSection } from "@/components/sections/cta-section";
 import { SocialIcon } from "@/components/layout/social-icons";
+import { JsonLd } from "@/components/seo/json-ld";
 import { Badge } from "@/components/ui/badge";
 import { team, getTeamMember } from "@/data/team";
+import { teamMemberJsonLd } from "@/lib/structured-data";
 import { cn } from "@/lib/utils";
+import { pageSeo } from "@/lib/seo";
 
 export function generateStaticParams() {
   return team.map((member) => ({ slug: member.slug }));
@@ -25,6 +28,7 @@ export async function generateMetadata({
   return {
     title: `${member.name} — ${member.role}`,
     description: member.bio,
+    ...pageSeo(`/team/${member.slug}`),
   };
 }
 
@@ -44,6 +48,13 @@ export default async function TeamMemberPage({
 
   return (
     <>
+      <JsonLd
+        data={teamMemberJsonLd(member, {
+          path: `/team/${member.slug}`,
+          name: `${member.name} — ${member.role}`,
+          description: member.bio,
+        })}
+      />
       <section className="py-16">
         <div className="mx-auto max-w-6xl px-4 sm:px-6">
           <Link

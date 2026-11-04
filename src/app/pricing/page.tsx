@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { ArrowUpRight, Check } from "lucide-react";
 
+import { JsonLd } from "@/components/seo/json-ld";
 import { PageHeader } from "@/components/sections/page-header";
 import { PricingCards } from "@/components/sections/pricing-cards";
 import { Faq } from "@/components/sections/faq";
@@ -10,16 +11,23 @@ import { SectionHeading } from "@/components/sections/section-heading";
 import { Button } from "@/components/ui/button";
 import { engagementModels } from "@/data/pricing";
 import { TOOLS } from "@/lib/constants";
+import { pricingJsonLd } from "@/lib/structured-data";
+import { pageSeo } from "@/lib/seo";
+
+const title = "Pricing";
+const description =
+  "Transparent pricing for SAS3D Studio — fixed-price sprints, full engagements and monthly retainers.";
 
 export const metadata: Metadata = {
-  title: "Pricing",
-  description:
-    "Transparent pricing for SAS3D Studio — fixed-price sprints, full engagements and monthly retainers.",
+  title,
+  description,
+  ...pageSeo("/pricing"),
 };
 
 export default function PricingPage() {
   return (
     <>
+      <JsonLd data={pricingJsonLd({ path: "/pricing", name: title, description })} />
       <PageHeader
         eyebrow="Pricing"
         title="Transparent, senior-grade pricing"

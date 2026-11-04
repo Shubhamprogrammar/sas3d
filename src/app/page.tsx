@@ -1,3 +1,5 @@
+import type { Metadata } from "next";
+
 import { AboutSection } from "@/components/sections/about-section";
 import { CtaSection } from "@/components/sections/cta-section";
 import { Faq } from "@/components/sections/faq";
@@ -10,6 +12,11 @@ import { ServicesSection } from "@/components/sections/services-section";
 import { TechStack } from "@/components/sections/tech-stack";
 import { TeamGrid } from "@/components/sections/team-grid";
 import { Testimonials } from "@/components/sections/testimonials";
+import { pageSeo } from "@/lib/seo";
+
+export const metadata: Metadata = {
+  ...pageSeo("/"),
+};
 
 export default function Home() {
   return (

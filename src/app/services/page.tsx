@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Check } from "lucide-react";
 
+import { JsonLd } from "@/components/seo/json-ld";
 import { PageHeader } from "@/components/sections/page-header";
 import { ProcessSteps } from "@/components/sections/process-steps";
 import { TechStack } from "@/components/sections/tech-stack";
@@ -8,20 +9,27 @@ import { CtaSection } from "@/components/sections/cta-section";
 import { SectionHeading } from "@/components/sections/section-heading";
 import { Icon } from "@/components/icon";
 import { services } from "@/data/services";
+import { servicesJsonLd } from "@/lib/structured-data";
+import { pageSeo } from "@/lib/seo";
+
+const title = "Services";
+const description =
+  "Web development, UI/UX design, DevOps, product management, QA testing and AI engineering — one senior team for your whole product.";
 
 export const metadata: Metadata = {
-  title: "Services",
-  description:
-    "Web development, UI/UX design, content writing, branding, marketing and audits — one senior team for your whole product.",
+  title,
+  description,
+  ...pageSeo("/services"),
 };
 
 export default function ServicesPage() {
   return (
     <>
+      <JsonLd data={servicesJsonLd({ path: "/services", name: title, description })} />
       <PageHeader
         eyebrow="Services"
         title="Everything you need to ship"
-        description="One team, every craft. Mix and match services — most projects combine design, development and content under a single fixed price."
+        description="One team, every craft. Mix and match services — most projects combine design, development and DevOps under a single fixed price."
       />
 
       <section className="py-20">

@@ -270,7 +270,7 @@ export const termsSections: TermsSection[] = [
         type: "contact",
         lines: [
           "SAS3D Studio",
-          "Email: developers@sas3d.in",
+          "Email: sas3dev@gmail.com",
           "Location: Remote — worldwide (India-based)",
         ],
       },

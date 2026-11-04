@@ -6,11 +6,13 @@ import { ContactForm } from "@/components/forms/contact-form";
 import { Faq } from "@/components/sections/faq";
 import { SocialIcon } from "@/components/layout/social-icons";
 import { SITE } from "@/lib/constants";
+import { pageSeo } from "@/lib/seo";
 
 export const metadata: Metadata = {
   title: "Contact",
   description:
     "Get in touch with SAS3D Studio — book a free consultation or get a fixed-price quote within one business day.",
+  ...pageSeo("/contact"),
 };
 
 const details = [

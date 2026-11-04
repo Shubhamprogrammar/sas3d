@@ -137,7 +137,6 @@ export const projects: Project[] = [
       { label: "Team onboarding", value: "Streamlined" },
       { label: "Workflow clarity", value: "End-to-end" },
     ],
-    liveUrl: "https://launchflow-automate.duckdns.org/",
     tags: ["Internal Tools", "SaaS", "Web App"],
   },
   {

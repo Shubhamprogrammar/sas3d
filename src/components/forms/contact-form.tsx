@@ -7,6 +7,7 @@ import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { Textarea } from "@/components/ui/textarea";
+import { SITE } from "@/lib/constants";
 import { contactSchema } from "@/lib/validations";
 import { cn } from "@/lib/utils";
 
@@ -68,7 +69,7 @@ export function ContactForm() {
           feel free to book a call directly.
         </p>
         <Button asChild variant="outline">
-          <a href="/contact" target="_blank" rel="noopener noreferrer">
+          <a href={SITE.bookingUrl}>
             Book a call
             <ArrowUpRight />
           </a>

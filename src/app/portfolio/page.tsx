@@ -3,11 +3,13 @@ import type { Metadata } from "next";
 import { PageHeader } from "@/components/sections/page-header";
 import { PortfolioFilter } from "@/components/sections/portfolio-filter";
 import { CtaSection } from "@/components/sections/cta-section";
+import { pageSeo } from "@/lib/seo";
 
 export const metadata: Metadata = {
   title: "Work",
   description:
     "Case studies from SAS3D Studio — the problems, the approach and the measurable results behind our projects.",
+  ...pageSeo("/portfolio"),
 };
 
 export default function PortfolioPage() {
