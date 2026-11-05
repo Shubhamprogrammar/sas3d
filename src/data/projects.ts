@@ -74,7 +74,7 @@ export const projects: Project[] = [
     featured: true,
   },
   {
-    slug: "Customer Management Platform",
+    slug: "customer-management-platform",
     title: "One connected system for the full client lifecycle, from first lead to final payment",
     client: "WEXA.AI",
     year: "2026",
