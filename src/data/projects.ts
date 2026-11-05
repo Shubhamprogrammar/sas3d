@@ -74,8 +74,8 @@ export const projects: Project[] = [
     featured: true,
   },
   {
-    slug: "luma-saas-dashboard",
-    title: "A graph-native commerce platform built for relationship intelligence",
+    slug: "Customer Management Platform",
+    title: "One connected system for the full client lifecycle, from first lead to final payment",
     client: "WEXA.AI",
     year: "2026",
     category: "Web Development",
@@ -88,22 +88,22 @@ export const projects: Project[] = [
       "/images/projects/s_3.png",
     ],
     excerpt:
-      "A graph-first commerce platform where every screen is powered by traversals over a graph database, helping teams explore the hidden relationships between customers, products, sellers, and brands instead of digging through flat relational tables.",
+      "An internal CRM and business management platform that brings leads, sales, proposals, projects, invoices, and payments into one system, with role-based access for every team.",
     problem:
-      "Marketplace data — customers, products, sellers, categories, brands — is deeply relational, but traditional dashboards flatten it into isolated tables and reports. Teams could see individual records, but not how those records connected to one another, making it slow and difficult to answer questions that spanned multiple entities or to spot patterns hidden a few hops away.",
+      "Running a client lifecycle touches sales, delivery, and finance, and each stage depends on the one before it. When that work is spread across separate tools, a client's history is hard to follow, follow-ups can slip, and it takes real effort to answer simple questions about what has been sold, delivered, and paid.",
     solution:
-      "We built a graph-native commerce platform where every screen is powered by traversal queries over a graph database instead of conventional relational lookups. The experience centers on an interactive graph explorer that lets users search for any node — customer, product, seller, or brand — and visually walk its multi-hop connections, backed by dedicated Customer, Product, and Seller intelligence modules for deeper analysis.",
+      "We built a single platform that follows each client from first contact to final payment. Leads move through a drag-and-drop pipeline and convert into clients and projects, proposals and invoices generate branded PDFs, and project progress is calculated from completed work. Reports, global search, notifications, and an audit log tie the whole system together.",
     approach: [
-      "Mapped the core marketplace entities and their relationships — customers, products, sellers, categories, and brands — to define what a graph-first data model needed to support.",
-      "Designed an interactive graph explorer and dedicated intelligence modules (Customer, Product, Seller) that make multi-hop relationships easy to search, traverse, and understand at a glance.",
-      "Built a production-ready platform with an analytics suite, recommendations engine, and live database health monitoring, backed by a scalable design system and reliable deployment workflows."
-    ],
+    "Mapped the full client lifecycle, from lead capture through pipeline, proposal, project delivery, invoicing, and payment, so each stage carries its records into the next.",
+    "Designed focused modules for each team, with six roles and record-level access control, so sales, project managers, developers, and finance each work with the information they need.",
+    "Built for real financial workflows, including partial payments, payment voiding, automatic overdue detection, and separate totals for each currency, backed by database transactions and automated tests."
+  ],
     results: [
-      { label: "First report in week 1", value: "22 → 71%" },
-      { label: "Activation", value: "+49%" },
-      { label: "Churn", value: "-27%" },
-    ],
-    liveUrl: "https://shopgraph.vercel.app/",
+    { label: "User roles with record-level access", value: "6" },
+    { label: "Currencies, never mixed in totals", value: "7" },
+    { label: "Report areas with CSV export", value: "4" },
+  ],
+    liveUrl: "https://customer-management-portal-gray.vercel.app//",
     tags: ["SaaS", "Dashboard", "IA"],
     featured: true,
   },
