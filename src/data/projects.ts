@@ -103,7 +103,7 @@ export const projects: Project[] = [
     { label: "Currencies, never mixed in totals", value: "7" },
     { label: "Report areas with CSV export", value: "4" },
   ],
-    liveUrl: "customer-management-portal.sas3d.in/",
+    liveUrl: "https://customer-management-portal.sas3d.in/",
     tags: ["SaaS", "Dashboard", "IA"],
     featured: true,
   },
