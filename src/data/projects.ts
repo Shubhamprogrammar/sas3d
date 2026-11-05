@@ -18,9 +18,9 @@ export const projects: Project[] = [
     excerpt:
       "A modern full-stack food delivery platform with seamless user experience, real-time admin controls, secure Stripe payments, and order tracking — built with React, Node.js, and MongoDB.",
     problem:
-      "Building a food delivery platform requires handling multiple complex workflows simultaneously — user authentication, real-time menu browsing, cart management, secure payment processing, order tracking, and an admin panel for restaurant management. The challenge was to deliver a production-grade experience across all these surfaces with a clean, maintainable codebase.",
+      "People want to order food quickly from good local kitchens, but it often takes too long. Menus are spread across different places, it’s hard to filter by what you feel like eating, and you don’t know when the order will arrive. Small local kitchens also struggle to reach customers online.",
     solution:
-      "We built a complete full-stack food delivery platform called Tomato with a React frontend, Node.js/Express backend, and MongoDB database. The platform features JWT authentication, Stripe payment integration, real-time order management, and a dedicated admin panel for menu and order control — all deployed across Vercel and Render.",
+      "Tomato is one web platform where users can browse dishes, filter them by category, add items to a cart and place orders. It brings many local kitchens together with clear prices and ratings. A mobile app adds live order tracking, app-only deals, saved addresses and one-tap reorder. The aim is delivery in under 30 minutes, and the first order is free.",
     approach: [
       "Mapped the end-to-end food ordering flow — from user registration and menu browsing through cart management, Stripe checkout, and order tracking — to define the core application surfaces.",
       "Designed a clean, fast user interface with responsive food item browsing, category filtering, cart management, and order history, plus a separate admin panel for menu and order control.",
@@ -52,9 +52,9 @@ export const projects: Project[] = [
     excerpt:
       "A PWA community platform for organizing kindness initiatives — installable, offline-capable, with real-time notifications. Built with Next.js, TypeScript, and a Node.js/Express backend with Socket.IO.",
     problem:
-      "Communities often lack a centralized platform to organize and coordinate acts of kindness and support for those in need. Spreading empathy and help requires structured initiatives that can connect people with opportunities to make a difference — accessible even on low-bandwidth or offline scenarios.",
+      "Many people carry feelings like loneliness, anxiety, heartbreak or quiet gratitude, and have nowhere safe to say them. Mainstream social media rewards image, follower counts and debate. That makes it hard to share something vulnerable without fear of being judged.",
     solution:
-      "We designed and built Open Your Hearts as a Progressive Web App (PWA) — a community platform that enables people to discover, participate in, and contribute to kindness initiatives. The platform connects volunteers with causes, tracks community impact, and creates a space where empathy and support can flourish, with full offline support and native app-like experience.",
+      "Open Your Hearts is a gentle community platform where people can share a small truth, a poem or a moment of courage, and be heard. It’s built to feel like “a softer place to land.” Users can post under their name or anonymously (“Someone”), tag each post with a mood, and get support through likes, comments and bookmarks rather than competition.",
     approach: [
       "Mapped the core community engagement journey — discovering initiatives, participating in events, and tracking collective impact — to define the essential product surfaces.",
       "Designed a warm, inviting interface with intuitive navigation that encourages community participation and makes it easy to find ways to help.",
@@ -189,9 +189,9 @@ export const projects: Project[] = [
     excerpt:
       "A social learning platform built with the MERN stack that lets users connect with friends, chat in real time, and make video calls — so people can learn new languages together in an interactive, engaging way.",
     problem:
-      "Language learning is often a lonely, repetitive grind. Learners practicing alone quickly lose motivation, most apps offer little real human interaction, and coordinating practice with friends means juggling separate chat and video tools. The challenge was to bring connection, conversation, and collaborative language learning into one seamless social experience.",
+      "People learning a new language struggle to find native speakers to practise with. Classroom and app-based learning doesn’t give enough real conversation practice, and finding a matching partner (someone who speaks the language you’re learning and wants to learn yours) is hard.",
     solution:
-      "We built Stremify, a social learning platform powered by the MERN stack where users connect with friends, chat in real time, and jump into video calls together. By combining social interaction with collaborative language practice, Stremify makes learning new languages fun, social, and effective — keeping learners engaged, accountable, and coming back.",
+      "Streamify is a language-exchange platform that connects learners with partners who complement them. Each user lists a native language, a learning language, a location and a short bio. The app then suggests matching partners, so you can send friend requests, build a network of practice buddies, and talk to them to improve your skills.",
     approach: [
       "Mapped the core learner journey — connecting with friends, starting conversations, joining video calls, and practicing languages together — to define the essential product surfaces.",
       "Designed an interactive, engaging interface with friend connections, real-time chat, and seamless video call flows that make collaborative learning feel natural and fun.",
