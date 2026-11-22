@@ -9,12 +9,12 @@ import { pageSeo } from "@/lib/seo";
 
 const title = "Team";
 const description =
-  "Meet the senior designers, developers, Devops engineers and marketers behind SAS3D Studio.";
+  "Meet the SAS3D team building websites, custom software, automation and AI solutions.";
 
 export const metadata: Metadata = {
   title,
   description,
-  ...pageSeo("/team"),
+  ...pageSeo("/team", { title, description }),
 };
 
 export default function TeamPage() {

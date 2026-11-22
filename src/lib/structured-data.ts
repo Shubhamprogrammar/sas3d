@@ -2,7 +2,7 @@ import { pricingPlans } from "@/data/pricing";
 import { services } from "@/data/services";
 import { team } from "@/data/team";
 import { SITE } from "@/lib/constants";
-import type { PricingPlan, TeamMember } from "@/types";
+import type { PricingPlan, Service, TeamMember } from "@/types";
 
 type JsonLdNode = Record<string, unknown>;
 
@@ -97,6 +97,13 @@ export function siteJsonLd(): JsonLdNode {
       image: absoluteUrl("/opengraph-image"),
       logo: absoluteUrl("/sas3d.jpeg"),
       areaServed: "Worldwide",
+      knowsAbout: services.map((service) => service.title),
+      contactPoint: {
+        "@type": "ContactPoint",
+        contactType: "sales",
+        email: SITE.email,
+        telephone: SITE.phone,
+      },
       sameAs: ORGANIZATION_SAME_AS,
       member: team.map(personSummary),
     },
@@ -144,16 +151,16 @@ export function teamMemberJsonLd(member: TeamMember, page: PageInfo): JsonLdNode
 }
 
 export function servicesJsonLd(page: PageInfo): JsonLdNode {
-  const pageUrl = absoluteUrl(page.path);
   return toGraph([
     {
       ...webPageNode("CollectionPage", page),
       mainEntity: itemList(
         services.map((service) => ({
           "@type": "Service",
-          "@id": `${pageUrl}#${service.id.toLowerCase().replace(/[^a-z0-9]+/g, "-")}`,
+          "@id": `${absoluteUrl(`/services/${service.id}`)}#service`,
           name: service.title,
           description: service.description,
+          url: absoluteUrl(`/services/${service.id}`),
           provider: { "@id": ORGANIZATION_ID },
         }))
       ),
@@ -173,6 +180,64 @@ export function pricingJsonLd(page: PageInfo): JsonLdNode {
         provider: { "@id": ORGANIZATION_ID },
         offers: pricingPlans.map(planOffer).filter(Boolean),
       },
+    },
+  ]);
+}
+
+function breadcrumbList(items: { name: string; path: string }[]): JsonLdNode {
+  return {
+    "@type": "BreadcrumbList",
+    itemListElement: items.map((item, index) => ({
+      "@type": "ListItem",
+      position: index + 1,
+      name: item.name,
+      item: absoluteUrl(item.path),
+    })),
+  };
+}
+
+export function serviceJsonLd(service: Service, page: PageInfo): JsonLdNode {
+  const url = absoluteUrl(page.path);
+  return toGraph([
+    {
+      ...webPageNode("WebPage", page),
+      mainEntity: { "@id": `${url}#service` },
+      breadcrumb: breadcrumbList([
+        { name: "Home", path: "/" },
+        { name: "Services", path: "/services" },
+        { name: service.title, path: page.path },
+      ]),
+    },
+    {
+      "@type": "Service",
+      "@id": `${url}#service`,
+      name: service.title,
+      serviceType: service.title,
+      description: service.seoDescription,
+      url,
+      areaServed: "Worldwide",
+      provider: { "@id": ORGANIZATION_ID },
+      hasOfferCatalog: {
+        "@type": "OfferCatalog",
+        name: `${service.title} use cases`,
+        itemListElement: service.useCases.map((useCase) => ({
+          "@type": "Offer",
+          itemOffered: {
+            "@type": "Service",
+            name: useCase.title,
+            description: useCase.description,
+          },
+        })),
+      },
+    },
+    {
+      "@type": "FAQPage",
+      "@id": `${url}#faq`,
+      mainEntity: service.faqs.map((faq) => ({
+        "@type": "Question",
+        name: faq.question,
+        acceptedAnswer: { "@type": "Answer", text: faq.answer },
+      })),
     },
   ]);
 }

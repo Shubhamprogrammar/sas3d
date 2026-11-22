@@ -196,6 +196,10 @@ export const termsSections: TermsSection[] = [
         type: "p",
         text: "We use cookies and analytics tools to understand site traffic and improve the visitor experience. Categories include: essential cookies — required for core site functionality; analytics cookies — help us understand how visitors use the site. You can control or disable cookies through your browser settings; disabling essential cookies may affect site functionality.",
       },
+      {
+        type: "p",
+        text: "Our website uses Google Tag Manager and Google Analytics, services provided by Google. They collect information such as pages visited, approximate location, device and browser type, and how you arrived at the site, using cookies and similar technologies. When you submit our inquiry form, we record that an inquiry was made along with the selected service, budget range and timeline — we do not send your name, email address, phone number or message to analytics. Google processes this data under its own privacy policy (https://policies.google.com/privacy). You can opt out of Google Analytics using Google's browser add-on (https://tools.google.com/dlpage/gaoptout) or by blocking cookies in your browser.",
+      },
     ],
   },
   {

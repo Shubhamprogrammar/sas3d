@@ -92,7 +92,7 @@ export function TermsContent() {
         <h1 className="text-3xl font-bold text-foreground mb-8">
           Terms and Conditions
         </h1>
-        <p className="pb-8 text-muted-foreground">Last updated: August 25, 2026</p>
+        <p className="pb-8 text-muted-foreground">Last updated: November 22, 2026</p>
 
         <div className="grid gap-8 lg:grid-cols-3">
           <aside className="lg:col-span-1">

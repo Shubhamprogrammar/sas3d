@@ -28,7 +28,10 @@ export async function generateMetadata({
   return {
     title: `${member.name} — ${member.role}`,
     description: member.bio,
-    ...pageSeo(`/team/${member.slug}`),
+    ...pageSeo(`/team/${member.slug}`, {
+      title: `${member.name} — ${member.role}`,
+      description: member.bio,
+    }),
   };
 }
 

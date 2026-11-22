@@ -1,20 +1,20 @@
 import Link from "next/link";
 
 import { SocialIcon } from "@/components/layout/social-icons";
-import { NAV_LINKS, SITE } from "@/lib/constants";
+import { services } from "@/data/services";
+import { NAV_LINKS, SITE, inquiryMailto, whatsappUrl } from "@/lib/constants";
 
 export function Footer() {
   return (
     <footer className="border-t border-border/60">
       <div className="mx-auto flex max-w-6xl flex-col gap-10 px-4 py-14 sm:px-6">
-        <div className="grid gap-10 md:grid-cols-[1.5fr_1fr_1fr]">
+        <div className="grid gap-10 sm:grid-cols-2 lg:grid-cols-[1.5fr_1fr_1fr_1fr]">
           <div>
             <Link href="/" className="text-lg font-semibold tracking-tight">
               {SITE.name}
             </Link>
             <p className="mt-3 max-w-sm text-sm leading-6 text-muted-foreground">
-              {SITE.tagline}. A freelance team of designers, developers
-              and Devops engineers — remote, worldwide.
+              {SITE.description}
             </p>
             <div className="mt-5 flex items-center gap-2">
               {SITE.socials.map((social) => (
@@ -30,6 +30,24 @@ export function Footer() {
                 </a>
               ))}
             </div>
+          </div>
+
+          <div>
+            <p className="text-xs font-semibold uppercase tracking-widest text-muted-foreground">
+              Services
+            </p>
+            <ul className="mt-4 space-y-2.5">
+              {services.map((service) => (
+                <li key={service.id}>
+                  <Link
+                    href={`/services/${service.id}`}
+                    className="text-sm text-muted-foreground transition-colors hover:text-foreground"
+                  >
+                    {service.title}
+                  </Link>
+                </li>
+              ))}
+            </ul>
           </div>
 
           <div>
@@ -57,22 +75,32 @@ export function Footer() {
             <ul className="mt-4 space-y-2.5 text-sm text-muted-foreground">
               <li>
                 <a
-                  href={`mailto:${SITE.email}`}
-                  className="transition-colors hover:text-foreground"
+                  href={inquiryMailto()}
+                  data-cta="email"
+                  className="break-all transition-colors hover:text-foreground"
                 >
                   {SITE.email}
                 </a>
               </li>
-              <li>{SITE.location}</li>
               <li>
                 <a
-                  href="/contact"
-                  // target="_blank"
-                  // rel="noopener noreferrer"
+                  href={whatsappUrl()}
+                  data-cta="whatsapp"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="transition-colors hover:text-foreground"
                 >
-                  Book a free consultation
+                  WhatsApp {SITE.phone}
                 </a>
+              </li>
+              <li>{SITE.location}</li>
+              <li>
+                <Link
+                  href="/contact#inquiry"
+                  className="transition-colors hover:text-foreground"
+                >
+                  Get a Free Consultation
+                </Link>
               </li>
             </ul>
           </div>

@@ -5,11 +5,14 @@ import { PortfolioFilter } from "@/components/sections/portfolio-filter";
 import { CtaSection } from "@/components/sections/cta-section";
 import { pageSeo } from "@/lib/seo";
 
+const title = "Our Work";
+const description =
+  "Projects by SAS3D — web applications, e-commerce, dashboards and SaaS platforms, with the problem, approach and technology behind each one.";
+
 export const metadata: Metadata = {
-  title: "Work",
-  description:
-    "Case studies from SAS3D Studio — the problems, the approach and the measurable results behind our projects.",
-  ...pageSeo("/portfolio"),
+  title,
+  description,
+  ...pageSeo("/portfolio", { title, description }),
 };
 
 export default function PortfolioPage() {

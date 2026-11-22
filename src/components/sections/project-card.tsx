@@ -8,7 +8,6 @@ import { cn } from "@/lib/utils";
 
 export function ProjectCard({
   project,
-  index = 0,
   className,
 }: {
   project: Project;
@@ -24,13 +23,15 @@ export function ProjectCard({
       )}
     >
       <div className="flex items-center justify-between">
-        <div className="flex items-center gap-2 text-sm text-muted-foreground">
-          {/* <span className="font-mono text-xs">
-            {String(index + 1).padStart(2, "0")}
-          </span> */}
-          {/* <span>{project.category}</span> */}
-          {/* <span className="text-border">/</span> */}
+        <div className="flex flex-wrap items-center gap-2 text-sm text-muted-foreground">
+          <span>{project.category}</span>
+          <span className="text-border" aria-hidden>/</span>
           <span>{project.year}</span>
+          {project.classification && (
+            <Badge variant="secondary" className="rounded-full">
+              {project.classification}
+            </Badge>
+          )}
         </div>
         {project.status === "confidential" ? (
           <Badge variant="outline" className="gap-1 rounded-full">

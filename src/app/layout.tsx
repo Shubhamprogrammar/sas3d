@@ -4,7 +4,11 @@ import { Navbar } from "@/components/layout/navbar";
 import { Footer } from "@/components/layout/footer";
 import { SITE } from "@/lib/constants";
 import { JsonLd } from "@/components/seo/json-ld";
-import { pageOpenGraph } from "@/lib/seo";
+import {
+  GoogleTagManager,
+  GoogleTagManagerNoScript,
+} from "@/components/analytics/google-tag-manager";
+import { pageOpenGraph, pageTwitter } from "@/lib/seo";
 import { siteJsonLd } from "@/lib/structured-data";
 import "./globals.css";
 
@@ -34,12 +38,12 @@ export const metadata: Metadata = {
   description: SITE.description,
   keywords: [...SITE.keywords],
   openGraph: pageOpenGraph("/"),
-  twitter: {
-    card: "summary_large_image",
-    title: SITE.name,
-    description: SITE.description,
-  },
+  twitter: pageTwitter(),
   metadataBase: new URL(SITE.url),
+  applicationName: SITE.name,
+  authors: [{ name: SITE.name, url: SITE.url }],
+  creator: SITE.name,
+  formatDetection: { telephone: false },
 };
 
 export default function RootLayout({
@@ -54,6 +58,8 @@ export default function RootLayout({
       suppressHydrationWarning
     >
       <body className="min-h-full flex flex-col">
+        <GoogleTagManagerNoScript />
+        <GoogleTagManager />
         <JsonLd data={siteJsonLd()} />
         <Navbar />
         <main className="flex flex-1 flex-col">{children}</main>

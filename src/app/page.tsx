@@ -12,10 +12,12 @@ import { ServicesSection } from "@/components/sections/services-section";
 import { TechStack } from "@/components/sections/tech-stack";
 import { TeamGrid } from "@/components/sections/team-grid";
 import { Testimonials } from "@/components/sections/testimonials";
+import { SITE } from "@/lib/constants";
 import { pageSeo } from "@/lib/seo";
 
 export const metadata: Metadata = {
-  ...pageSeo("/"),
+  description: SITE.description,
+  ...pageSeo("/", { description: SITE.description }),
 };
 
 export default function Home() {

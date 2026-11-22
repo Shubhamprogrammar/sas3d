@@ -27,7 +27,10 @@ export async function generateMetadata({
   return {
     title: project.title,
     description: project.excerpt,
-    ...pageSeo(`/portfolio/${project.slug}`),
+    ...pageSeo(`/portfolio/${project.slug}`, {
+      title: project.title,
+      description: project.excerpt,
+    }),
   };
 }
 
@@ -65,7 +68,12 @@ export default async function ProjectPage({
                 ))}
               </div>
             </div>
-            <div className="flex items-center gap-3">
+            <div className="flex flex-wrap items-center gap-3">
+              {project.classification && (
+                <Badge variant="secondary" className="rounded-full px-3 py-1">
+                  {project.classification}
+                </Badge>
+              )}
               {project.status === "confidential" ? (
                 <Badge variant="outline" className="gap-1.5 rounded-full px-3 py-1">
                   <Lock className="size-3.5" />

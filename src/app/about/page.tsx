@@ -9,11 +9,14 @@ import { Icon } from "@/components/icon";
 import { CORE_VALUES, SITE } from "@/lib/constants";
 import { pageSeo } from "@/lib/seo";
 
+const title = "About Us";
+const description =
+  "About SAS3D — the team building websites, custom software, business automation and AI-powered solutions for startups and growing businesses.";
+
 export const metadata: Metadata = {
-  title: "About Us",
-  description:
-    "The story, values and people behind SAS3D Studio — a freelance team of designers, developers and Devops engineers.",
-  ...pageSeo("/about"),
+  title,
+  description,
+  ...pageSeo("/about", { title, description }),
 };
 
 const stats = [

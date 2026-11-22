@@ -140,18 +140,17 @@ export const projects: Project[] = [
     tags: ["Internal Tools", "SaaS", "Web App"],
   },
   {
-    slug: "atlas-content-platform",
-    title: "Grocery is One Step a way from Your Door",
-    client: "Atlas",
-    year: "2024",
-    category: "Content Writing",
+    slug: "celebcart-grocery-platform",
+    title: "CelebCart — an online grocery store for everyday essentials",
+    client: "CelebCart",
+    year: "2025",
+    category: "E-commerce",
     role: ["Product Design", "UX Research", "Design System", "Web Development", "Devops"],
     status: "live",
     cover: "/images/projects/celeb_1.png",
     gallery: [
       "/images/projects/celeb_1.png",
       "/images/projects/celeb_2.png",
-      "/images/projects/p1.svg",
     ],
     excerpt:
       "A convenient online grocery platform that connects customers with everyday essentials and makes ordering fresh groceries for doorstep delivery simple and hassle-free.",
@@ -175,7 +174,7 @@ export const projects: Project[] = [
   {
     slug: "streamify-social-learning",
     title: "A social learning platform where friends learn languages together",
-    client: "Stremify",
+    client: "Streamify",
     year: "2026",
     category: "Web Development",
     role: ["Product Design", "UX Research", "Design System", "Web Development", "Devops"],

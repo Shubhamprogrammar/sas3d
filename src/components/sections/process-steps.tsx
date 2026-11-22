@@ -7,33 +7,28 @@ export function ProcessSteps() {
     <section className="bg-[#3E73A8]/5 py-24">
       <div className="mx-auto max-w-6xl px-4 sm:px-6">
         <SectionHeading
-          eyebrow="How we work"
-          title="A process that removes surprises"
-          description="Six steps from first call to launch — with a fixed price, fixed scope and weekly demos at every stage."
+          eyebrow="Our process"
+          title="How We Work"
+          description="A structured process from the first conversation to deployment, so you know what happens at each stage."
         />
-        <div className="mt-12 grid gap-px overflow-hidden rounded-2xl border border-border bg-border md:grid-cols-2 lg:grid-cols-3 shadow-xl">
+        <ol className="mt-12 grid gap-px overflow-hidden rounded-2xl border border-border bg-border md:grid-cols-2 lg:grid-cols-3 shadow-xl">
           {processSteps.map((step) => (
-            <div
+            <li
               key={step.id}
               className="group flex flex-col gap-4 bg-background p-8 transition-colors hover:bg-muted/60 "
             >
-              <div className="flex items-baseline justify-between">
-                <span className="font-mono text-sm text-muted-foreground ">
-                  {step.step}
-                </span>
-                <span className="rounded-full border border-border px-2.5 py-0.5 text-xs text-muted-foreground shadow-xl">
-                  {step.duration}
-                </span>
-              </div>
+              <span className="font-mono text-sm text-muted-foreground">
+                {step.step}
+              </span>
               <h3 className="text-xl font-semibold tracking-tight ">
                 {step.title}
               </h3>
               <p className="text-sm leading-6 text-muted-foreground">
                 {step.description}
               </p>
-            </div>
+            </li>
           ))}
-        </div>
+        </ol>
 
         <div className="mt-8 rounded-2xl border border-border bg-background p-8 shadow-xl">
           <div className="flex flex-col gap-6 md:flex-row md:items-center md:justify-between">

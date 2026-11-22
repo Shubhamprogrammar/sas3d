@@ -16,12 +16,12 @@ import { pageSeo } from "@/lib/seo";
 
 const title = "Pricing";
 const description =
-  "Transparent pricing for SAS3D Studio — fixed-price sprints, full engagements and monthly retainers.";
+  "Pricing and engagement models for SAS3D — fixed-price sprints, full engagements and monthly retainers.";
 
 export const metadata: Metadata = {
   title,
   description,
-  ...pageSeo("/pricing"),
+  ...pageSeo("/pricing", { title, description }),
 };
 
 export default function PricingPage() {

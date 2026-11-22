@@ -7,12 +7,12 @@ import { TermsContent } from "./terms-content";
 import { pageSeo } from "@/lib/seo";
 
 const title = "Terms and Conditions";
-const description = "Terms and conditions for SAS3D Studio";
+const description = "Terms and conditions for using the SAS3D website and services.";
 
 export const metadata: Metadata = {
   title,
   description,
-  ...pageSeo("/terms-conditions"),
+  ...pageSeo("/terms-conditions", { title, description }),
 };
 
 export default function TermsAndConditionsPage() {
