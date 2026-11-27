@@ -236,6 +236,10 @@ export function ContactForm() {
           Thank you for contacting SAS3D! Your inquiry has been received. Our team
           will review your requirements and get back to you.
         </p>
+        <p className="text-sm leading-6 text-muted-foreground">
+          We&apos;ve also sent a confirmation to your email. If it isn&apos;t in your
+          inbox within a few minutes, please check your Spam or Promotions folder.
+        </p>
         <div className="flex flex-wrap gap-3">
           <Button asChild variant="outline" className="rounded-full">
             <a href={whatsappUrl()} target="_blank" rel="noopener noreferrer" data-cta="whatsapp">
