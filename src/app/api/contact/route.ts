@@ -1,35 +1,103 @@
 import { NextResponse } from "next/server";
 import { Resend } from "resend";
+import type { ObjectId } from "mongodb";
 
 import { contactSchema } from "@/lib/validations";
 import { SITE } from "@/lib/constants";
+import { getContactsCollection } from "@/lib/mongodb";
 
 export const runtime = "nodejs";
 
+const RATE_LIMIT = 5;
+const RATE_WINDOW_MS = 60 * 60 * 1000;
+
 export async function POST(request: Request) {
+  let body: Record<string, unknown>;
   try {
-    const body = await request.json();
-    const parsed = contactSchema.safeParse(body);
+    body = await request.json();
+  } catch {
+    return NextResponse.json(
+      { error: "Invalid request body" },
+      { status: 400 }
+    );
+  }
 
-    if (!parsed.success) {
+  // Honeypot: real visitors never see this field, so only bots fill it in.
+  if (body.website) {
+    return NextResponse.json({ ok: true }, { status: 200 });
+  }
+
+  const parsed = contactSchema.safeParse(body);
+  if (!parsed.success) {
+    return NextResponse.json(
+      { error: "Invalid submission", issues: parsed.error.flatten() },
+      { status: 400 }
+    );
+  }
+
+  const { name, email, message } = parsed.data;
+
+  // Save first so the inquiry is kept even if sending email fails.
+  let savedId: ObjectId | null = null;
+  try {
+    const contacts = await getContactsCollection();
+    const recent = await contacts.countDocuments({
+      email,
+      createdAt: { $gt: new Date(Date.now() - RATE_WINDOW_MS) },
+    });
+    if (recent >= RATE_LIMIT) {
       return NextResponse.json(
-        { error: "Invalid submission", issues: parsed.error.flatten() },
-        { status: 400 }
+        { error: "Too many messages, please try again later" },
+        { status: 429 }
       );
     }
 
-    const { name, email, message } = parsed.data;
-    const contactEmail = process.env.CONTACT_EMAIL ?? SITE.email;
-    const from = process.env.CONTACT_FROM ?? `SAS3D Studio <onboarding@resend.dev>`;
+    const { insertedId } = await contacts.insertOne({
+      name,
+      email,
+      message,
+      status: "new",
+      emailSent: false,
+      createdAt: new Date(),
+      userAgent: request.headers.get("user-agent"),
+    });
+    savedId = insertedId;
+  } catch (error) {
+    console.error("Failed to save contact message", error);
+  }
 
-    if (!process.env.RESEND_API_KEY) {
-      return NextResponse.json(
-        { error: "Email service is not configured" },
-        { status: 500 }
-      );
+  const emailSent = await sendEmails(name, email, message);
+
+  if (savedId && emailSent) {
+    try {
+      const contacts = await getContactsCollection();
+      await contacts.updateOne({ _id: savedId }, { $set: { emailSent: true } });
+    } catch (error) {
+      console.error("Failed to update contact message", error);
     }
+  }
 
-    const resend = new Resend(process.env.RESEND_API_KEY);
+  if (!savedId && !emailSent) {
+    return NextResponse.json(
+      { error: "Failed to send message" },
+      { status: 500 }
+    );
+  }
+
+  return NextResponse.json({ ok: true }, { status: 200 });
+}
+
+async function sendEmails(name: string, email: string, message: string) {
+  if (!process.env.RESEND_API_KEY) {
+    console.error("RESEND_API_KEY is not set");
+    return false;
+  }
+
+  const contactEmail = process.env.CONTACT_EMAIL ?? SITE.email;
+  const from = process.env.CONTACT_FROM ?? `SAS3D Studio <onboarding@resend.dev>`;
+  const resend = new Resend(process.env.RESEND_API_KEY);
+
+  try {
     const [confirmation, notification] = await Promise.all([
       resend.emails.send({
         from,
@@ -46,19 +114,9 @@ export async function POST(request: Request) {
         text: `Name: ${name}\nEmail: ${email}\n\n${message}`,
       }),
     ]);
-
-    if (confirmation.error || notification.error) {
-      return NextResponse.json(
-        { error: "Failed to send email" },
-        { status: 500 }
-      );
-    }
-
-    return NextResponse.json({ ok: true }, { status: 200 });
-  } catch {
-    return NextResponse.json(
-      { error: "Invalid request body" },
-      { status: 400 }
-    );
+    return !confirmation.error && !notification.error;
+  } catch (error) {
+    console.error("Failed to send contact emails", error);
+    return false;
   }
 }

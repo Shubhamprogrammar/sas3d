@@ -1,0 +1,1456 @@
+{
+ "url": "http://localhost:3101/team",
+ "at": "2026-11-03T07:55:08.545Z",
+ "allow": [],
+ "viewports": [
+  {
+   "width": 1440,
+   "height": 900,
+   "load": "load",
+   "screens": 4,
+   "filled": [
+    0.77,
+    0.74,
+    0.94,
+    0.89
+   ],
+   "motion": {
+    "elements": 15,
+    "css": 9,
+    "transitions": 6,
+    "scripted": 0,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 1440,
+     "h": 900
+    },
+    "page": {
+     "height": 2908,
+     "screens": 3.2,
+     "words": 132,
+     "img": 9,
+     "video": 0,
+     "canvas": 0,
+     "svg": 12,
+     "sections": 3,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 6,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [
+      "image?url=%2Fimages%2Fteam%2Fsandeep_profile.png",
+      "image?url=%2Fimages%2Fteam%2Fabhishek.jpeg&w=640",
+      "image?url=%2Fimages%2Fteam%2Fshubham.jpeg&w=640&",
+      "image?url=%2Fimages%2Fprojects%2Ffood_2.png&w=64",
+      "image?url=%2Fimages%2Fprojects%2Fstreamify_2.png",
+      "image?url=%2Fimages%2Fprojects%2Fheart_2.png&w=6"
+     ],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "Senior people, no pass-through",
+     "words": 4,
+     "chars": 30,
+     "lines": 2,
+     "size": 77.8,
+     "vw": 5.4,
+     "font": "Work Sans",
+     "weight": 300,
+     "tracking": -0.035,
+     "leading": 1,
+     "upper": false,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "left",
+     "widthRatio": 0.55,
+     "top": 160,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "Senior people, no pass-through",
+     "words": 4,
+     "lines": 2,
+     "size": 77.8,
+     "font": "Work Sans"
+    },
+    "headings": [
+     {
+      "text": "Senior people, no pass-through",
+      "words": 4,
+      "chars": 30,
+      "lines": 2,
+      "size": 77.8,
+      "vw": 5.4,
+      "font": "Work Sans",
+      "weight": 300,
+      "tracking": -0.035,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.55,
+      "top": 160,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "Let's build something worth shipping",
+      "words": 5,
+      "chars": 36,
+      "lines": 2,
+      "size": 64,
+      "vw": 4.4,
+      "font": "Work Sans",
+      "weight": 300,
+      "tracking": -0.035,
+      "leading": 1.05,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.55,
+      "top": 1893,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "SAS3D",
+      "words": 1,
+      "chars": 5,
+      "lines": 1,
+      "size": 187.2,
+      "vw": 13,
+      "font": "Work Sans",
+      "weight": 300,
+      "tracking": -0.04,
+      "leading": 1,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.66,
+      "top": 2580,
+      "tag": "a",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 3,
+     "maxLines": 2,
+     "over2Lines": 0,
+     "statements": 0,
+     "centered": 0,
+     "medianWords": 5,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Work Sans",
+       "share": 1,
+       "mono": false
+      }
+     ],
+     "familyCount": 1,
+     "sizes": [
+      14,
+      19,
+      26,
+      64,
+      78,
+      187
+     ],
+     "sizeCount": 6,
+     "notLoaded": [],
+     "body": {
+      "font": "Work Sans",
+      "size": 19,
+      "leading": 1.55,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 20
+     },
+     "measureChars": 47,
+     "max": {
+      "size": 187.2,
+      "vw": 13,
+      "font": "Work Sans",
+      "text": "SAS3D"
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0.01,
+     "centerShare": 0,
+     "smallText": 0
+    },
+    "eyebrows": [],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#ffffff",
+     "bodyBgHsl": {
+      "h": 0,
+      "s": 0,
+      "l": 1
+     },
+     "dark": false,
+     "sectionBgs": [
+      {
+       "color": "#0d060b",
+       "top": 64,
+       "hsl": {
+        "h": 317,
+        "s": 0.37,
+        "l": 0.04
+       }
+      },
+      {
+       "color": "#470c35",
+       "top": 1813,
+       "hsl": {
+        "h": 318,
+        "s": 0.71,
+        "l": 0.16
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#ffffff",
+       "share": 0.67
+      },
+      {
+       "color": "#5f5660",
+       "share": 0.13
+      },
+      {
+       "color": "#ab9fa8",
+       "share": 0.08
+      },
+      {
+       "color": "#0d060b",
+       "share": 0.06
+      },
+      {
+       "color": "#101421",
+       "share": 0.06
+      }
+     ],
+     "button": {
+      "bg": "#ff488b",
+      "hsl": {
+       "h": 338,
+       "s": 1,
+       "l": 0.64
+      },
+      "fg": "#0d060b"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 2,
+     "inHero": 1,
+     "radius": 0,
+     "height": 44,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "Get in touch"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 0,
+     "hairlineSamples": [],
+     "outlinedBoxes": 0,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 0,
+     "boxRadius": 0,
+     "squareMedia": 6,
+     "roundedMedia": 0,
+     "mediaRadius": 0,
+     "textShadow": 0,
+     "cardRows": []
+    },
+    "heroMedia": [
+     {
+      "type": "img",
+      "ratio": 0.14
+     },
+     {
+      "type": "img",
+      "ratio": 0.11
+     },
+     {
+      "type": "img",
+      "ratio": 0.08
+     }
+    ],
+    "nav": {
+     "links": 7,
+     "fixed": true,
+     "height": 64,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "work sans"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 1440,
+     "h": 900
+    },
+    "pageH": 2908,
+    "margins": {
+     "left": 32,
+     "right": 32
+    },
+    "sections": [
+     {
+      "sel": "section.dark.bg-background",
+      "tag": "section",
+      "top": 64,
+      "height": 364,
+      "words": 27,
+      "media": 0,
+      "middle": 375,
+      "heading": {
+       "text": "Senior people, no pass-through",
+       "size": 78,
+       "tag": "h1"
+      },
+      "left": 32,
+      "right": 54,
+      "textLeft": 32,
+      "textRight": 54,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.section-space",
+      "tag": "section",
+      "top": 428,
+      "height": 1025,
+      "words": 20,
+      "media": 3,
+      "middle": 8,
+      "heading": null,
+      "left": 32,
+      "right": 32,
+      "textLeft": 32,
+      "textRight": 173,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.dark.text-foreground",
+      "tag": "section",
+      "top": 1453,
+      "height": 821,
+      "words": 37,
+      "media": 0,
+      "middle": 344,
+      "heading": {
+       "text": "Let's build something worth shipping",
+       "size": 64,
+       "tag": "h2"
+      },
+      "left": 32,
+      "right": 120,
+      "textLeft": 32,
+      "textRight": 220,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "footer.dark.bg-background",
+      "tag": "footer",
+      "top": 2274,
+      "height": 634,
+      "words": 38,
+      "media": 0,
+      "middle": 114,
+      "heading": {
+       "text": "SAS3D",
+       "size": 187,
+       "tag": "a"
+      },
+      "left": 32,
+      "right": 32,
+      "textLeft": 32,
+      "textRight": 138,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [],
+    "h1s": [
+     {
+      "text": "Senior people, no pass-through",
+      "size": 78,
+      "top": 160,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 32,
+      "n": 4
+     },
+     {
+      "x": 609,
+      "n": 1
+     },
+     {
+      "x": 965,
+      "n": 1
+     },
+     {
+      "x": 1070,
+      "n": 1
+     }
+    ],
+    "leftBlocks": 7,
+    "bodySize": 19,
+    "stage": false,
+    "explains": true,
+    "slivers": [],
+    "voidShare": 0.2,
+    "voidBox": {
+     "x": 0,
+     "y": 360,
+     "w": 1440,
+     "h": 180
+    }
+   },
+   "app": null,
+   "consoleErrors": []
+  },
+  {
+   "width": 768,
+   "height": 1024,
+   "load": "load",
+   "screens": 4,
+   "filled": [
+    0.77,
+    0.57,
+    0.92,
+    0.83
+   ],
+   "motion": {
+    "elements": 15,
+    "css": 9,
+    "transitions": 6,
+    "scripted": 0,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 768,
+     "h": 1024
+    },
+    "page": {
+     "height": 3642,
+     "screens": 3.6,
+     "words": 128,
+     "img": 9,
+     "video": 0,
+     "canvas": 0,
+     "svg": 12,
+     "sections": 3,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 6,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [
+      "image?url=%2Fimages%2Fteam%2Fsandeep_profile.png",
+      "image?url=%2Fimages%2Fteam%2Fabhishek.jpeg&w=384",
+      "image?url=%2Fimages%2Fteam%2Fshubham.jpeg&w=384&",
+      "image?url=%2Fimages%2Fprojects%2Ffood_2.png&w=25",
+      "image?url=%2Fimages%2Fprojects%2Fstreamify_2.png",
+      "image?url=%2Fimages%2Fprojects%2Fheart_2.png&w=2"
+     ],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "Senior people, no pass-through",
+     "words": 4,
+     "chars": 30,
+     "lines": 1,
+     "size": 42,
+     "vw": 5.5,
+     "font": "Work Sans",
+     "weight": 300,
+     "tracking": -0.035,
+     "leading": 1,
+     "upper": false,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "center",
+     "widthRatio": 0.92,
+     "top": 160,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "Senior people, no pass-through",
+     "words": 4,
+     "lines": 1,
+     "size": 42,
+     "font": "Work Sans"
+    },
+    "headings": [
+     {
+      "text": "Senior people, no pass-through",
+      "words": 4,
+      "chars": 30,
+      "lines": 1,
+      "size": 42,
+      "vw": 5.5,
+      "font": "Work Sans",
+      "weight": 300,
+      "tracking": -0.035,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 160,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "Let's build something worth shipping",
+      "words": 5,
+      "chars": 36,
+      "lines": 2,
+      "size": 45.4,
+      "vw": 5.9,
+      "font": "Work Sans",
+      "weight": 300,
+      "tracking": -0.035,
+      "leading": 1.05,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 2276,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "SAS3D",
+      "words": 1,
+      "chars": 5,
+      "lines": 1,
+      "size": 99.8,
+      "vw": 13,
+      "font": "Work Sans",
+      "weight": 300,
+      "tracking": -0.04,
+      "leading": 1,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.98,
+      "top": 2843,
+      "tag": "a",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 3,
+     "maxLines": 2,
+     "over2Lines": 0,
+     "statements": 0,
+     "centered": 0,
+     "medianWords": 5,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Work Sans",
+       "share": 1,
+       "mono": false
+      }
+     ],
+     "familyCount": 1,
+     "sizes": [
+      13,
+      18,
+      23,
+      42,
+      45,
+      100
+     ],
+     "sizeCount": 6,
+     "notLoaded": [],
+     "body": {
+      "font": "Work Sans",
+      "size": 17.9,
+      "leading": 1.55,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 20
+     },
+     "measureChars": 75,
+     "max": {
+      "size": 99.8,
+      "vw": 13,
+      "font": "Work Sans",
+      "text": "SAS3D"
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0.01,
+     "centerShare": 0.01,
+     "smallText": 0
+    },
+    "eyebrows": [],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#ffffff",
+     "bodyBgHsl": {
+      "h": 0,
+      "s": 0,
+      "l": 1
+     },
+     "dark": false,
+     "sectionBgs": [
+      {
+       "color": "#0d060b",
+       "top": 64,
+       "hsl": {
+        "h": 317,
+        "s": 0.37,
+        "l": 0.04
+       }
+      },
+      {
+       "color": "#470c35",
+       "top": 2196,
+       "hsl": {
+        "h": 318,
+        "s": 0.71,
+        "l": 0.16
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#ffffff",
+       "share": 0.69
+      },
+      {
+       "color": "#5f5660",
+       "share": 0.13
+      },
+      {
+       "color": "#0d060b",
+       "share": 0.06
+      },
+      {
+       "color": "#101421",
+       "share": 0.06
+      },
+      {
+       "color": "#ab9fa8",
+       "share": 0.05
+      }
+     ],
+     "button": {
+      "bg": "#ff488b",
+      "hsl": {
+       "h": 338,
+       "s": 1,
+       "l": 0.64
+      },
+      "fg": "#0d060b"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 2,
+     "inHero": 1,
+     "radius": 0,
+     "height": 44,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "Get in touch"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 0,
+     "hairlineSamples": [],
+     "outlinedBoxes": 0,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 0,
+     "boxRadius": 0,
+     "squareMedia": 6,
+     "roundedMedia": 0,
+     "mediaRadius": 0,
+     "textShadow": 0,
+     "cardRows": [
+      {
+       "count": 4,
+       "iconTopped": false,
+       "rounded": false,
+       "top": 3179
+      }
+     ]
+    },
+    "heroMedia": [
+     {
+      "type": "img",
+      "ratio": 0.19
+     },
+     {
+      "type": "img",
+      "ratio": 0.19
+     }
+    ],
+    "nav": {
+     "links": 2,
+     "fixed": true,
+     "height": 64,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "work sans"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 768,
+     "h": 1024
+    },
+    "pageH": 3642,
+    "margins": {
+     "left": 32,
+     "right": 32
+    },
+    "sections": [
+     {
+      "sel": "section.dark.bg-background",
+      "tag": "section",
+      "top": 64,
+      "height": 330,
+      "words": 27,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Senior people, no pass-through",
+       "size": 42,
+       "tag": "h1"
+      },
+      "left": 32,
+      "right": 84,
+      "textLeft": 32,
+      "textRight": 84,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.section-space",
+      "tag": "section",
+      "top": 394,
+      "height": 1393,
+      "words": 20,
+      "media": 3,
+      "middle": 8,
+      "heading": {
+       "text": "Sandeep Pal",
+       "size": 18,
+       "tag": "h3"
+      },
+      "left": 32,
+      "right": 32,
+      "textLeft": 32,
+      "textRight": 104,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.dark.text-foreground",
+      "tag": "section",
+      "top": 1786,
+      "height": 1048,
+      "words": 37,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Let's build something worth shipping",
+       "size": 45,
+       "tag": "h2"
+      },
+      "left": 32,
+      "right": 171,
+      "textLeft": 32,
+      "textRight": 171,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "footer.dark.bg-background",
+      "tag": "footer",
+      "top": 2835,
+      "height": 808,
+      "words": 38,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "SAS3D",
+       "size": 100,
+       "tag": "a"
+      },
+      "left": 32,
+      "right": 32,
+      "textLeft": 32,
+      "textRight": 47,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [],
+    "h1s": [
+     {
+      "text": "Senior people, no pass-through",
+      "size": 42,
+      "top": 160,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 32,
+      "n": 6
+     },
+     {
+      "x": 388,
+      "n": 1
+     }
+    ],
+    "leftBlocks": 7,
+    "bodySize": 18,
+    "stage": false,
+    "explains": false,
+    "slivers": [],
+    "voidShare": 0,
+    "voidBox": null
+   },
+   "app": null,
+   "consoleErrors": []
+  },
+  {
+   "width": 390,
+   "height": 844,
+   "load": "load",
+   "screens": 5,
+   "filled": [
+    0.83,
+    0.76,
+    0.82,
+    0.83,
+    0.89
+   ],
+   "motion": {
+    "elements": 15,
+    "css": 11,
+    "transitions": 4,
+    "scripted": 0,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 390,
+     "h": 844
+    },
+    "page": {
+     "height": 4045,
+     "screens": 4.8,
+     "words": 125,
+     "img": 9,
+     "video": 0,
+     "canvas": 0,
+     "svg": 12,
+     "sections": 3,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 6,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [
+      "image?url=%2Fimages%2Fteam%2Fsandeep_profile.png",
+      "image?url=%2Fimages%2Fteam%2Fabhishek.jpeg&w=640",
+      "image?url=%2Fimages%2Fteam%2Fshubham.jpeg&w=640&",
+      "image?url=%2Fimages%2Fprojects%2Ffood_2.png&w=64",
+      "image?url=%2Fimages%2Fprojects%2Fstreamify_2.png",
+      "image?url=%2Fimages%2Fprojects%2Fheart_2.png&w=6"
+     ],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "Senior people, no pass-through",
+     "words": 4,
+     "chars": 30,
+     "lines": 2,
+     "size": 33.3,
+     "vw": 8.5,
+     "font": "Work Sans",
+     "weight": 300,
+     "tracking": -0.035,
+     "leading": 1.05,
+     "upper": false,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "center",
+     "widthRatio": 0.9,
+     "top": 128,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "Senior people, no pass-through",
+     "words": 4,
+     "lines": 2,
+     "size": 33.3,
+     "font": "Work Sans"
+    },
+    "headings": [
+     {
+      "text": "Senior people, no pass-through",
+      "words": 4,
+      "chars": 30,
+      "lines": 2,
+      "size": 33.3,
+      "vw": 8.5,
+      "font": "Work Sans",
+      "weight": 300,
+      "tracking": -0.035,
+      "leading": 1.05,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 128,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "Let's build something worth shipping",
+      "words": 5,
+      "chars": 36,
+      "lines": 2,
+      "size": 33.3,
+      "vw": 8.5,
+      "font": "Work Sans",
+      "weight": 300,
+      "tracking": -0.035,
+      "leading": 1.05,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 2707,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "SAS3D",
+      "words": 1,
+      "chars": 5,
+      "lines": 1,
+      "size": 56,
+      "vw": 14.4,
+      "font": "Work Sans",
+      "weight": 300,
+      "tracking": -0.04,
+      "leading": 1,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.97,
+      "top": 3224,
+      "tag": "a",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 3,
+     "maxLines": 2,
+     "over2Lines": 0,
+     "statements": 0,
+     "centered": 0,
+     "medianWords": 5,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Work Sans",
+       "share": 1,
+       "mono": false
+      }
+     ],
+     "familyCount": 1,
+     "sizes": [
+      13,
+      17,
+      20,
+      33,
+      56
+     ],
+     "sizeCount": 5,
+     "notLoaded": [],
+     "body": {
+      "font": "Work Sans",
+      "size": 17,
+      "leading": 1.55,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 20
+     },
+     "measureChars": 41,
+     "max": {
+      "size": 56,
+      "vw": 14.4,
+      "font": "Work Sans",
+      "text": "SAS3D"
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0.01,
+     "centerShare": 0.01,
+     "smallText": 0
+    },
+    "eyebrows": [],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#ffffff",
+     "bodyBgHsl": {
+      "h": 0,
+      "s": 0,
+      "l": 1
+     },
+     "dark": false,
+     "sectionBgs": [
+      {
+       "color": "#0d060b",
+       "top": 64,
+       "hsl": {
+        "h": 317,
+        "s": 0.37,
+        "l": 0.04
+       }
+      },
+      {
+       "color": "#f6f1f4",
+       "top": 503,
+       "hsl": {
+        "h": 324,
+        "s": 0.22,
+        "l": 0.95
+       }
+      },
+      {
+       "color": "#1b0e17",
+       "top": 2212,
+       "hsl": {
+        "h": 318,
+        "s": 0.32,
+        "l": 0.08
+       }
+      },
+      {
+       "color": "#470c35",
+       "top": 2651,
+       "hsl": {
+        "h": 318,
+        "s": 0.71,
+        "l": 0.16
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#ffffff",
+       "share": 0.7
+      },
+      {
+       "color": "#5f5660",
+       "share": 0.14
+      },
+      {
+       "color": "#101421",
+       "share": 0.06
+      },
+      {
+       "color": "#ab9fa8",
+       "share": 0.05
+      },
+      {
+       "color": "#0d060b",
+       "share": 0.05
+      }
+     ],
+     "button": {
+      "bg": "#ff488b",
+      "hsl": {
+       "h": 338,
+       "s": 1,
+       "l": 0.64
+      },
+      "fg": "#0d060b"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 1,
+     "inHero": 0,
+     "radius": 0,
+     "height": 52,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": []
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 0,
+     "hairlineSamples": [],
+     "outlinedBoxes": 0,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 0,
+     "boxRadius": 0,
+     "squareMedia": 6,
+     "roundedMedia": 0,
+     "mediaRadius": 0,
+     "textShadow": 0,
+     "cardRows": [
+      {
+       "count": 4,
+       "iconTopped": false,
+       "rounded": false,
+       "top": 3556
+      }
+     ]
+    },
+    "heroMedia": [
+     {
+      "type": "img",
+      "ratio": 0.36
+     }
+    ],
+    "nav": {
+     "links": 1,
+     "fixed": true,
+     "height": 64,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "work sans"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 390,
+     "h": 844
+    },
+    "pageH": 4045,
+    "margins": {
+     "left": 20,
+     "right": 20
+    },
+    "sections": [
+     {
+      "sel": "section.dark.bg-background",
+      "tag": "section",
+      "top": 64,
+      "height": 343,
+      "words": 27,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Senior people, no pass-through",
+       "size": 33,
+       "tag": "h1"
+      },
+      "left": 20,
+      "right": 26,
+      "textLeft": 20,
+      "textRight": 26,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.section-space",
+      "tag": "section",
+      "top": 407,
+      "height": 1805,
+      "words": 20,
+      "media": 3,
+      "middle": 0,
+      "heading": {
+       "text": "Sandeep Pal",
+       "size": 17,
+       "tag": "h3"
+      },
+      "left": 20,
+      "right": 20,
+      "textLeft": 20,
+      "textRight": 81,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.dark.text-foreground",
+      "tag": "section",
+      "top": 2212,
+      "height": 1006,
+      "words": 37,
+      "media": 2,
+      "middle": 0,
+      "heading": {
+       "text": "Let's build something worth shipping",
+       "size": 33,
+       "tag": "h2"
+      },
+      "left": 0,
+      "right": 0,
+      "textLeft": 20,
+      "textRight": 29,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "footer.dark.bg-background",
+      "tag": "footer",
+      "top": 3218,
+      "height": 827,
+      "words": 38,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "SAS3D",
+       "size": 56,
+       "tag": "a"
+      },
+      "left": 26,
+      "right": 26,
+      "textLeft": 26,
+      "textRight": 27,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [],
+    "h1s": [
+     {
+      "text": "Senior people, no pass-through",
+      "size": 33,
+      "top": 128,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 20,
+      "n": 7
+     }
+    ],
+    "leftBlocks": 7,
+    "bodySize": 17,
+    "stage": false,
+    "explains": false,
+    "slivers": [],
+    "voidShare": 0,
+    "voidBox": null
+   },
+   "app": null,
+   "consoleErrors": []
+  }
+ ],
+ "findings": [
+  {
+   "level": "WARN",
+   "id": "no-footage",
+   "width": 1440,
+   "message": "No video anywhere on the page.",
+   "fix": "Look for one honest clip with scripts/assets.mjs --video (the place, the material, the process) and use it as a muted loop with a poster frame. Defend its absence only if no clip fits the subject."
+  },
+  {
+   "level": "WARN",
+   "id": "still-page",
+   "width": 1440,
+   "message": "Little motion: 15 element(s) moved while the page loaded and scrolled.",
+   "fix": "Give every section an entrance for its parts (not one fade of the whole block) and add one moving picture: a looping clip or a slow move on a photograph."
+  },
+  {
+   "level": "WARN",
+   "id": "first-action",
+   "width": 390,
+   "message": "No visible button in the first phone screen.",
+   "fix": "On a phone the first screen still holds the headline, the supporting sentence and the action; move navigation into one row or a menu so it does not push them down."
+  }
+ ],
+ "images": [
+  {
+   "viewport": "desktop",
+   "width": 1440,
+   "fold": "/home/shubham/shubham/sas3d/.taste-skill/after/r_team/desktop-fold.jpg",
+   "pages": [
+    "/home/shubham/shubham/sas3d/.taste-skill/after/r_team/desktop-page-01.jpg"
+   ],
+   "film": []
+  },
+  {
+   "viewport": "tablet",
+   "width": 768,
+   "fold": "/home/shubham/shubham/sas3d/.taste-skill/after/r_team/tablet-fold.jpg",
+   "pages": [
+    "/home/shubham/shubham/sas3d/.taste-skill/after/r_team/tablet-page-01.jpg"
+   ],
+   "film": []
+  },
+  {
+   "viewport": "mobile",
+   "width": 390,
+   "fold": "/home/shubham/shubham/sas3d/.taste-skill/after/r_team/mobile-fold.jpg",
+   "pages": [
+    "/home/shubham/shubham/sas3d/.taste-skill/after/r_team/mobile-page-01.jpg"
+   ],
+   "film": []
+  }
+ ]
+}

@@ -1,0 +1,2178 @@
+{
+ "url": "http://localhost:3101/about",
+ "at": "2026-11-03T07:53:11.576Z",
+ "allow": [],
+ "viewports": [
+  {
+   "width": 1440,
+   "height": 900,
+   "load": "load",
+   "screens": 7,
+   "filled": [
+    0.63,
+    0.7,
+    0.58,
+    0.75,
+    1,
+    1,
+    0.89
+   ],
+   "motion": {
+    "elements": 39,
+    "css": 29,
+    "transitions": 10,
+    "scripted": 0,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 1440,
+     "h": 900
+    },
+    "page": {
+     "height": 5874,
+     "screens": 6.5,
+     "words": 507,
+     "img": 9,
+     "video": 0,
+     "canvas": 0,
+     "svg": 13,
+     "sections": 6,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 6,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [
+      "image?url=%2Fimages%2Fteam%2Fsandeep_profile.png",
+      "image?url=%2Fimages%2Fteam%2Fabhishek.jpeg&w=640",
+      "image?url=%2Fimages%2Fteam%2Fshubham.jpeg&w=640&",
+      "image?url=%2Fimages%2Fprojects%2Ffood_2.png&w=64",
+      "image?url=%2Fimages%2Fprojects%2Fstreamify_2.png",
+      "image?url=%2Fimages%2Fprojects%2Fheart_2.png&w=6"
+     ],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "A small team with a senior bar",
+     "words": 7,
+     "chars": 30,
+     "lines": 2,
+     "size": 77.8,
+     "vw": 5.4,
+     "font": "Work Sans",
+     "weight": 300,
+     "tracking": -0.035,
+     "leading": 1,
+     "upper": false,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "left",
+     "widthRatio": 0.55,
+     "top": 160,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "A small team with a senior bar",
+     "words": 7,
+     "lines": 2,
+     "size": 77.8,
+     "font": "Work Sans"
+    },
+    "headings": [
+     {
+      "text": "A small team with a senior bar",
+      "words": 7,
+      "chars": 30,
+      "lines": 2,
+      "size": 77.8,
+      "vw": 5.4,
+      "font": "Work Sans",
+      "weight": 300,
+      "tracking": -0.035,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.55,
+      "top": 160,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "2026",
+      "words": 1,
+      "chars": 4,
+      "lines": 1,
+      "size": 64,
+      "vw": 4.4,
+      "font": "Work Sans",
+      "weight": 300,
+      "tracking": -0.035,
+      "leading": 1.05,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.21,
+      "top": 588,
+      "tag": "dd",
+      "kind": "statement"
+     },
+     {
+      "text": "Our story",
+      "words": 2,
+      "chars": 9,
+      "lines": 1,
+      "size": 64,
+      "vw": 4.4,
+      "font": "Work Sans",
+      "weight": 300,
+      "tracking": -0.035,
+      "leading": 1.05,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.62,
+      "top": 588,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "3",
+      "words": 1,
+      "chars": 1,
+      "lines": 1,
+      "size": 64,
+      "vw": 4.4,
+      "font": "Work Sans",
+      "weight": 300,
+      "tracking": -0.035,
+      "leading": 1.05,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.21,
+      "top": 712,
+      "tag": "dd",
+      "kind": "statement"
+     },
+     {
+      "text": "1.5+",
+      "words": 1,
+      "chars": 4,
+      "lines": 1,
+      "size": 64,
+      "vw": 4.4,
+      "font": "Work Sans",
+      "weight": 300,
+      "tracking": -0.035,
+      "leading": 1.05,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.21,
+      "top": 837,
+      "tag": "dd",
+      "kind": "statement"
+     },
+     {
+      "text": "9+",
+      "words": 1,
+      "chars": 2,
+      "lines": 1,
+      "size": 64,
+      "vw": 4.4,
+      "font": "Work Sans",
+      "weight": 300,
+      "tracking": -0.035,
+      "leading": 1.05,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.21,
+      "top": 961,
+      "tag": "dd",
+      "kind": "statement"
+     },
+     {
+      "text": "How we work, every project",
+      "words": 5,
+      "chars": 26,
+      "lines": 1,
+      "size": 64,
+      "vw": 4.4,
+      "font": "Work Sans",
+      "weight": 300,
+      "tracking": -0.035,
+      "leading": 1.05,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.55,
+      "top": 1552,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Senior people, no pass-through",
+      "words": 4,
+      "chars": 30,
+      "lines": 2,
+      "size": 64,
+      "vw": 4.4,
+      "font": "Work Sans",
+      "weight": 300,
+      "tracking": -0.035,
+      "leading": 1.05,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.55,
+      "top": 2203,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Tools we actually use",
+      "words": 4,
+      "chars": 21,
+      "lines": 1,
+      "size": 64,
+      "vw": 4.4,
+      "font": "Work Sans",
+      "weight": 300,
+      "tracking": -0.035,
+      "leading": 1.05,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.55,
+      "top": 3480,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Let's build something worth shipping",
+      "words": 5,
+      "chars": 36,
+      "lines": 2,
+      "size": 64,
+      "vw": 4.4,
+      "font": "Work Sans",
+      "weight": 300,
+      "tracking": -0.035,
+      "leading": 1.05,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.55,
+      "top": 4858,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "SAS3D",
+      "words": 1,
+      "chars": 5,
+      "lines": 1,
+      "size": 187.2,
+      "vw": 13,
+      "font": "Work Sans",
+      "weight": 300,
+      "tracking": -0.04,
+      "leading": 1,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.66,
+      "top": 5546,
+      "tag": "a",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 11,
+     "maxLines": 2,
+     "over2Lines": 0,
+     "statements": 4,
+     "centered": 0,
+     "medianWords": 2,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Work Sans",
+       "share": 1,
+       "mono": false
+      }
+     ],
+     "familyCount": 1,
+     "sizes": [
+      14,
+      19,
+      26,
+      64,
+      78,
+      187
+     ],
+     "sizeCount": 6,
+     "notLoaded": [],
+     "body": {
+      "font": "Work Sans",
+      "size": 19,
+      "leading": 1.55,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 20
+     },
+     "measureChars": 47,
+     "max": {
+      "size": 187.2,
+      "vw": 13,
+      "font": "Work Sans",
+      "text": "SAS3D"
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0,
+     "centerShare": 0,
+     "smallText": 0
+    },
+    "eyebrows": [],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#ffffff",
+     "bodyBgHsl": {
+      "h": 0,
+      "s": 0,
+      "l": 1
+     },
+     "dark": false,
+     "sectionBgs": [
+      {
+       "color": "#0d060b",
+       "top": 64,
+       "hsl": {
+        "h": 317,
+        "s": 0.37,
+        "l": 0.04
+       }
+      },
+      {
+       "color": "#f6f1f4",
+       "top": 1392,
+       "hsl": {
+        "h": 324,
+        "s": 0.22,
+        "l": 0.95
+       }
+      },
+      {
+       "color": "#470c35",
+       "top": 4778,
+       "hsl": {
+        "h": 318,
+        "s": 0.71,
+        "l": 0.16
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#101421",
+       "share": 0.55
+      },
+      {
+       "color": "#5f5660",
+       "share": 0.26
+      },
+      {
+       "color": "#ffffff",
+       "share": 0.16
+      },
+      {
+       "color": "#ab9fa8",
+       "share": 0.02
+      },
+      {
+       "color": "#0d060b",
+       "share": 0.02
+      }
+     ],
+     "button": {
+      "bg": "#ff488b",
+      "hsl": {
+       "h": 338,
+       "s": 1,
+       "l": 0.64
+      },
+      "fg": "#0d060b"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 2,
+     "inHero": 1,
+     "radius": 0,
+     "height": 44,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "Get in touch"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 0,
+     "hairlineSamples": [],
+     "outlinedBoxes": 0,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 0,
+     "boxRadius": 0,
+     "squareMedia": 6,
+     "roundedMedia": 0,
+     "mediaRadius": 0,
+     "textShadow": 0,
+     "cardRows": []
+    },
+    "heroMedia": [],
+    "nav": {
+     "links": 7,
+     "fixed": true,
+     "height": 64,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "work sans"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 1440,
+     "h": 900
+    },
+    "pageH": 5874,
+    "margins": {
+     "left": 32,
+     "right": 46
+    },
+    "sections": [
+     {
+      "sel": "section.dark.bg-background",
+      "tag": "section",
+      "top": 64,
+      "height": 364,
+      "words": 25,
+      "media": 0,
+      "middle": 371,
+      "heading": {
+       "text": "A small team with a senior bar",
+       "size": 78,
+       "tag": "h1"
+      },
+      "left": 32,
+      "right": 61,
+      "textLeft": 32,
+      "textRight": 61,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.section-space",
+      "tag": "section",
+      "top": 428,
+      "height": 964,
+      "words": 161,
+      "media": 0,
+      "middle": 311,
+      "heading": {
+       "text": "2026",
+       "size": 64,
+       "tag": "dd"
+      },
+      "left": 32,
+      "right": 49,
+      "textLeft": 32,
+      "textRight": 49,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.section-space.bg-muted",
+      "tag": "section",
+      "top": 1392,
+      "height": 651,
+      "words": 82,
+      "media": 0,
+      "middle": 38,
+      "heading": {
+       "text": "How we work, every project",
+       "size": 64,
+       "tag": "h2"
+      },
+      "left": 32,
+      "right": 46,
+      "textLeft": 32,
+      "textRight": 46,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.section-space",
+      "tag": "section",
+      "top": 2043,
+      "height": 1255,
+      "words": 38,
+      "media": 3,
+      "middle": 8,
+      "heading": {
+       "text": "Senior people, no pass-through",
+       "size": 64,
+       "tag": "h2"
+      },
+      "left": 32,
+      "right": 32,
+      "textLeft": 32,
+      "textRight": 33,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.section-space.bg-muted",
+      "tag": "section",
+      "top": 3298,
+      "height": 1120,
+      "words": 127,
+      "media": 0,
+      "middle": 69,
+      "heading": {
+       "text": "Tools we actually use",
+       "size": 64,
+       "tag": "h2"
+      },
+      "left": 32,
+      "right": 58,
+      "textLeft": 32,
+      "textRight": 58,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.dark.text-foreground",
+      "tag": "section",
+      "top": 4418,
+      "height": 821,
+      "words": 37,
+      "media": 0,
+      "middle": 344,
+      "heading": {
+       "text": "Let's build something worth shipping",
+       "size": 64,
+       "tag": "h2"
+      },
+      "left": 32,
+      "right": 120,
+      "textLeft": 32,
+      "textRight": 220,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "footer.dark.bg-background",
+      "tag": "footer",
+      "top": 5240,
+      "height": 634,
+      "words": 38,
+      "media": 0,
+      "middle": 114,
+      "heading": {
+       "text": "SAS3D",
+       "size": 187,
+       "tag": "a"
+      },
+      "left": 32,
+      "right": 32,
+      "textLeft": 32,
+      "textRight": 138,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [],
+    "h1s": [
+     {
+      "text": "A small team with a senior bar",
+      "size": 78,
+      "top": 160,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 32,
+      "n": 9
+     },
+     {
+      "x": 501,
+      "n": 7
+     },
+     {
+      "x": 965,
+      "n": 5
+     },
+     {
+      "x": 609,
+      "n": 1
+     },
+     {
+      "x": 1070,
+      "n": 1
+     }
+    ],
+    "leftBlocks": 23,
+    "bodySize": 26,
+    "stage": false,
+    "explains": true,
+    "slivers": [],
+    "voidShare": 0.2,
+    "voidBox": {
+     "x": 0,
+     "y": 360,
+     "w": 1440,
+     "h": 180
+    }
+   },
+   "app": null,
+   "consoleErrors": []
+  },
+  {
+   "width": 768,
+   "height": 1024,
+   "load": "load",
+   "screens": 8,
+   "filled": [
+    0.56,
+    0.73,
+    0.7,
+    0.5,
+    1,
+    1,
+    0.92,
+    0.83
+   ],
+   "motion": {
+    "elements": 39,
+    "css": 27,
+    "transitions": 12,
+    "scripted": 0,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 768,
+     "h": 1024
+    },
+    "page": {
+     "height": 7346,
+     "screens": 7.2,
+     "words": 503,
+     "img": 9,
+     "video": 0,
+     "canvas": 0,
+     "svg": 13,
+     "sections": 6,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 6,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [
+      "image?url=%2Fimages%2Fteam%2Fsandeep_profile.png",
+      "image?url=%2Fimages%2Fteam%2Fabhishek.jpeg&w=384",
+      "image?url=%2Fimages%2Fteam%2Fshubham.jpeg&w=384&",
+      "image?url=%2Fimages%2Fprojects%2Ffood_2.png&w=25",
+      "image?url=%2Fimages%2Fprojects%2Fstreamify_2.png",
+      "image?url=%2Fimages%2Fprojects%2Fheart_2.png&w=2"
+     ],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "Our story",
+     "words": 2,
+     "chars": 9,
+     "lines": 1,
+     "size": 45.4,
+     "vw": 5.9,
+     "font": "Work Sans",
+     "weight": 300,
+     "tracking": -0.035,
+     "leading": 1.05,
+     "upper": false,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "center",
+     "widthRatio": 0.92,
+     "top": 792,
+     "tag": "h2",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "A small team with a senior bar",
+     "words": 7,
+     "lines": 1,
+     "size": 42,
+     "font": "Work Sans"
+    },
+    "headings": [
+     {
+      "text": "A small team with a senior bar",
+      "words": 7,
+      "chars": 30,
+      "lines": 1,
+      "size": 42,
+      "vw": 5.5,
+      "font": "Work Sans",
+      "weight": 300,
+      "tracking": -0.035,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 160,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "2026",
+      "words": 1,
+      "chars": 4,
+      "lines": 1,
+      "size": 45.4,
+      "vw": 5.9,
+      "font": "Work Sans",
+      "weight": 300,
+      "tracking": -0.035,
+      "leading": 1.05,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.44,
+      "top": 554,
+      "tag": "dd",
+      "kind": "statement"
+     },
+     {
+      "text": "3",
+      "words": 1,
+      "chars": 1,
+      "lines": 1,
+      "size": 45.4,
+      "vw": 5.9,
+      "font": "Work Sans",
+      "weight": 300,
+      "tracking": -0.035,
+      "leading": 1.05,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.44,
+      "top": 554,
+      "tag": "dd",
+      "kind": "statement"
+     },
+     {
+      "text": "1.5+",
+      "words": 1,
+      "chars": 4,
+      "lines": 1,
+      "size": 45.4,
+      "vw": 5.9,
+      "font": "Work Sans",
+      "weight": 300,
+      "tracking": -0.035,
+      "leading": 1.05,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.44,
+      "top": 657,
+      "tag": "dd",
+      "kind": "statement"
+     },
+     {
+      "text": "9+",
+      "words": 1,
+      "chars": 2,
+      "lines": 1,
+      "size": 45.4,
+      "vw": 5.9,
+      "font": "Work Sans",
+      "weight": 300,
+      "tracking": -0.035,
+      "leading": 1.05,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.44,
+      "top": 657,
+      "tag": "dd",
+      "kind": "statement"
+     },
+     {
+      "text": "Our story",
+      "words": 2,
+      "chars": 9,
+      "lines": 1,
+      "size": 45.4,
+      "vw": 5.9,
+      "font": "Work Sans",
+      "weight": 300,
+      "tracking": -0.035,
+      "leading": 1.05,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 792,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "How we work, every project",
+      "words": 5,
+      "chars": 26,
+      "lines": 1,
+      "size": 45.4,
+      "vw": 5.9,
+      "font": "Work Sans",
+      "weight": 300,
+      "tracking": -0.035,
+      "leading": 1.05,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 1772,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Senior people, no pass-through",
+      "words": 4,
+      "chars": 30,
+      "lines": 1,
+      "size": 45.4,
+      "vw": 5.9,
+      "font": "Work Sans",
+      "weight": 300,
+      "tracking": -0.035,
+      "leading": 1.05,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 2555,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Tools we actually use",
+      "words": 4,
+      "chars": 21,
+      "lines": 1,
+      "size": 45.4,
+      "vw": 5.9,
+      "font": "Work Sans",
+      "weight": 300,
+      "tracking": -0.035,
+      "leading": 1.05,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 4215,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Let's build something worth shipping",
+      "words": 5,
+      "chars": 36,
+      "lines": 2,
+      "size": 45.4,
+      "vw": 5.9,
+      "font": "Work Sans",
+      "weight": 300,
+      "tracking": -0.035,
+      "leading": 1.05,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 5980,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "SAS3D",
+      "words": 1,
+      "chars": 5,
+      "lines": 1,
+      "size": 99.8,
+      "vw": 13,
+      "font": "Work Sans",
+      "weight": 300,
+      "tracking": -0.04,
+      "leading": 1,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.98,
+      "top": 6546,
+      "tag": "a",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 11,
+     "maxLines": 2,
+     "over2Lines": 0,
+     "statements": 4,
+     "centered": 0,
+     "medianWords": 4,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Work Sans",
+       "share": 1,
+       "mono": false
+      }
+     ],
+     "familyCount": 1,
+     "sizes": [
+      13,
+      18,
+      23,
+      42,
+      45,
+      100
+     ],
+     "sizeCount": 6,
+     "notLoaded": [],
+     "body": {
+      "font": "Work Sans",
+      "size": 23,
+      "leading": 1.3,
+      "weight": 300,
+      "tracking": 0,
+      "contrast": 18.4
+     },
+     "measureChars": 61,
+     "max": {
+      "size": 99.8,
+      "vw": 13,
+      "font": "Work Sans",
+      "text": "SAS3D"
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0,
+     "centerShare": 0,
+     "smallText": 0
+    },
+    "eyebrows": [],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#ffffff",
+     "bodyBgHsl": {
+      "h": 0,
+      "s": 0,
+      "l": 1
+     },
+     "dark": false,
+     "sectionBgs": [
+      {
+       "color": "#0d060b",
+       "top": 64,
+       "hsl": {
+        "h": 317,
+        "s": 0.37,
+        "l": 0.04
+       }
+      },
+      {
+       "color": "#f6f1f4",
+       "top": 1612,
+       "hsl": {
+        "h": 324,
+        "s": 0.22,
+        "l": 0.95
+       }
+      },
+      {
+       "color": "#470c35",
+       "top": 5900,
+       "hsl": {
+        "h": 318,
+        "s": 0.71,
+        "l": 0.16
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#101421",
+       "share": 0.55
+      },
+      {
+       "color": "#5f5660",
+       "share": 0.26
+      },
+      {
+       "color": "#ffffff",
+       "share": 0.16
+      },
+      {
+       "color": "#0d060b",
+       "share": 0.02
+      },
+      {
+       "color": "#ab9fa8",
+       "share": 0.01
+      }
+     ],
+     "button": {
+      "bg": "#ff488b",
+      "hsl": {
+       "h": 338,
+       "s": 1,
+       "l": 0.64
+      },
+      "fg": "#0d060b"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 2,
+     "inHero": 1,
+     "radius": 0,
+     "height": 44,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "Get in touch"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 0,
+     "hairlineSamples": [],
+     "outlinedBoxes": 0,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 0,
+     "boxRadius": 0,
+     "squareMedia": 6,
+     "roundedMedia": 0,
+     "mediaRadius": 0,
+     "textShadow": 0,
+     "cardRows": [
+      {
+       "count": 4,
+       "iconTopped": false,
+       "rounded": false,
+       "top": 6882
+      }
+     ]
+    },
+    "heroMedia": [],
+    "nav": {
+     "links": 2,
+     "fixed": true,
+     "height": 64,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "work sans"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 768,
+     "h": 1024
+    },
+    "pageH": 7346,
+    "margins": {
+     "left": 32,
+     "right": 33
+    },
+    "sections": [
+     {
+      "sel": "section.dark.bg-background",
+      "tag": "section",
+      "top": 64,
+      "height": 330,
+      "words": 25,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "A small team with a senior bar",
+       "size": 42,
+       "tag": "h1"
+      },
+      "left": 32,
+      "right": 87,
+      "textLeft": 32,
+      "textRight": 87,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.section-space",
+      "tag": "section",
+      "top": 394,
+      "height": 1218,
+      "words": 161,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "2026",
+       "size": 45,
+       "tag": "dd"
+      },
+      "left": 32,
+      "right": 37,
+      "textLeft": 32,
+      "textRight": 37,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.section-space.bg-muted",
+      "tag": "section",
+      "top": 1612,
+      "height": 784,
+      "words": 82,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "How we work, every project",
+       "size": 45,
+       "tag": "h2"
+      },
+      "left": 32,
+      "right": 55,
+      "textLeft": 32,
+      "textRight": 55,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.section-space",
+      "tag": "section",
+      "top": 2395,
+      "height": 1660,
+      "words": 38,
+      "media": 3,
+      "middle": 0,
+      "heading": {
+       "text": "Senior people, no pass-through",
+       "size": 45,
+       "tag": "h2"
+      },
+      "left": 32,
+      "right": 32,
+      "textLeft": 32,
+      "textRight": 88,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.section-space.bg-muted",
+      "tag": "section",
+      "top": 4055,
+      "height": 1435,
+      "words": 127,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Tools we actually use",
+       "size": 45,
+       "tag": "h2"
+      },
+      "left": 32,
+      "right": 33,
+      "textLeft": 32,
+      "textRight": 33,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.dark.text-foreground",
+      "tag": "section",
+      "top": 5490,
+      "height": 1048,
+      "words": 37,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Let's build something worth shipping",
+       "size": 45,
+       "tag": "h2"
+      },
+      "left": 32,
+      "right": 171,
+      "textLeft": 32,
+      "textRight": 171,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "footer.dark.bg-background",
+      "tag": "footer",
+      "top": 6538,
+      "height": 808,
+      "words": 38,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "SAS3D",
+       "size": 100,
+       "tag": "a"
+      },
+      "left": 32,
+      "right": 32,
+      "textLeft": 32,
+      "textRight": 47,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [],
+    "h1s": [
+     {
+      "text": "A small team with a senior bar",
+      "size": 42,
+      "top": 160,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 32,
+      "n": 19
+     },
+     {
+      "x": 400,
+      "n": 3
+     },
+     {
+      "x": 388,
+      "n": 1
+     }
+    ],
+    "leftBlocks": 23,
+    "bodySize": 23,
+    "stage": false,
+    "explains": true,
+    "slivers": [],
+    "voidShare": 0,
+    "voidBox": null
+   },
+   "app": null,
+   "consoleErrors": []
+  },
+  {
+   "width": 390,
+   "height": 844,
+   "load": "load",
+   "screens": 10,
+   "filled": [
+    0.57,
+    0.68,
+    1,
+    0.67,
+    0.78,
+    0.83,
+    1,
+    1,
+    1,
+    0.89
+   ],
+   "motion": {
+    "elements": 39,
+    "css": 30,
+    "transitions": 9,
+    "scripted": 0,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 390,
+     "h": 844
+    },
+    "page": {
+     "height": 8403,
+     "screens": 10,
+     "words": 500,
+     "img": 9,
+     "video": 0,
+     "canvas": 0,
+     "svg": 13,
+     "sections": 6,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 6,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [
+      "image?url=%2Fimages%2Fteam%2Fsandeep_profile.png",
+      "image?url=%2Fimages%2Fteam%2Fabhishek.jpeg&w=640",
+      "image?url=%2Fimages%2Fteam%2Fshubham.jpeg&w=640&",
+      "image?url=%2Fimages%2Fprojects%2Ffood_2.png&w=64",
+      "image?url=%2Fimages%2Fprojects%2Fstreamify_2.png",
+      "image?url=%2Fimages%2Fprojects%2Fheart_2.png&w=6"
+     ],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "A small team with a senior bar",
+     "words": 7,
+     "chars": 30,
+     "lines": 2,
+     "size": 33.3,
+     "vw": 8.5,
+     "font": "Work Sans",
+     "weight": 300,
+     "tracking": -0.035,
+     "leading": 1.05,
+     "upper": false,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "center",
+     "widthRatio": 0.9,
+     "top": 128,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "A small team with a senior bar",
+     "words": 7,
+     "lines": 2,
+     "size": 33.3,
+     "font": "Work Sans"
+    },
+    "headings": [
+     {
+      "text": "A small team with a senior bar",
+      "words": 7,
+      "chars": 30,
+      "lines": 2,
+      "size": 33.3,
+      "vw": 8.5,
+      "font": "Work Sans",
+      "weight": 300,
+      "tracking": -0.035,
+      "leading": 1.05,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 128,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "2026",
+      "words": 1,
+      "chars": 4,
+      "lines": 1,
+      "size": 33.3,
+      "vw": 8.5,
+      "font": "Work Sans",
+      "weight": 300,
+      "tracking": -0.035,
+      "leading": 1.05,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.42,
+      "top": 477,
+      "tag": "dd",
+      "kind": "statement"
+     },
+     {
+      "text": "3",
+      "words": 1,
+      "chars": 1,
+      "lines": 1,
+      "size": 33.3,
+      "vw": 8.5,
+      "font": "Work Sans",
+      "weight": 300,
+      "tracking": -0.035,
+      "leading": 1.05,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.42,
+      "top": 477,
+      "tag": "dd",
+      "kind": "statement"
+     },
+     {
+      "text": "1.5+",
+      "words": 1,
+      "chars": 4,
+      "lines": 1,
+      "size": 33.3,
+      "vw": 8.5,
+      "font": "Work Sans",
+      "weight": 300,
+      "tracking": -0.035,
+      "leading": 1.05,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.42,
+      "top": 566,
+      "tag": "dd",
+      "kind": "statement"
+     },
+     {
+      "text": "9+",
+      "words": 1,
+      "chars": 2,
+      "lines": 1,
+      "size": 33.3,
+      "vw": 8.5,
+      "font": "Work Sans",
+      "weight": 300,
+      "tracking": -0.035,
+      "leading": 1.05,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.42,
+      "top": 566,
+      "tag": "dd",
+      "kind": "statement"
+     },
+     {
+      "text": "Our story",
+      "words": 2,
+      "chars": 9,
+      "lines": 1,
+      "size": 33.3,
+      "vw": 8.5,
+      "font": "Work Sans",
+      "weight": 300,
+      "tracking": -0.035,
+      "leading": 1.05,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 687,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "How we work, every project",
+      "words": 5,
+      "chars": 26,
+      "lines": 2,
+      "size": 33.3,
+      "vw": 8.5,
+      "font": "Work Sans",
+      "weight": 300,
+      "tracking": -0.035,
+      "leading": 1.05,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 1732,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Senior people, no pass-through",
+      "words": 4,
+      "chars": 30,
+      "lines": 2,
+      "size": 33.3,
+      "vw": 8.5,
+      "font": "Work Sans",
+      "weight": 300,
+      "tracking": -0.035,
+      "leading": 1.05,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 2647,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Tools we actually use",
+      "words": 4,
+      "chars": 21,
+      "lines": 1,
+      "size": 33.3,
+      "vw": 8.5,
+      "font": "Work Sans",
+      "weight": 300,
+      "tracking": -0.035,
+      "leading": 1.05,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 4732,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Let's build something worth shipping",
+      "words": 5,
+      "chars": 36,
+      "lines": 2,
+      "size": 33.3,
+      "vw": 8.5,
+      "font": "Work Sans",
+      "weight": 300,
+      "tracking": -0.035,
+      "leading": 1.05,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 7065,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "SAS3D",
+      "words": 1,
+      "chars": 5,
+      "lines": 1,
+      "size": 56,
+      "vw": 14.4,
+      "font": "Work Sans",
+      "weight": 300,
+      "tracking": -0.04,
+      "leading": 1,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.97,
+      "top": 7582,
+      "tag": "a",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 11,
+     "maxLines": 2,
+     "over2Lines": 0,
+     "statements": 4,
+     "centered": 0,
+     "medianWords": 2,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Work Sans",
+       "share": 1,
+       "mono": false
+      }
+     ],
+     "familyCount": 1,
+     "sizes": [
+      13,
+      17,
+      20,
+      33,
+      56
+     ],
+     "sizeCount": 5,
+     "notLoaded": [],
+     "body": {
+      "font": "Work Sans",
+      "size": 20.3,
+      "leading": 1.3,
+      "weight": 300,
+      "tracking": 0,
+      "contrast": 18.4
+     },
+     "measureChars": 34,
+     "max": {
+      "size": 56,
+      "vw": 14.4,
+      "font": "Work Sans",
+      "text": "SAS3D"
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0,
+     "centerShare": 0,
+     "smallText": 0
+    },
+    "eyebrows": [],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#ffffff",
+     "bodyBgHsl": {
+      "h": 0,
+      "s": 0,
+      "l": 1
+     },
+     "dark": false,
+     "sectionBgs": [
+      {
+       "color": "#0d060b",
+       "top": 64,
+       "hsl": {
+        "h": 317,
+        "s": 0.37,
+        "l": 0.04
+       }
+      },
+      {
+       "color": "#f6f1f4",
+       "top": 1636,
+       "hsl": {
+        "h": 324,
+        "s": 0.22,
+        "l": 0.95
+       }
+      },
+      {
+       "color": "#1b0e17",
+       "top": 6570,
+       "hsl": {
+        "h": 318,
+        "s": 0.32,
+        "l": 0.08
+       }
+      },
+      {
+       "color": "#470c35",
+       "top": 7009,
+       "hsl": {
+        "h": 318,
+        "s": 0.71,
+        "l": 0.16
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#101421",
+       "share": 0.56
+      },
+      {
+       "color": "#5f5660",
+       "share": 0.26
+      },
+      {
+       "color": "#ffffff",
+       "share": 0.16
+      },
+      {
+       "color": "#ab9fa8",
+       "share": 0.01
+      },
+      {
+       "color": "#0d060b",
+       "share": 0.01
+      }
+     ],
+     "button": {
+      "bg": "#ff488b",
+      "hsl": {
+       "h": 338,
+       "s": 1,
+       "l": 0.64
+      },
+      "fg": "#0d060b"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 1,
+     "inHero": 0,
+     "radius": 0,
+     "height": 52,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": []
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 0,
+     "hairlineSamples": [],
+     "outlinedBoxes": 0,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 0,
+     "boxRadius": 0,
+     "squareMedia": 6,
+     "roundedMedia": 0,
+     "mediaRadius": 0,
+     "textShadow": 0,
+     "cardRows": [
+      {
+       "count": 4,
+       "iconTopped": false,
+       "rounded": false,
+       "top": 7914
+      }
+     ]
+    },
+    "heroMedia": [],
+    "nav": {
+     "links": 1,
+     "fixed": true,
+     "height": 64,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "work sans"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 390,
+     "h": 844
+    },
+    "pageH": 8403,
+    "margins": {
+     "left": 20,
+     "right": 20
+    },
+    "sections": [
+     {
+      "sel": "section.dark.bg-background",
+      "tag": "section",
+      "top": 64,
+      "height": 317,
+      "words": 25,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "A small team with a senior bar",
+       "size": 33,
+       "tag": "h1"
+      },
+      "left": 20,
+      "right": 23,
+      "textLeft": 20,
+      "textRight": 23,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.section-space",
+      "tag": "section",
+      "top": 381,
+      "height": 1255,
+      "words": 161,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "2026",
+       "size": 33,
+       "tag": "dd"
+      },
+      "left": 20,
+      "right": 21,
+      "textLeft": 20,
+      "textRight": 21,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.section-space.bg-muted",
+      "tag": "section",
+      "top": 1636,
+      "height": 916,
+      "words": 82,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "How we work, every project",
+       "size": 33,
+       "tag": "h2"
+      },
+      "left": 20,
+      "right": 25,
+      "textLeft": 20,
+      "textRight": 25,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.section-space",
+      "tag": "section",
+      "top": 2551,
+      "height": 2084,
+      "words": 38,
+      "media": 3,
+      "middle": 0,
+      "heading": {
+       "text": "Senior people, no pass-through",
+       "size": 33,
+       "tag": "h2"
+      },
+      "left": 20,
+      "right": 20,
+      "textLeft": 20,
+      "textRight": 51,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.section-space.bg-muted",
+      "tag": "section",
+      "top": 4636,
+      "height": 1935,
+      "words": 127,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Tools we actually use",
+       "size": 33,
+       "tag": "h2"
+      },
+      "left": 20,
+      "right": 21,
+      "textLeft": 20,
+      "textRight": 21,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.dark.text-foreground",
+      "tag": "section",
+      "top": 6570,
+      "height": 1006,
+      "words": 37,
+      "media": 2,
+      "middle": 0,
+      "heading": {
+       "text": "Let's build something worth shipping",
+       "size": 33,
+       "tag": "h2"
+      },
+      "left": 0,
+      "right": 0,
+      "textLeft": 20,
+      "textRight": 29,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "footer.dark.bg-background",
+      "tag": "footer",
+      "top": 7576,
+      "height": 827,
+      "words": 38,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "SAS3D",
+       "size": 56,
+       "tag": "a"
+      },
+      "left": 26,
+      "right": 26,
+      "textLeft": 26,
+      "textRight": 27,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [],
+    "h1s": [
+     {
+      "text": "A small team with a senior bar",
+      "size": 33,
+      "top": 128,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 20,
+      "n": 23
+     }
+    ],
+    "leftBlocks": 23,
+    "bodySize": 20,
+    "stage": false,
+    "explains": true,
+    "slivers": [],
+    "voidShare": 0,
+    "voidBox": null
+   },
+   "app": null,
+   "consoleErrors": []
+  }
+ ],
+ "findings": [
+  {
+   "level": "WARN",
+   "id": "no-footage",
+   "width": 1440,
+   "message": "No video anywhere on the page.",
+   "fix": "Look for one honest clip with scripts/assets.mjs --video (the place, the material, the process) and use it as a muted loop with a poster frame. Defend its absence only if no clip fits the subject."
+  },
+  {
+   "level": "WARN",
+   "id": "first-action",
+   "width": 390,
+   "message": "No visible button in the first phone screen.",
+   "fix": "On a phone the first screen still holds the headline, the supporting sentence and the action; move navigation into one row or a menu so it does not push them down."
+  }
+ ],
+ "images": [
+  {
+   "viewport": "desktop",
+   "width": 1440,
+   "fold": "/home/shubham/shubham/sas3d/.taste-skill/after/r_about/desktop-fold.jpg",
+   "pages": [
+    "/home/shubham/shubham/sas3d/.taste-skill/after/r_about/desktop-page-01.jpg",
+    "/home/shubham/shubham/sas3d/.taste-skill/after/r_about/desktop-page-02.jpg"
+   ],
+   "film": []
+  },
+  {
+   "viewport": "tablet",
+   "width": 768,
+   "fold": "/home/shubham/shubham/sas3d/.taste-skill/after/r_about/tablet-fold.jpg",
+   "pages": [
+    "/home/shubham/shubham/sas3d/.taste-skill/after/r_about/tablet-page-01.jpg",
+    "/home/shubham/shubham/sas3d/.taste-skill/after/r_about/tablet-page-02.jpg"
+   ],
+   "film": []
+  },
+  {
+   "viewport": "mobile",
+   "width": 390,
+   "fold": "/home/shubham/shubham/sas3d/.taste-skill/after/r_about/mobile-fold.jpg",
+   "pages": [
+    "/home/shubham/shubham/sas3d/.taste-skill/after/r_about/mobile-page-01.jpg",
+    "/home/shubham/shubham/sas3d/.taste-skill/after/r_about/mobile-page-02.jpg"
+   ],
+   "film": []
+  }
+ ]
+}

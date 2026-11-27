@@ -1,0 +1,1310 @@
+{
+ "url": "http://localhost:3101/terms-conditions",
+ "at": "2026-11-03T07:56:36.048Z",
+ "allow": [],
+ "viewports": [
+  {
+   "width": 1440,
+   "height": 900,
+   "load": "load",
+   "screens": 8,
+   "filled": [
+    0.7,
+    0.57,
+    0.51,
+    0.61,
+    0.57,
+    0.6,
+    0.6,
+    0.76
+   ],
+   "motion": {
+    "elements": 7,
+    "css": 0,
+    "transitions": 7,
+    "scripted": 0,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 1440,
+     "h": 900
+    },
+    "page": {
+     "height": 7130,
+     "screens": 7.9,
+     "words": 1417,
+     "img": 0,
+     "video": 0,
+     "canvas": 0,
+     "svg": 8,
+     "sections": 22,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 0,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "Terms and Conditions",
+     "words": 3,
+     "chars": 20,
+     "lines": 1,
+     "size": 77.8,
+     "vw": 5.4,
+     "font": "Work Sans",
+     "weight": 300,
+     "tracking": -0.035,
+     "leading": 1,
+     "upper": false,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "left",
+     "widthRatio": 0.55,
+     "top": 160,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "Terms and Conditions",
+     "words": 3,
+     "lines": 1,
+     "size": 77.8,
+     "font": "Work Sans"
+    },
+    "headings": [
+     {
+      "text": "Terms and Conditions",
+      "words": 3,
+      "chars": 20,
+      "lines": 1,
+      "size": 77.8,
+      "vw": 5.4,
+      "font": "Work Sans",
+      "weight": 300,
+      "tracking": -0.035,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.55,
+      "top": 160,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "SAS3D",
+      "words": 1,
+      "chars": 5,
+      "lines": 1,
+      "size": 187.2,
+      "vw": 13,
+      "font": "Work Sans",
+      "weight": 300,
+      "tracking": -0.04,
+      "leading": 1,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.66,
+      "top": 6802,
+      "tag": "a",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 2,
+     "maxLines": 1,
+     "over2Lines": 0,
+     "statements": 0,
+     "centered": 0,
+     "medianWords": 1,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Work Sans",
+       "share": 1,
+       "mono": false
+      }
+     ],
+     "familyCount": 1,
+     "sizes": [
+      14,
+      19,
+      26,
+      78,
+      187
+     ],
+     "sizeCount": 5,
+     "notLoaded": [],
+     "body": {
+      "font": "Work Sans",
+      "size": 19,
+      "leading": 1.55,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 18.4
+     },
+     "measureChars": 82,
+     "max": {
+      "size": 187.2,
+      "vw": 13,
+      "font": "Work Sans",
+      "text": "SAS3D"
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0,
+     "centerShare": 0,
+     "smallText": 0
+    },
+    "eyebrows": [],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#ffffff",
+     "bodyBgHsl": {
+      "h": 0,
+      "s": 0,
+      "l": 1
+     },
+     "dark": false,
+     "sectionBgs": [
+      {
+       "color": "#0d060b",
+       "top": 64,
+       "hsl": {
+        "h": 317,
+        "s": 0.37,
+        "l": 0.04
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#101421",
+       "share": 0.91
+      },
+      {
+       "color": "#5f5660",
+       "share": 0.05
+      },
+      {
+       "color": "#ffffff",
+       "share": 0.02
+      },
+      {
+       "color": "#ab9fa8",
+       "share": 0.01
+      },
+      {
+       "color": "#0d060b",
+       "share": 0
+      }
+     ],
+     "button": {
+      "bg": "#ff488b",
+      "hsl": {
+       "h": 338,
+       "s": 1,
+       "l": 0.64
+      },
+      "fg": "#0d060b"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 1,
+     "inHero": 1,
+     "radius": 0,
+     "height": 44,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "Get in touch"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 0,
+     "hairlineSamples": [],
+     "outlinedBoxes": 0,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 0,
+     "boxRadius": 0,
+     "squareMedia": 0,
+     "roundedMedia": 0,
+     "mediaRadius": 0,
+     "textShadow": 0,
+     "cardRows": []
+    },
+    "heroMedia": [],
+    "nav": {
+     "links": 7,
+     "fixed": true,
+     "height": 64,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "work sans"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 1440,
+     "h": 900
+    },
+    "pageH": 7130,
+    "margins": {
+     "left": 48,
+     "right": 36
+    },
+    "sections": [
+     {
+      "sel": "section.dark.bg-background",
+      "tag": "section",
+      "top": 64,
+      "height": 286,
+      "words": 8,
+      "media": 0,
+      "middle": 194,
+      "heading": {
+       "text": "Terms and Conditions",
+       "size": 78,
+       "tag": "h1"
+      },
+      "left": 32,
+      "right": 190,
+      "textLeft": 32,
+      "textRight": 190,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "div.frame.grid",
+      "tag": "div",
+      "top": 350,
+      "height": 6146,
+      "words": 1428,
+      "media": 0,
+      "middle": 191,
+      "heading": {
+       "text": "1. Introduction",
+       "size": 26,
+       "tag": "h2"
+      },
+      "left": 56,
+      "right": 33,
+      "textLeft": 56,
+      "textRight": 33,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": true,
+      "pinned": true
+     },
+     {
+      "sel": "footer.dark.bg-background",
+      "tag": "footer",
+      "top": 6496,
+      "height": 634,
+      "words": 38,
+      "media": 0,
+      "middle": 114,
+      "heading": {
+       "text": "SAS3D",
+       "size": 187,
+       "tag": "a"
+      },
+      "left": 32,
+      "right": 32,
+      "textLeft": 32,
+      "textRight": 138,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [],
+    "h1s": [
+     {
+      "text": "Terms and Conditions",
+      "size": 78,
+      "top": 160,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 625,
+      "n": 51
+     },
+     {
+      "x": 32,
+      "n": 1
+     }
+    ],
+    "leftBlocks": 52,
+    "bodySize": 19,
+    "stage": false,
+    "explains": true,
+    "slivers": [],
+    "voidShare": 0.13,
+    "voidBox": {
+     "x": 0,
+     "y": 300,
+     "w": 1440,
+     "h": 120
+    }
+   },
+   "app": null,
+   "consoleErrors": []
+  },
+  {
+   "width": 768,
+   "height": 1024,
+   "load": "load",
+   "screens": 8,
+   "filled": [
+    0.77,
+    0.5,
+    0.52,
+    0.5,
+    0.5,
+    0.48,
+    0.54,
+    0.69
+   ],
+   "motion": {
+    "elements": 7,
+    "css": 0,
+    "transitions": 7,
+    "scripted": 0,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 768,
+     "h": 1024
+    },
+    "page": {
+     "height": 7543,
+     "screens": 7.4,
+     "words": 1413,
+     "img": 0,
+     "video": 0,
+     "canvas": 0,
+     "svg": 8,
+     "sections": 22,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 0,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "Terms and Conditions",
+     "words": 3,
+     "chars": 20,
+     "lines": 1,
+     "size": 42,
+     "vw": 5.5,
+     "font": "Work Sans",
+     "weight": 300,
+     "tracking": -0.035,
+     "leading": 1,
+     "upper": false,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "center",
+     "widthRatio": 0.92,
+     "top": 160,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "Terms and Conditions",
+     "words": 3,
+     "lines": 1,
+     "size": 42,
+     "font": "Work Sans"
+    },
+    "headings": [
+     {
+      "text": "Terms and Conditions",
+      "words": 3,
+      "chars": 20,
+      "lines": 1,
+      "size": 42,
+      "vw": 5.5,
+      "font": "Work Sans",
+      "weight": 300,
+      "tracking": -0.035,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 160,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "SAS3D",
+      "words": 1,
+      "chars": 5,
+      "lines": 1,
+      "size": 99.8,
+      "vw": 13,
+      "font": "Work Sans",
+      "weight": 300,
+      "tracking": -0.04,
+      "leading": 1,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.98,
+      "top": 6743,
+      "tag": "a",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 2,
+     "maxLines": 1,
+     "over2Lines": 0,
+     "statements": 0,
+     "centered": 0,
+     "medianWords": 1,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Work Sans",
+       "share": 1,
+       "mono": false
+      }
+     ],
+     "familyCount": 1,
+     "sizes": [
+      13,
+      18,
+      23,
+      42,
+      100
+     ],
+     "sizeCount": 5,
+     "notLoaded": [],
+     "body": {
+      "font": "Work Sans",
+      "size": 17.9,
+      "leading": 1.55,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 18.4
+     },
+     "measureChars": 79,
+     "max": {
+      "size": 99.8,
+      "vw": 13,
+      "font": "Work Sans",
+      "text": "SAS3D"
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0,
+     "centerShare": 0,
+     "smallText": 0
+    },
+    "eyebrows": [],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#ffffff",
+     "bodyBgHsl": {
+      "h": 0,
+      "s": 0,
+      "l": 1
+     },
+     "dark": false,
+     "sectionBgs": [
+      {
+       "color": "#f6f1f4",
+       "top": 462,
+       "hsl": {
+        "h": 324,
+        "s": 0.22,
+        "l": 0.95
+       }
+      },
+      {
+       "color": "#0d060b",
+       "top": 6735,
+       "hsl": {
+        "h": 317,
+        "s": 0.37,
+        "l": 0.04
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#101421",
+       "share": 0.91
+      },
+      {
+       "color": "#5f5660",
+       "share": 0.05
+      },
+      {
+       "color": "#ffffff",
+       "share": 0.02
+      },
+      {
+       "color": "#ab9fa8",
+       "share": 0.01
+      },
+      {
+       "color": "#0d060b",
+       "share": 0
+      }
+     ],
+     "button": {
+      "bg": "#ff488b",
+      "hsl": {
+       "h": 338,
+       "s": 1,
+       "l": 0.64
+      },
+      "fg": "#0d060b"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 1,
+     "inHero": 1,
+     "radius": 0,
+     "height": 44,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "Get in touch"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 0,
+     "hairlineSamples": [],
+     "outlinedBoxes": 0,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 0,
+     "boxRadius": 0,
+     "squareMedia": 0,
+     "roundedMedia": 0,
+     "mediaRadius": 0,
+     "textShadow": 0,
+     "cardRows": [
+      {
+       "count": 4,
+       "iconTopped": false,
+       "rounded": false,
+       "top": 7079
+      }
+     ]
+    },
+    "heroMedia": [],
+    "nav": {
+     "links": 2,
+     "fixed": true,
+     "height": 64,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "work sans"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 768,
+     "h": 1024
+    },
+    "pageH": 7543,
+    "margins": {
+     "left": 32,
+     "right": 35
+    },
+    "sections": [
+     {
+      "sel": "section.dark.bg-background",
+      "tag": "section",
+      "top": 64,
+      "height": 302,
+      "words": 8,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Terms and Conditions",
+       "size": 42,
+       "tag": "h1"
+      },
+      "left": 32,
+      "right": 336,
+      "textLeft": 32,
+      "textRight": 336,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "aside.lg:col-span-4",
+      "tag": "aside",
+      "top": 462,
+      "height": 407,
+      "words": 29,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "On this page",
+       "size": 18,
+       "tag": "h2"
+      },
+      "left": 52,
+      "right": 52,
+      "textLeft": 52,
+      "textRight": 491,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "div.max-w-[70ch].lg:col-span-7",
+      "tag": "div",
+      "top": 917,
+      "height": 5722,
+      "words": 1364,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "1. Introduction",
+       "size": 23,
+       "tag": "h2"
+      },
+      "left": 32,
+      "right": 35,
+      "textLeft": 32,
+      "textRight": 35,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "footer.dark.bg-background",
+      "tag": "footer",
+      "top": 6735,
+      "height": 808,
+      "words": 38,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "SAS3D",
+       "size": 100,
+       "tag": "a"
+      },
+      "left": 32,
+      "right": 32,
+      "textLeft": 32,
+      "textRight": 47,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [],
+    "h1s": [
+     {
+      "text": "Terms and Conditions",
+      "size": 42,
+      "top": 160,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 32,
+      "n": 52
+     }
+    ],
+    "leftBlocks": 52,
+    "bodySize": 18,
+    "stage": false,
+    "explains": false,
+    "slivers": [],
+    "voidShare": 0,
+    "voidBox": null
+   },
+   "app": null,
+   "consoleErrors": []
+  },
+  {
+   "width": 390,
+   "height": 844,
+   "load": "load",
+   "screens": 12,
+   "filled": [
+    0.85,
+    0.6,
+    0.59,
+    0.52,
+    0.66,
+    0.7,
+    0.69,
+    0.6,
+    0.65,
+    0.65,
+    0.53,
+    0.89
+   ],
+   "motion": {
+    "elements": 11,
+    "css": 0,
+    "transitions": 11,
+    "scripted": 0,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 390,
+     "h": 844
+    },
+    "page": {
+     "height": 9800,
+     "screens": 11.6,
+     "words": 1410,
+     "img": 0,
+     "video": 0,
+     "canvas": 0,
+     "svg": 8,
+     "sections": 22,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 0,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "Terms and Conditions",
+     "words": 3,
+     "chars": 20,
+     "lines": 2,
+     "size": 42,
+     "vw": 10.8,
+     "font": "Work Sans",
+     "weight": 300,
+     "tracking": -0.035,
+     "leading": 1,
+     "upper": false,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "center",
+     "widthRatio": 0.9,
+     "top": 128,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "Terms and Conditions",
+     "words": 3,
+     "lines": 2,
+     "size": 42,
+     "font": "Work Sans"
+    },
+    "headings": [
+     {
+      "text": "Terms and Conditions",
+      "words": 3,
+      "chars": 20,
+      "lines": 2,
+      "size": 42,
+      "vw": 10.8,
+      "font": "Work Sans",
+      "weight": 300,
+      "tracking": -0.035,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 128,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "SAS3D",
+      "words": 1,
+      "chars": 5,
+      "lines": 1,
+      "size": 56,
+      "vw": 14.4,
+      "font": "Work Sans",
+      "weight": 300,
+      "tracking": -0.04,
+      "leading": 1,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.97,
+      "top": 8979,
+      "tag": "a",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 2,
+     "maxLines": 2,
+     "over2Lines": 0,
+     "statements": 0,
+     "centered": 0,
+     "medianWords": 1,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Work Sans",
+       "share": 1,
+       "mono": false
+      }
+     ],
+     "familyCount": 1,
+     "sizes": [
+      13,
+      17,
+      20,
+      42,
+      56
+     ],
+     "sizeCount": 5,
+     "notLoaded": [],
+     "body": {
+      "font": "Work Sans",
+      "size": 17,
+      "leading": 1.55,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 18.4
+     },
+     "measureChars": 41,
+     "max": {
+      "size": 56,
+      "vw": 14.4,
+      "font": "Work Sans",
+      "text": "SAS3D"
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0,
+     "centerShare": 0,
+     "smallText": 0
+    },
+    "eyebrows": [],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#ffffff",
+     "bodyBgHsl": {
+      "h": 0,
+      "s": 0,
+      "l": 1
+     },
+     "dark": false,
+     "sectionBgs": [
+      {
+       "color": "#0d060b",
+       "top": 64,
+       "hsl": {
+        "h": 317,
+        "s": 0.37,
+        "l": 0.04
+       }
+      },
+      {
+       "color": "#f6f1f4",
+       "top": 406,
+       "hsl": {
+        "h": 324,
+        "s": 0.22,
+        "l": 0.95
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#101421",
+       "share": 0.91
+      },
+      {
+       "color": "#5f5660",
+       "share": 0.05
+      },
+      {
+       "color": "#ffffff",
+       "share": 0.02
+      },
+      {
+       "color": "#ab9fa8",
+       "share": 0.01
+      },
+      {
+       "color": "#0d060b",
+       "share": 0
+      }
+     ],
+     "button": null,
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 0,
+     "inHero": 0,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": []
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 0,
+     "hairlineSamples": [],
+     "outlinedBoxes": 0,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 0,
+     "boxRadius": 0,
+     "squareMedia": 0,
+     "roundedMedia": 0,
+     "mediaRadius": 0,
+     "textShadow": 0,
+     "cardRows": [
+      {
+       "count": 4,
+       "iconTopped": false,
+       "rounded": false,
+       "top": 9311
+      }
+     ]
+    },
+    "heroMedia": [],
+    "nav": {
+     "links": 1,
+     "fixed": true,
+     "height": 64,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "work sans"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 390,
+     "h": 844
+    },
+    "pageH": 9800,
+    "margins": {
+     "left": 20,
+     "right": 21
+    },
+    "sections": [
+     {
+      "sel": "section.dark.bg-background",
+      "tag": "section",
+      "top": 64,
+      "height": 278,
+      "words": 8,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Terms and Conditions",
+       "size": 42,
+       "tag": "h1"
+      },
+      "left": 20,
+      "right": 116,
+      "textLeft": 20,
+      "textRight": 116,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "aside.lg:col-span-4",
+      "tag": "aside",
+      "top": 406,
+      "height": 348,
+      "words": 25,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "On this page",
+       "size": 17,
+       "tag": "h2"
+      },
+      "left": 40,
+      "right": 40,
+      "textLeft": 40,
+      "textRight": 136,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "div.max-w-[70ch].lg:col-span-7",
+      "tag": "div",
+      "top": 803,
+      "height": 8106,
+      "words": 1364,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "1. Introduction",
+       "size": 20,
+       "tag": "h2"
+      },
+      "left": 20,
+      "right": 21,
+      "textLeft": 20,
+      "textRight": 21,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "footer.dark.bg-background",
+      "tag": "footer",
+      "top": 8973,
+      "height": 827,
+      "words": 38,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "SAS3D",
+       "size": 56,
+       "tag": "a"
+      },
+      "left": 26,
+      "right": 26,
+      "textLeft": 26,
+      "textRight": 27,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [],
+    "h1s": [
+     {
+      "text": "Terms and Conditions",
+      "size": 42,
+      "top": 128,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 20,
+      "n": 52
+     }
+    ],
+    "leftBlocks": 52,
+    "bodySize": 17,
+    "stage": false,
+    "explains": false,
+    "slivers": [],
+    "voidShare": 0,
+    "voidBox": null
+   },
+   "app": null,
+   "consoleErrors": []
+  }
+ ],
+ "findings": [
+  {
+   "level": "FAIL",
+   "id": "few-pictures",
+   "width": 1440,
+   "message": "Only 0 picture(s) on the page (0 photographs, footage or raster images, 0 interface fragments). Drawings in SVG do not count.",
+   "fix": "Find real pictures of the subject's world with scripts/assets.mjs (photographs, archival images, maps, engravings, footage), download them to assets/ and give them room: a hero picture, one per section that has a subject, a full-width band. At least four, usually six to twelve."
+  },
+  {
+   "level": "WARN",
+   "id": "no-footage",
+   "width": 1440,
+   "message": "No video anywhere on the page.",
+   "fix": "Look for one honest clip with scripts/assets.mjs --video (the place, the material, the process) and use it as a muted loop with a poster frame. Defend its absence only if no clip fits the subject."
+  },
+  {
+   "level": "FAIL",
+   "id": "still-page",
+   "width": 1440,
+   "message": "Only 7 element(s) moved while the page loaded and scrolled.",
+   "fix": "Build the motion layer (SKILL.md step 9, references/motion.md): the signature move, an entrance for the parts of every section, feedback on every control, and one moving picture. Transform and opacity only, with a reduced-motion fallback."
+  },
+  {
+   "level": "WARN",
+   "id": "name-only-title",
+   "width": 768,
+   "message": "The h1 is a bare name (\"Terms and Conditions\") and nothing else on the first screen says what this is.",
+   "fix": "Keep the name if it leads, and give the line under it (18px or more) the plain words: what it is, for whom, where or when. In the study of 97 Sites of the Day, first screens that named nothing lost usability and content points.",
+   "alsoAt": [
+    390
+   ]
+  },
+  {
+   "level": "WARN",
+   "id": "first-action",
+   "width": 390,
+   "message": "No visible button in the first phone screen.",
+   "fix": "On a phone the first screen still holds the headline, the supporting sentence and the action; move navigation into one row or a menu so it does not push them down."
+  }
+ ],
+ "images": [
+  {
+   "viewport": "desktop",
+   "width": 1440,
+   "fold": "/home/shubham/shubham/sas3d/.taste-skill/after/r_terms-conditions/desktop-fold.jpg",
+   "pages": [
+    "/home/shubham/shubham/sas3d/.taste-skill/after/r_terms-conditions/desktop-page-01.jpg",
+    "/home/shubham/shubham/sas3d/.taste-skill/after/r_terms-conditions/desktop-page-02.jpg"
+   ],
+   "film": []
+  },
+  {
+   "viewport": "tablet",
+   "width": 768,
+   "fold": "/home/shubham/shubham/sas3d/.taste-skill/after/r_terms-conditions/tablet-fold.jpg",
+   "pages": [
+    "/home/shubham/shubham/sas3d/.taste-skill/after/r_terms-conditions/tablet-page-01.jpg",
+    "/home/shubham/shubham/sas3d/.taste-skill/after/r_terms-conditions/tablet-page-02.jpg"
+   ],
+   "film": []
+  },
+  {
+   "viewport": "mobile",
+   "width": 390,
+   "fold": "/home/shubham/shubham/sas3d/.taste-skill/after/r_terms-conditions/mobile-fold.jpg",
+   "pages": [
+    "/home/shubham/shubham/sas3d/.taste-skill/after/r_terms-conditions/mobile-page-01.jpg",
+    "/home/shubham/shubham/sas3d/.taste-skill/after/r_terms-conditions/mobile-page-02.jpg"
+   ],
+   "film": []
+  }
+ ]
+}

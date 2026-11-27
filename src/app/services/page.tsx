@@ -7,7 +7,9 @@ import { TechStack } from "@/components/sections/tech-stack";
 import { CtaSection } from "@/components/sections/cta-section";
 import { SectionHeading } from "@/components/sections/section-heading";
 import { Icon } from "@/components/icon";
+import { JsonLd } from "@/components/json-ld";
 import { services } from "@/data/services";
+import { servicesJsonLd } from "@/lib/structured-data";
 
 export const metadata: Metadata = {
   title: "Services",
@@ -18,6 +20,7 @@ export const metadata: Metadata = {
 export default function ServicesPage() {
   return (
     <>
+      <JsonLd data={servicesJsonLd} />
       <PageHeader
         eyebrow="Services"
         title="Everything you need to ship"

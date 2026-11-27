@@ -46,7 +46,10 @@ export function ContactForm() {
       const res = await fetch("/api/contact", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify(parsed.data),
+        body: JSON.stringify({
+          ...parsed.data,
+          website: new FormData(event.currentTarget).get("website"),
+        }),
       });
       if (!res.ok) throw new Error("Request failed");
       setStatus("success");
@@ -83,6 +86,16 @@ export function ContactForm() {
       noValidate
       className="flex flex-col gap-5 rounded-2xl border border-border p-6 sm:p-8"
     >
+      {/* Honeypot: hidden from people, filled in by bots. */}
+      <input
+        type="text"
+        name="website"
+        tabIndex={-1}
+        autoComplete="off"
+        aria-hidden="true"
+        className="absolute -left-[9999px] size-px opacity-0"
+      />
+
       <div className="grid gap-5 sm:grid-cols-2">
         <div className="flex flex-col gap-2">
           <Label htmlFor="name">Name</Label>

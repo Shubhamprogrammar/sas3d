@@ -1,0 +1,2132 @@
+{
+ "url": "http://localhost:3101/portfolio/launchflow-internal-ops",
+ "at": "2026-11-03T07:54:42.726Z",
+ "allow": [],
+ "viewports": [
+  {
+   "width": 1440,
+   "height": 900,
+   "load": "load",
+   "screens": 7,
+   "filled": [
+    1,
+    0.51,
+    0.67,
+    0.86,
+    0.8,
+    1,
+    0.89
+   ],
+   "motion": {
+    "elements": 23,
+    "css": 18,
+    "transitions": 5,
+    "scripted": 0,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 1440,
+     "h": 900
+    },
+    "page": {
+     "height": 5777,
+     "screens": 6.4,
+     "words": 262,
+     "img": 10,
+     "video": 0,
+     "canvas": 0,
+     "svg": 12,
+     "sections": 7,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 7,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [
+      "image?url=%2Fimages%2Fprojects%2Flaunchflow_1.pn",
+      "image?url=%2Fimages%2Fprojects%2Flaunchflow_1.pn",
+      "image?url=%2Fimages%2Fprojects%2Flaunchflow_2.pn",
+      "image?url=%2Fimages%2Fprojects%2Flaunchflow_3.pn",
+      "image?url=%2Fimages%2Fprojects%2Ffood_2.png&w=64",
+      "image?url=%2Fimages%2Fprojects%2Fstreamify_2.png",
+      "image?url=%2Fimages%2Fprojects%2Fheart_2.png&w=6"
+     ],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "Internal operations platform",
+     "words": 3,
+     "chars": 28,
+     "lines": 2,
+     "size": 77.8,
+     "vw": 5.4,
+     "font": "Work Sans",
+     "weight": 300,
+     "tracking": -0.035,
+     "leading": 1,
+     "upper": false,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "left",
+     "widthRatio": 0.55,
+     "top": 160,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "Internal operations platform",
+     "words": 3,
+     "lines": 2,
+     "size": 77.8,
+     "font": "Work Sans"
+    },
+    "headings": [
+     {
+      "text": "Internal operations platform",
+      "words": 3,
+      "chars": 28,
+      "lines": 2,
+      "size": 77.8,
+      "vw": 5.4,
+      "font": "Work Sans",
+      "weight": 300,
+      "tracking": -0.035,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.55,
+      "top": 160,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "Single source",
+      "words": 2,
+      "chars": 13,
+      "lines": 1,
+      "size": 64,
+      "vw": 4.4,
+      "font": "Work Sans",
+      "weight": 300,
+      "tracking": -0.035,
+      "leading": 1.05,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.3,
+      "top": 1376,
+      "tag": "dd",
+      "kind": "statement"
+     },
+     {
+      "text": "Streamlined",
+      "words": 1,
+      "chars": 11,
+      "lines": 1,
+      "size": 64,
+      "vw": 4.4,
+      "font": "Work Sans",
+      "weight": 300,
+      "tracking": -0.035,
+      "leading": 1.05,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.3,
+      "top": 1376,
+      "tag": "dd",
+      "kind": "statement"
+     },
+     {
+      "text": "End-to-end",
+      "words": 1,
+      "chars": 10,
+      "lines": 1,
+      "size": 64,
+      "vw": 4.4,
+      "font": "Work Sans",
+      "weight": 300,
+      "tracking": -0.035,
+      "leading": 1.05,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.3,
+      "top": 1376,
+      "tag": "dd",
+      "kind": "statement"
+     },
+     {
+      "text": "Our approach",
+      "words": 2,
+      "chars": 12,
+      "lines": 1,
+      "size": 64,
+      "vw": 4.4,
+      "font": "Work Sans",
+      "weight": 300,
+      "tracking": -0.035,
+      "leading": 1.05,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.38,
+      "top": 2126,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Selected visuals",
+      "words": 2,
+      "chars": 16,
+      "lines": 1,
+      "size": 64,
+      "vw": 4.4,
+      "font": "Work Sans",
+      "weight": 300,
+      "tracking": -0.035,
+      "leading": 1.05,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.96,
+      "top": 2700,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Next: CelebCart",
+      "words": 2,
+      "chars": 15,
+      "lines": 1,
+      "size": 64,
+      "vw": 4.4,
+      "font": "Work Sans",
+      "weight": 300,
+      "tracking": -0.035,
+      "leading": 1.05,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.96,
+      "top": 4113,
+      "tag": "a",
+      "kind": "heading"
+     },
+     {
+      "text": "Let's build something worth shipping",
+      "words": 5,
+      "chars": 36,
+      "lines": 2,
+      "size": 64,
+      "vw": 4.4,
+      "font": "Work Sans",
+      "weight": 300,
+      "tracking": -0.035,
+      "leading": 1.05,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.55,
+      "top": 4762,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "SAS3D",
+      "words": 1,
+      "chars": 5,
+      "lines": 1,
+      "size": 187.2,
+      "vw": 13,
+      "font": "Work Sans",
+      "weight": 300,
+      "tracking": -0.04,
+      "leading": 1,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.66,
+      "top": 5449,
+      "tag": "a",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 9,
+     "maxLines": 2,
+     "over2Lines": 0,
+     "statements": 3,
+     "centered": 0,
+     "medianWords": 2,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Work Sans",
+       "share": 1,
+       "mono": false
+      }
+     ],
+     "familyCount": 1,
+     "sizes": [
+      14,
+      19,
+      26,
+      64,
+      78,
+      187
+     ],
+     "sizeCount": 6,
+     "notLoaded": [],
+     "body": {
+      "font": "Work Sans",
+      "size": 19,
+      "leading": 1.55,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 7.9
+     },
+     "measureChars": 57,
+     "max": {
+      "size": 187.2,
+      "vw": 13,
+      "font": "Work Sans",
+      "text": "SAS3D"
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0,
+     "centerShare": 0,
+     "smallText": 0
+    },
+    "eyebrows": [],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#ffffff",
+     "bodyBgHsl": {
+      "h": 0,
+      "s": 0,
+      "l": 1
+     },
+     "dark": false,
+     "sectionBgs": [
+      {
+       "color": "#0d060b",
+       "top": 64,
+       "hsl": {
+        "h": 317,
+        "s": 0.37,
+        "l": 0.04
+       }
+      },
+      {
+       "color": "#1b0e17",
+       "top": 428,
+       "hsl": {
+        "h": 318,
+        "s": 0.32,
+        "l": 0.08
+       }
+      },
+      {
+       "color": "#f6f1f4",
+       "top": 1966,
+       "hsl": {
+        "h": 324,
+        "s": 0.22,
+        "l": 0.95
+       }
+      },
+      {
+       "color": "#470c35",
+       "top": 4682,
+       "hsl": {
+        "h": 318,
+        "s": 0.71,
+        "l": 0.16
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#101421",
+       "share": 0.61
+      },
+      {
+       "color": "#ffffff",
+       "share": 0.27
+      },
+      {
+       "color": "#ab9fa8",
+       "share": 0.08
+      },
+      {
+       "color": "#0d060b",
+       "share": 0.03
+      },
+      {
+       "color": "#5f5660",
+       "share": 0.02
+      }
+     ],
+     "button": {
+      "bg": "#ff488b",
+      "hsl": {
+       "h": 338,
+       "s": 1,
+       "l": 0.64
+      },
+      "fg": "#0d060b"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 2,
+     "inHero": 1,
+     "radius": 0,
+     "height": 44,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "Get in touch"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 0,
+     "hairlineSamples": [],
+     "outlinedBoxes": 0,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 0,
+     "boxRadius": 0,
+     "squareMedia": 7,
+     "roundedMedia": 0,
+     "mediaRadius": 0,
+     "textShadow": 0,
+     "cardRows": []
+    },
+    "heroMedia": [
+     {
+      "type": "img",
+      "ratio": 0.5
+     }
+    ],
+    "nav": {
+     "links": 7,
+     "fixed": true,
+     "height": 64,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "work sans"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 1440,
+     "h": 900
+    },
+    "pageH": 5777,
+    "margins": {
+     "left": 32,
+     "right": 32
+    },
+    "sections": [
+     {
+      "sel": "section.dark.bg-background",
+      "tag": "section",
+      "top": 64,
+      "height": 364,
+      "words": 9,
+      "media": 0,
+      "middle": 302,
+      "heading": {
+       "text": "Internal operations platform",
+       "size": 78,
+       "tag": "h1"
+      },
+      "left": 32,
+      "right": 102,
+      "textLeft": 32,
+      "textRight": 102,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.dark.bg-background",
+      "tag": "section",
+      "top": 428,
+      "height": 789,
+      "words": 14,
+      "media": 1,
+      "middle": 0,
+      "heading": null,
+      "left": 32,
+      "right": 32,
+      "textLeft": 32,
+      "textRight": 32,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.section-space",
+      "tag": "section",
+      "top": 1216,
+      "height": 750,
+      "words": 99,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Single source",
+       "size": 64,
+       "tag": "dd"
+      },
+      "left": 32,
+      "right": 143,
+      "textLeft": 32,
+      "textRight": 143,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.section-space.bg-muted",
+      "tag": "section",
+      "top": 1966,
+      "height": 574,
+      "words": 63,
+      "media": 0,
+      "middle": 359,
+      "heading": {
+       "text": "Our approach",
+       "size": 64,
+       "tag": "h2"
+      },
+      "left": 32,
+      "right": 41,
+      "textLeft": 32,
+      "textRight": 41,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.section-space",
+      "tag": "section",
+      "top": 2540,
+      "height": 1494,
+      "words": 7,
+      "media": 3,
+      "middle": 0,
+      "heading": {
+       "text": "Selected visuals",
+       "size": 64,
+       "tag": "h2"
+      },
+      "left": 32,
+      "right": 32,
+      "textLeft": 32,
+      "textRight": 962,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.bg-muted",
+      "tag": "section",
+      "top": 4033,
+      "height": 289,
+      "words": 6,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Next:",
+       "size": 64,
+       "tag": "span"
+      },
+      "left": 32,
+      "right": 975,
+      "textLeft": 32,
+      "textRight": 975,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.dark.text-foreground",
+      "tag": "section",
+      "top": 4322,
+      "height": 821,
+      "words": 37,
+      "media": 0,
+      "middle": 344,
+      "heading": {
+       "text": "Let's build something worth shipping",
+       "size": 64,
+       "tag": "h2"
+      },
+      "left": 32,
+      "right": 120,
+      "textLeft": 32,
+      "textRight": 220,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "footer.dark.bg-background",
+      "tag": "footer",
+      "top": 5143,
+      "height": 634,
+      "words": 38,
+      "media": 0,
+      "middle": 114,
+      "heading": {
+       "text": "SAS3D",
+       "size": 187,
+       "tag": "a"
+      },
+      "left": 32,
+      "right": 32,
+      "textLeft": 32,
+      "textRight": 138,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [],
+    "h1s": [
+     {
+      "text": "Internal operations platform",
+      "size": 78,
+      "top": 160,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 32,
+      "n": 7
+     },
+     {
+      "x": 744,
+      "n": 2
+     },
+     {
+      "x": 89,
+      "n": 1
+     }
+    ],
+    "leftBlocks": 10,
+    "bodySize": 19,
+    "stage": false,
+    "explains": true,
+    "slivers": [],
+    "voidShare": 0.07,
+    "voidBox": {
+     "x": 720,
+     "y": 120,
+     "w": 720,
+     "h": 120
+    }
+   },
+   "app": null,
+   "consoleErrors": []
+  },
+  {
+   "width": 768,
+   "height": 1024,
+   "load": "load",
+   "screens": 6,
+   "filled": [
+    0.87,
+    0.61,
+    0.73,
+    0.82,
+    0.83,
+    0.83
+   ],
+   "motion": {
+    "elements": 23,
+    "css": 18,
+    "transitions": 5,
+    "scripted": 0,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 768,
+     "h": 1024
+    },
+    "page": {
+     "height": 5539,
+     "screens": 5.4,
+     "words": 258,
+     "img": 10,
+     "video": 0,
+     "canvas": 0,
+     "svg": 12,
+     "sections": 7,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 7,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [
+      "image?url=%2Fimages%2Fprojects%2Flaunchflow_1.pn",
+      "image?url=%2Fimages%2Fprojects%2Flaunchflow_1.pn",
+      "image?url=%2Fimages%2Fprojects%2Flaunchflow_2.pn",
+      "image?url=%2Fimages%2Fprojects%2Flaunchflow_3.pn",
+      "image?url=%2Fimages%2Fprojects%2Ffood_2.png&w=25",
+      "image?url=%2Fimages%2Fprojects%2Fstreamify_2.png",
+      "image?url=%2Fimages%2Fprojects%2Fheart_2.png&w=2"
+     ],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "Internal operations platform",
+     "words": 3,
+     "chars": 28,
+     "lines": 1,
+     "size": 42,
+     "vw": 5.5,
+     "font": "Work Sans",
+     "weight": 300,
+     "tracking": -0.035,
+     "leading": 1,
+     "upper": false,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "center",
+     "widthRatio": 0.92,
+     "top": 160,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "Internal operations platform",
+     "words": 3,
+     "lines": 1,
+     "size": 42,
+     "font": "Work Sans"
+    },
+    "headings": [
+     {
+      "text": "Internal operations platform",
+      "words": 3,
+      "chars": 28,
+      "lines": 1,
+      "size": 42,
+      "vw": 5.5,
+      "font": "Work Sans",
+      "weight": 300,
+      "tracking": -0.035,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 160,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "Single source",
+      "words": 2,
+      "chars": 13,
+      "lines": 2,
+      "size": 45.4,
+      "vw": 5.9,
+      "font": "Work Sans",
+      "weight": 300,
+      "tracking": -0.035,
+      "leading": 1.05,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.28,
+      "top": 1021,
+      "tag": "dd",
+      "kind": "statement"
+     },
+     {
+      "text": "Streamlined",
+      "words": 1,
+      "chars": 11,
+      "lines": 2,
+      "size": 45.4,
+      "vw": 5.9,
+      "font": "Work Sans",
+      "weight": 300,
+      "tracking": -0.035,
+      "leading": 1.05,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.28,
+      "top": 1021,
+      "tag": "dd",
+      "kind": "statement"
+     },
+     {
+      "text": "End-to-end",
+      "words": 1,
+      "chars": 10,
+      "lines": 2,
+      "size": 45.4,
+      "vw": 5.9,
+      "font": "Work Sans",
+      "weight": 300,
+      "tracking": -0.035,
+      "leading": 1.05,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.28,
+      "top": 1021,
+      "tag": "dd",
+      "kind": "statement"
+     },
+     {
+      "text": "Our approach",
+      "words": 2,
+      "chars": 12,
+      "lines": 1,
+      "size": 45.4,
+      "vw": 5.9,
+      "font": "Work Sans",
+      "weight": 300,
+      "tracking": -0.035,
+      "leading": 1.05,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 1961,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Selected visuals",
+      "words": 2,
+      "chars": 16,
+      "lines": 1,
+      "size": 45.4,
+      "vw": 5.9,
+      "font": "Work Sans",
+      "weight": 300,
+      "tracking": -0.035,
+      "leading": 1.05,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 2584,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Next: CelebCart",
+      "words": 2,
+      "chars": 15,
+      "lines": 1,
+      "size": 45.4,
+      "vw": 5.9,
+      "font": "Work Sans",
+      "weight": 300,
+      "tracking": -0.035,
+      "leading": 1.05,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 3496,
+      "tag": "a",
+      "kind": "heading"
+     },
+     {
+      "text": "Let's build something worth shipping",
+      "words": 5,
+      "chars": 36,
+      "lines": 2,
+      "size": 45.4,
+      "vw": 5.9,
+      "font": "Work Sans",
+      "weight": 300,
+      "tracking": -0.035,
+      "leading": 1.05,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 4173,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "SAS3D",
+      "words": 1,
+      "chars": 5,
+      "lines": 1,
+      "size": 99.8,
+      "vw": 13,
+      "font": "Work Sans",
+      "weight": 300,
+      "tracking": -0.04,
+      "leading": 1,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.98,
+      "top": 4740,
+      "tag": "a",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 9,
+     "maxLines": 2,
+     "over2Lines": 0,
+     "statements": 3,
+     "centered": 0,
+     "medianWords": 2,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Work Sans",
+       "share": 1,
+       "mono": false
+      }
+     ],
+     "familyCount": 1,
+     "sizes": [
+      13,
+      18,
+      23,
+      42,
+      45,
+      100
+     ],
+     "sizeCount": 6,
+     "notLoaded": [],
+     "body": {
+      "font": "Work Sans",
+      "size": 17.9,
+      "leading": 1.55,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 7.9
+     },
+     "measureChars": 79,
+     "max": {
+      "size": 99.8,
+      "vw": 13,
+      "font": "Work Sans",
+      "text": "SAS3D"
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0,
+     "centerShare": 0,
+     "smallText": 0
+    },
+    "eyebrows": [],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#ffffff",
+     "bodyBgHsl": {
+      "h": 0,
+      "s": 0,
+      "l": 1
+     },
+     "dark": false,
+     "sectionBgs": [
+      {
+       "color": "#0d060b",
+       "top": 366,
+       "hsl": {
+        "h": 317,
+        "s": 0.37,
+        "l": 0.04
+       }
+      },
+      {
+       "color": "#1b0e17",
+       "top": 366,
+       "hsl": {
+        "h": 318,
+        "s": 0.32,
+        "l": 0.08
+       }
+      },
+      {
+       "color": "#f6f1f4",
+       "top": 1801,
+       "hsl": {
+        "h": 324,
+        "s": 0.22,
+        "l": 0.95
+       }
+      },
+      {
+       "color": "#470c35",
+       "top": 4093,
+       "hsl": {
+        "h": 318,
+        "s": 0.71,
+        "l": 0.16
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#101421",
+       "share": 0.62
+      },
+      {
+       "color": "#ffffff",
+       "share": 0.27
+      },
+      {
+       "color": "#ab9fa8",
+       "share": 0.07
+      },
+      {
+       "color": "#0d060b",
+       "share": 0.03
+      },
+      {
+       "color": "#5f5660",
+       "share": 0.02
+      }
+     ],
+     "button": {
+      "bg": "#ff488b",
+      "hsl": {
+       "h": 338,
+       "s": 1,
+       "l": 0.64
+      },
+      "fg": "#0d060b"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 2,
+     "inHero": 1,
+     "radius": 0,
+     "height": 44,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "Get in touch"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 0,
+     "hairlineSamples": [],
+     "outlinedBoxes": 0,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 0,
+     "boxRadius": 0,
+     "squareMedia": 7,
+     "roundedMedia": 0,
+     "mediaRadius": 0,
+     "textShadow": 0,
+     "cardRows": [
+      {
+       "count": 4,
+       "iconTopped": false,
+       "rounded": false,
+       "top": 5076
+      }
+     ]
+    },
+    "heroMedia": [
+     {
+      "type": "img",
+      "ratio": 0.3
+     }
+    ],
+    "nav": {
+     "links": 2,
+     "fixed": true,
+     "height": 64,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "work sans"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 768,
+     "h": 1024
+    },
+    "pageH": 5539,
+    "margins": {
+     "left": 32,
+     "right": 32
+    },
+    "sections": [
+     {
+      "sel": "section.dark.bg-background",
+      "tag": "section",
+      "top": 64,
+      "height": 302,
+      "words": 9,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Internal operations platform",
+       "size": 42,
+       "tag": "h1"
+      },
+      "left": 32,
+      "right": 226,
+      "textLeft": 32,
+      "textRight": 226,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.dark.bg-background",
+      "tag": "section",
+      "top": 366,
+      "height": 495,
+      "words": 14,
+      "media": 1,
+      "middle": 0,
+      "heading": null,
+      "left": 32,
+      "right": 32,
+      "textLeft": 32,
+      "textRight": 32,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.section-space",
+      "tag": "section",
+      "top": 861,
+      "height": 941,
+      "words": 99,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Single source",
+       "size": 45,
+       "tag": "dd"
+      },
+      "left": 32,
+      "right": 37,
+      "textLeft": 32,
+      "textRight": 37,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.section-space.bg-muted",
+      "tag": "section",
+      "top": 1801,
+      "height": 622,
+      "words": 63,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Our approach",
+       "size": 45,
+       "tag": "h2"
+      },
+      "left": 32,
+      "right": 59,
+      "textLeft": 32,
+      "textRight": 59,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.section-space",
+      "tag": "section",
+      "top": 2424,
+      "height": 992,
+      "words": 7,
+      "media": 3,
+      "middle": 0,
+      "heading": {
+       "text": "Selected visuals",
+       "size": 45,
+       "tag": "h2"
+      },
+      "left": 32,
+      "right": 32,
+      "textLeft": 32,
+      "textRight": 420,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.bg-muted",
+      "tag": "section",
+      "top": 3416,
+      "height": 267,
+      "words": 6,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Next:",
+       "size": 45,
+       "tag": "span"
+      },
+      "left": 32,
+      "right": 429,
+      "textLeft": 32,
+      "textRight": 429,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.dark.text-foreground",
+      "tag": "section",
+      "top": 3683,
+      "height": 1048,
+      "words": 37,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Let's build something worth shipping",
+       "size": 45,
+       "tag": "h2"
+      },
+      "left": 32,
+      "right": 171,
+      "textLeft": 32,
+      "textRight": 171,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "footer.dark.bg-background",
+      "tag": "footer",
+      "top": 4732,
+      "height": 808,
+      "words": 38,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "SAS3D",
+       "size": 100,
+       "tag": "a"
+      },
+      "left": 32,
+      "right": 32,
+      "textLeft": 32,
+      "textRight": 47,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [],
+    "h1s": [
+     {
+      "text": "Internal operations platform",
+      "size": 42,
+      "top": 160,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 32,
+      "n": 10
+     }
+    ],
+    "leftBlocks": 10,
+    "bodySize": 18,
+    "stage": false,
+    "explains": false,
+    "slivers": [],
+    "voidShare": 0,
+    "voidBox": null
+   },
+   "app": null,
+   "consoleErrors": []
+  },
+  {
+   "width": 390,
+   "height": 844,
+   "load": "load",
+   "screens": 7,
+   "filled": [
+    0.87,
+    0.51,
+    0.8,
+    0.69,
+    1,
+    0.86,
+    0.89
+   ],
+   "motion": {
+    "elements": 23,
+    "css": 18,
+    "transitions": 5,
+    "scripted": 0,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 390,
+     "h": 844
+    },
+    "page": {
+     "height": 5309,
+     "screens": 6.3,
+     "words": 255,
+     "img": 10,
+     "video": 0,
+     "canvas": 0,
+     "svg": 12,
+     "sections": 7,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 7,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [
+      "image?url=%2Fimages%2Fprojects%2Flaunchflow_1.pn",
+      "image?url=%2Fimages%2Fprojects%2Flaunchflow_1.pn",
+      "image?url=%2Fimages%2Fprojects%2Flaunchflow_2.pn",
+      "image?url=%2Fimages%2Fprojects%2Flaunchflow_3.pn",
+      "image?url=%2Fimages%2Fprojects%2Ffood_2.png&w=64",
+      "image?url=%2Fimages%2Fprojects%2Fstreamify_2.png",
+      "image?url=%2Fimages%2Fprojects%2Fheart_2.png&w=6"
+     ],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "Internal operations platform",
+     "words": 3,
+     "chars": 28,
+     "lines": 2,
+     "size": 33.3,
+     "vw": 8.5,
+     "font": "Work Sans",
+     "weight": 300,
+     "tracking": -0.035,
+     "leading": 1.05,
+     "upper": false,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "center",
+     "widthRatio": 0.9,
+     "top": 128,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "Internal operations platform",
+     "words": 3,
+     "lines": 2,
+     "size": 33.3,
+     "font": "Work Sans"
+    },
+    "headings": [
+     {
+      "text": "Internal operations platform",
+      "words": 3,
+      "chars": 28,
+      "lines": 2,
+      "size": 33.3,
+      "vw": 8.5,
+      "font": "Work Sans",
+      "weight": 300,
+      "tracking": -0.035,
+      "leading": 1.05,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 128,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "Single source",
+      "words": 2,
+      "chars": 13,
+      "lines": 1,
+      "size": 33.3,
+      "vw": 8.5,
+      "font": "Work Sans",
+      "weight": 300,
+      "tracking": -0.035,
+      "leading": 1.05,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 823,
+      "tag": "dd",
+      "kind": "statement"
+     },
+     {
+      "text": "Streamlined",
+      "words": 1,
+      "chars": 11,
+      "lines": 1,
+      "size": 33.3,
+      "vw": 8.5,
+      "font": "Work Sans",
+      "weight": 300,
+      "tracking": -0.035,
+      "leading": 1.05,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 924,
+      "tag": "dd",
+      "kind": "statement"
+     },
+     {
+      "text": "End-to-end",
+      "words": 1,
+      "chars": 10,
+      "lines": 1,
+      "size": 33.3,
+      "vw": 8.5,
+      "font": "Work Sans",
+      "weight": 300,
+      "tracking": -0.035,
+      "leading": 1.05,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 1025,
+      "tag": "dd",
+      "kind": "statement"
+     },
+     {
+      "text": "Our approach",
+      "words": 2,
+      "chars": 12,
+      "lines": 1,
+      "size": 33.3,
+      "vw": 8.5,
+      "font": "Work Sans",
+      "weight": 300,
+      "tracking": -0.035,
+      "leading": 1.05,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 1894,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Selected visuals",
+      "words": 2,
+      "chars": 16,
+      "lines": 1,
+      "size": 33.3,
+      "vw": 8.5,
+      "font": "Work Sans",
+      "weight": 300,
+      "tracking": -0.035,
+      "leading": 1.05,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 2526,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Next: CelebCart",
+      "words": 2,
+      "chars": 15,
+      "lines": 1,
+      "size": 33.3,
+      "vw": 8.5,
+      "font": "Work Sans",
+      "weight": 300,
+      "tracking": -0.035,
+      "leading": 1.05,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 3327,
+      "tag": "a",
+      "kind": "heading"
+     },
+     {
+      "text": "Let's build something worth shipping",
+      "words": 5,
+      "chars": 36,
+      "lines": 2,
+      "size": 33.3,
+      "vw": 8.5,
+      "font": "Work Sans",
+      "weight": 300,
+      "tracking": -0.035,
+      "leading": 1.05,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 3971,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "SAS3D",
+      "words": 1,
+      "chars": 5,
+      "lines": 1,
+      "size": 56,
+      "vw": 14.4,
+      "font": "Work Sans",
+      "weight": 300,
+      "tracking": -0.04,
+      "leading": 1,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.97,
+      "top": 4488,
+      "tag": "a",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 9,
+     "maxLines": 2,
+     "over2Lines": 0,
+     "statements": 3,
+     "centered": 0,
+     "medianWords": 2,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Work Sans",
+       "share": 1,
+       "mono": false
+      }
+     ],
+     "familyCount": 1,
+     "sizes": [
+      13,
+      17,
+      20,
+      33,
+      56
+     ],
+     "sizeCount": 5,
+     "notLoaded": [],
+     "body": {
+      "font": "Work Sans",
+      "size": 17,
+      "leading": 1.55,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 7.9
+     },
+     "measureChars": 41,
+     "max": {
+      "size": 56,
+      "vw": 14.4,
+      "font": "Work Sans",
+      "text": "SAS3D"
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0,
+     "centerShare": 0,
+     "smallText": 0
+    },
+    "eyebrows": [],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#ffffff",
+     "bodyBgHsl": {
+      "h": 0,
+      "s": 0,
+      "l": 1
+     },
+     "dark": false,
+     "sectionBgs": [
+      {
+       "color": "#0d060b",
+       "top": 64,
+       "hsl": {
+        "h": 317,
+        "s": 0.37,
+        "l": 0.04
+       }
+      },
+      {
+       "color": "#f6f1f4",
+       "top": 1798,
+       "hsl": {
+        "h": 324,
+        "s": 0.22,
+        "l": 0.95
+       }
+      },
+      {
+       "color": "#1b0e17",
+       "top": 3476,
+       "hsl": {
+        "h": 318,
+        "s": 0.32,
+        "l": 0.08
+       }
+      },
+      {
+       "color": "#470c35",
+       "top": 3915,
+       "hsl": {
+        "h": 318,
+        "s": 0.71,
+        "l": 0.16
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#101421",
+       "share": 0.62
+      },
+      {
+       "color": "#ffffff",
+       "share": 0.27
+      },
+      {
+       "color": "#ab9fa8",
+       "share": 0.07
+      },
+      {
+       "color": "#0d060b",
+       "share": 0.02
+      },
+      {
+       "color": "#5f5660",
+       "share": 0.02
+      }
+     ],
+     "button": {
+      "bg": "#ff488b",
+      "hsl": {
+       "h": 338,
+       "s": 1,
+       "l": 0.64
+      },
+      "fg": "#0d060b"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 1,
+     "inHero": 0,
+     "radius": 0,
+     "height": 52,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": []
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 0,
+     "hairlineSamples": [],
+     "outlinedBoxes": 0,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 0,
+     "boxRadius": 0,
+     "squareMedia": 7,
+     "roundedMedia": 0,
+     "mediaRadius": 0,
+     "textShadow": 0,
+     "cardRows": [
+      {
+       "count": 4,
+       "iconTopped": false,
+       "rounded": false,
+       "top": 4820
+      }
+     ]
+    },
+    "heroMedia": [
+     {
+      "type": "img",
+      "ratio": 0.18
+     }
+    ],
+    "nav": {
+     "links": 1,
+     "fixed": true,
+     "height": 64,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "work sans"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 390,
+     "h": 844
+    },
+    "pageH": 5309,
+    "margins": {
+     "left": 20,
+     "right": 20
+    },
+    "sections": [
+     {
+      "sel": "section.dark.bg-background",
+      "tag": "section",
+      "top": 64,
+      "height": 291,
+      "words": 9,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Internal operations platform",
+       "size": 33,
+       "tag": "h1"
+      },
+      "left": 20,
+      "right": 36,
+      "textLeft": 20,
+      "textRight": 36,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.dark.bg-background",
+      "tag": "section",
+      "top": 355,
+      "height": 372,
+      "words": 14,
+      "media": 1,
+      "middle": 0,
+      "heading": null,
+      "left": 20,
+      "right": 20,
+      "textLeft": 20,
+      "textRight": 74,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.section-space",
+      "tag": "section",
+      "top": 727,
+      "height": 1072,
+      "words": 99,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Single source",
+       "size": 33,
+       "tag": "dd"
+      },
+      "left": 20,
+      "right": 21,
+      "textLeft": 20,
+      "textRight": 21,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.section-space.bg-muted",
+      "tag": "section",
+      "top": 1798,
+      "height": 631,
+      "words": 63,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Our approach",
+       "size": 33,
+       "tag": "h2"
+      },
+      "left": 20,
+      "right": 37,
+      "textLeft": 20,
+      "textRight": 37,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.section-space",
+      "tag": "section",
+      "top": 2430,
+      "height": 841,
+      "words": 7,
+      "media": 3,
+      "middle": 0,
+      "heading": {
+       "text": "Selected visuals",
+       "size": 33,
+       "tag": "h2"
+      },
+      "left": 20,
+      "right": 20,
+      "textLeft": 20,
+      "textRight": 123,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.bg-muted",
+      "tag": "section",
+      "top": 3271,
+      "height": 205,
+      "words": 6,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Next:",
+       "size": 33,
+       "tag": "span"
+      },
+      "left": 20,
+      "right": 145,
+      "textLeft": 20,
+      "textRight": 145,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.dark.text-foreground",
+      "tag": "section",
+      "top": 3476,
+      "height": 1006,
+      "words": 37,
+      "media": 2,
+      "middle": 0,
+      "heading": {
+       "text": "Let's build something worth shipping",
+       "size": 33,
+       "tag": "h2"
+      },
+      "left": 0,
+      "right": 0,
+      "textLeft": 20,
+      "textRight": 29,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "footer.dark.bg-background",
+      "tag": "footer",
+      "top": 4482,
+      "height": 827,
+      "words": 38,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "SAS3D",
+       "size": 56,
+       "tag": "a"
+      },
+      "left": 26,
+      "right": 26,
+      "textLeft": 26,
+      "textRight": 27,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [],
+    "h1s": [
+     {
+      "text": "Internal operations platform",
+      "size": 33,
+      "top": 128,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 20,
+      "n": 10
+     }
+    ],
+    "leftBlocks": 10,
+    "bodySize": 17,
+    "stage": false,
+    "explains": false,
+    "slivers": [],
+    "voidShare": 0,
+    "voidBox": null
+   },
+   "app": null,
+   "consoleErrors": []
+  }
+ ],
+ "findings": [
+  {
+   "level": "WARN",
+   "id": "no-footage",
+   "width": 1440,
+   "message": "No video anywhere on the page.",
+   "fix": "Look for one honest clip with scripts/assets.mjs --video (the place, the material, the process) and use it as a muted loop with a poster frame. Defend its absence only if no clip fits the subject."
+  },
+  {
+   "level": "WARN",
+   "id": "name-only-title",
+   "width": 768,
+   "message": "The h1 is a bare name (\"Internal operations platform\") and nothing else on the first screen says what this is.",
+   "fix": "Keep the name if it leads, and give the line under it (18px or more) the plain words: what it is, for whom, where or when. In the study of 97 Sites of the Day, first screens that named nothing lost usability and content points.",
+   "alsoAt": [
+    390
+   ]
+  },
+  {
+   "level": "WARN",
+   "id": "first-action",
+   "width": 390,
+   "message": "No visible button in the first phone screen.",
+   "fix": "On a phone the first screen still holds the headline, the supporting sentence and the action; move navigation into one row or a menu so it does not push them down."
+  }
+ ],
+ "images": [
+  {
+   "viewport": "desktop",
+   "width": 1440,
+   "fold": "/home/shubham/shubham/sas3d/.taste-skill/after/r_portfolio_launchflow-internal-ops/desktop-fold.jpg",
+   "pages": [
+    "/home/shubham/shubham/sas3d/.taste-skill/after/r_portfolio_launchflow-internal-ops/desktop-page-01.jpg",
+    "/home/shubham/shubham/sas3d/.taste-skill/after/r_portfolio_launchflow-internal-ops/desktop-page-02.jpg"
+   ],
+   "film": []
+  },
+  {
+   "viewport": "tablet",
+   "width": 768,
+   "fold": "/home/shubham/shubham/sas3d/.taste-skill/after/r_portfolio_launchflow-internal-ops/tablet-fold.jpg",
+   "pages": [
+    "/home/shubham/shubham/sas3d/.taste-skill/after/r_portfolio_launchflow-internal-ops/tablet-page-01.jpg"
+   ],
+   "film": []
+  },
+  {
+   "viewport": "mobile",
+   "width": 390,
+   "fold": "/home/shubham/shubham/sas3d/.taste-skill/after/r_portfolio_launchflow-internal-ops/mobile-fold.jpg",
+   "pages": [
+    "/home/shubham/shubham/sas3d/.taste-skill/after/r_portfolio_launchflow-internal-ops/mobile-page-01.jpg"
+   ],
+   "film": []
+  }
+ ]
+}

@@ -5,9 +5,11 @@ import { notFound } from "next/navigation";
 import { ArrowLeft, ArrowUpRight } from "lucide-react";
 
 import { CtaSection } from "@/components/sections/cta-section";
+import { JsonLd } from "@/components/json-ld";
 import { SocialIcon } from "@/components/layout/social-icons";
 import { Badge } from "@/components/ui/badge";
 import { team, getTeamMember } from "@/data/team";
+import { teamMemberJsonLd } from "@/lib/structured-data";
 import { cn } from "@/lib/utils";
 
 export function generateStaticParams() {
@@ -44,6 +46,7 @@ export default async function TeamMemberPage({
 
   return (
     <>
+      <JsonLd data={teamMemberJsonLd(member)} />
       <section className="py-16">
         <div className="mx-auto max-w-6xl px-4 sm:px-6">
           <Link

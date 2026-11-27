@@ -7,9 +7,11 @@ import { PricingCards } from "@/components/sections/pricing-cards";
 import { Faq } from "@/components/sections/faq";
 import { CtaSection } from "@/components/sections/cta-section";
 import { SectionHeading } from "@/components/sections/section-heading";
+import { JsonLd } from "@/components/json-ld";
 import { Button } from "@/components/ui/button";
 import { engagementModels } from "@/data/pricing";
 import { TOOLS } from "@/lib/constants";
+import { pricingJsonLd } from "@/lib/structured-data";
 
 export const metadata: Metadata = {
   title: "Pricing",
@@ -20,6 +22,7 @@ export const metadata: Metadata = {
 export default function PricingPage() {
   return (
     <>
+      <JsonLd data={pricingJsonLd} />
       <PageHeader
         eyebrow="Pricing"
         title="Transparent, senior-grade pricing"

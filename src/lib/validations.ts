@@ -1,8 +1,8 @@
 import { z } from "zod";
 
 export const contactSchema = z.object({
-  name: z.string().min(2, "Please enter your name"),
-  email: z.string().email("Please enter a valid email"),
+  name: z.string().trim().min(2, "Please enter your name").max(100, "Name is too long"),
+  email: z.string().trim().email("Please enter a valid email").max(254, "Email is too long"),
   message: z
     .string()
     .min(10, "Message should be at least 10 characters")

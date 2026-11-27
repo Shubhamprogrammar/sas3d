@@ -1,0 +1,3562 @@
+{
+ "url": "http://localhost:3100/",
+ "at": "2026-11-03T07:14:46.276Z",
+ "allow": [],
+ "viewports": [
+  {
+   "width": 1440,
+   "height": 900,
+   "load": "load",
+   "screens": 12,
+   "filled": [
+    0.24,
+    0.74,
+    0.4,
+    0.63,
+    0.41,
+    0.56,
+    0.77,
+    0.41,
+    0.59,
+    0.58,
+    0.52,
+    0.54
+   ],
+   "motion": {
+    "elements": 1,
+    "css": 1,
+    "transitions": 0,
+    "scripted": 0,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 1440,
+     "h": 900
+    },
+    "page": {
+     "height": 11030,
+     "screens": 12.3,
+     "words": 1565,
+     "img": 6,
+     "video": 0,
+     "canvas": 0,
+     "svg": 133,
+     "sections": 12,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 6,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [
+      "image?url=%2Fimages%2Fprojects%2Ffood_1.png&w=64",
+      "image?url=%2Fimages%2Fprojects%2Fheart_1.png&w=6",
+      "image?url=%2Fimages%2Fprojects%2Fs_1.png&w=640&q",
+      "image?url=%2Fimages%2Fteam%2Fsandeep_profile.png",
+      "image?url=%2Fimages%2Fteam%2Fabhishek.jpeg&w=384",
+      "image?url=%2Fimages%2Fteam%2Fshubham.jpeg&w=384&"
+     ],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [
+      "★"
+     ],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "We design & build products people love to use.",
+     "words": 9,
+     "chars": 46,
+     "lines": 3,
+     "size": 72,
+     "vw": 5,
+     "font": "Geist",
+     "weight": 600,
+     "tracking": -0.025,
+     "leading": 1.05,
+     "upper": false,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "center",
+     "widthRatio": 0.62,
+     "top": 229,
+     "mixedFonts": [
+      "Geist",
+      "Instrument Serif italic"
+     ],
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "We design & build products people love to use.",
+     "words": 9,
+     "lines": 3,
+     "size": 72,
+     "font": "Geist"
+    },
+    "headings": [
+     {
+      "text": "We design & build products people love to use.",
+      "words": 9,
+      "chars": 46,
+      "lines": 3,
+      "size": 72,
+      "vw": 5,
+      "font": "Geist",
+      "weight": 600,
+      "tracking": -0.025,
+      "leading": 1.05,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.62,
+      "top": 229,
+      "mixedFonts": [
+       "Geist",
+       "Instrument Serif italic"
+      ],
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "1.5+",
+      "words": 1,
+      "chars": 4,
+      "lines": 1,
+      "size": 36,
+      "vw": 2.5,
+      "font": "Geist",
+      "weight": 600,
+      "tracking": -0.025,
+      "leading": 1.11,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.16,
+      "top": 822,
+      "tag": "span",
+      "kind": "heading"
+     },
+     {
+      "text": "9+",
+      "words": 1,
+      "chars": 2,
+      "lines": 1,
+      "size": 36,
+      "vw": 2.5,
+      "font": "Geist",
+      "weight": 600,
+      "tracking": -0.025,
+      "leading": 1.11,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.16,
+      "top": 822,
+      "tag": "span",
+      "kind": "heading"
+     },
+     {
+      "text": "8+",
+      "words": 1,
+      "chars": 2,
+      "lines": 1,
+      "size": 36,
+      "vw": 2.5,
+      "font": "Geist",
+      "weight": 600,
+      "tracking": -0.025,
+      "leading": 1.11,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.16,
+      "top": 822,
+      "tag": "span",
+      "kind": "heading"
+     },
+     {
+      "text": "4.9★",
+      "words": 1,
+      "chars": 4,
+      "lines": 1,
+      "size": 36,
+      "vw": 2.5,
+      "font": "Geist",
+      "weight": 600,
+      "tracking": -0.025,
+      "leading": 1.11,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.16,
+      "top": 822,
+      "tag": "span",
+      "kind": "heading"
+     },
+     {
+      "text": "Early milestones that build trust",
+      "words": 5,
+      "chars": 33,
+      "lines": 2,
+      "size": 48,
+      "vw": 3.3,
+      "font": "Geist",
+      "weight": 600,
+      "tracking": -0.025,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.47,
+      "top": 1175,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "A small team, a senior bar",
+      "words": 6,
+      "chars": 26,
+      "lines": 1,
+      "size": 48,
+      "vw": 3.3,
+      "font": "Geist",
+      "weight": 600,
+      "tracking": -0.025,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.39,
+      "top": 1845,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Services built for shipping",
+      "words": 4,
+      "chars": 27,
+      "lines": 1,
+      "size": 48,
+      "vw": 3.3,
+      "font": "Geist",
+      "weight": 600,
+      "tracking": -0.025,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.4,
+      "top": 2719,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Work that moved the numbers",
+      "words": 5,
+      "chars": 27,
+      "lines": 1,
+      "size": 48,
+      "vw": 3.3,
+      "font": "Geist",
+      "weight": 600,
+      "tracking": -0.025,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.46,
+      "top": 3923,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "A process that removes surprises",
+      "words": 5,
+      "chars": 32,
+      "lines": 2,
+      "size": 48,
+      "vw": 3.3,
+      "font": "Geist",
+      "weight": 600,
+      "tracking": -0.025,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.47,
+      "top": 4968,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Tools we actually use",
+      "words": 4,
+      "chars": 21,
+      "lines": 1,
+      "size": 48,
+      "vw": 3.3,
+      "font": "Geist",
+      "weight": 600,
+      "tracking": -0.025,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.32,
+      "top": 5989,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Clients who said yes",
+      "words": 4,
+      "chars": 20,
+      "lines": 1,
+      "size": 48,
+      "vw": 3.3,
+      "font": "Geist",
+      "weight": 600,
+      "tracking": -0.025,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.31,
+      "top": 6861,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Senior people, no pass-through",
+      "words": 4,
+      "chars": 30,
+      "lines": 2,
+      "size": 48,
+      "vw": 3.3,
+      "font": "Geist",
+      "weight": 600,
+      "tracking": -0.025,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.47,
+      "top": 7827,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Transparent, senior-grade pricing",
+      "words": 3,
+      "chars": 33,
+      "lines": 2,
+      "size": 48,
+      "vw": 3.3,
+      "font": "Geist",
+      "weight": 600,
+      "tracking": -0.025,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.47,
+      "top": 8696,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "From ₹10,900",
+      "words": 2,
+      "chars": 12,
+      "lines": 2,
+      "size": 36,
+      "vw": 2.5,
+      "font": "Geist",
+      "weight": 600,
+      "tracking": -0.025,
+      "leading": 1.11,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.15,
+      "top": 9021,
+      "tag": "span",
+      "kind": "heading"
+     },
+     {
+      "text": "From ₹25,999",
+      "words": 2,
+      "chars": 12,
+      "lines": 2,
+      "size": 36,
+      "vw": 2.5,
+      "font": "Geist",
+      "weight": 600,
+      "tracking": -0.025,
+      "leading": 1.11,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.15,
+      "top": 9021,
+      "tag": "span",
+      "kind": "heading"
+     },
+     {
+      "text": "From ₹6,500",
+      "words": 2,
+      "chars": 11,
+      "lines": 1,
+      "size": 36,
+      "vw": 2.5,
+      "font": "Geist",
+      "weight": 600,
+      "tracking": -0.025,
+      "leading": 1.11,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.15,
+      "top": 9021,
+      "tag": "span",
+      "kind": "heading"
+     },
+     {
+      "text": "Objections, answered",
+      "words": 2,
+      "chars": 20,
+      "lines": 2,
+      "size": 48,
+      "vw": 3.3,
+      "font": "Geist",
+      "weight": 600,
+      "tracking": -0.025,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.3,
+      "top": 9643,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Let's build something worth shipping.",
+      "words": 5,
+      "chars": 37,
+      "lines": 2,
+      "size": 48,
+      "vw": 3.3,
+      "font": "Geist",
+      "weight": 600,
+      "tracking": -0.025,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.4,
+      "top": 10248,
+      "tag": "h2",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 19,
+     "maxLines": 3,
+     "over2Lines": 1,
+     "statements": 0,
+     "centered": 0,
+     "medianWords": 4,
+     "mixedFontHeadings": 1
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Geist",
+       "share": 1,
+       "mono": false
+      },
+      {
+       "family": "Geist Mono",
+       "share": 0,
+       "mono": true
+      },
+      {
+       "family": "Instrument Serif",
+       "share": 0,
+       "mono": false
+      }
+     ],
+     "familyCount": 3,
+     "sizes": [
+      11,
+      12,
+      13,
+      14,
+      16,
+      18,
+      20,
+      24,
+      36,
+      48,
+      72
+     ],
+     "sizeCount": 11,
+     "notLoaded": [],
+     "body": {
+      "font": "Geist",
+      "size": 14,
+      "leading": 1.71,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 4.7
+     },
+     "measureChars": 41,
+     "max": {
+      "size": 72,
+      "vw": 5,
+      "font": "Geist",
+      "text": "We design & build products to use."
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [
+      "Geist Mono"
+     ],
+     "monoSamples": [
+      "01",
+      "02",
+      "03",
+      "04",
+      "05",
+      "06"
+     ],
+     "microLabels": 22,
+     "microLabelShare": 0.026,
+     "microSamples": [
+      "Highlights",
+      "About us",
+      "Our philosophy",
+      "Team size & structure",
+      "What we do",
+      "Case studies"
+     ],
+     "upperShare": 0.03,
+     "centerShare": 0,
+     "smallText": 40
+    },
+    "eyebrows": [
+     {
+      "text": "Available for new projects",
+      "above": "We design & build products people love t",
+      "upper": false,
+      "tracked": false,
+      "mono": false,
+      "pill": false,
+      "size": 14,
+      "top": 177
+     },
+     {
+      "text": "Highlights",
+      "above": "Early milestones that build trust",
+      "upper": true,
+      "tracked": true,
+      "mono": false,
+      "pill": false,
+      "size": 12,
+      "top": 1143
+     },
+     {
+      "text": "About us",
+      "above": "A small team, a senior bar",
+      "upper": true,
+      "tracked": true,
+      "mono": false,
+      "pill": false,
+      "size": 12,
+      "top": 1813
+     },
+     {
+      "text": "What we do",
+      "above": "Services built for shipping",
+      "upper": true,
+      "tracked": true,
+      "mono": false,
+      "pill": false,
+      "size": 12,
+      "top": 2687
+     },
+     {
+      "text": "Case studies",
+      "above": "Work that moved the numbers",
+      "upper": true,
+      "tracked": true,
+      "mono": false,
+      "pill": false,
+      "size": 12,
+      "top": 3891
+     },
+     {
+      "text": "How we work",
+      "above": "A process that removes surprises",
+      "upper": true,
+      "tracked": true,
+      "mono": false,
+      "pill": false,
+      "size": 12,
+      "top": 4936
+     },
+     {
+      "text": "Skills & tech stack",
+      "above": "Tools we actually use",
+      "upper": true,
+      "tracked": true,
+      "mono": false,
+      "pill": false,
+      "size": 12,
+      "top": 5957
+     },
+     {
+      "text": "Testimonials",
+      "above": "Clients who said yes",
+      "upper": true,
+      "tracked": true,
+      "mono": false,
+      "pill": false,
+      "size": 12,
+      "top": 6829
+     },
+     {
+      "text": "The team",
+      "above": "Senior people, no pass-through",
+      "upper": true,
+      "tracked": true,
+      "mono": false,
+      "pill": false,
+      "size": 12,
+      "top": 7795
+     },
+     {
+      "text": "Pricing",
+      "above": "Transparent, senior-grade pricing",
+      "upper": true,
+      "tracked": true,
+      "mono": false,
+      "pill": false,
+      "size": 12,
+      "top": 8664
+     },
+     {
+      "text": "A focused project, shipped fast",
+      "above": "From ₹10,900",
+      "upper": false,
+      "tracked": false,
+      "mono": false,
+      "pill": false,
+      "size": 14,
+      "top": 8977
+     },
+     {
+      "text": "End-to-end product delivery",
+      "above": "From ₹25,999",
+      "upper": false,
+      "tracked": false,
+      "mono": false,
+      "pill": false,
+      "size": 14,
+      "top": 8977
+     },
+     {
+      "text": "A senior team on call",
+      "above": "From ₹6,500",
+      "upper": false,
+      "tracked": false,
+      "mono": false,
+      "pill": false,
+      "size": 14,
+      "top": 8977
+     },
+     {
+      "text": "FAQ",
+      "above": "Objections, answered",
+      "upper": true,
+      "tracked": true,
+      "mono": false,
+      "pill": false,
+      "size": 12,
+      "top": 9611
+     },
+     {
+      "text": "Ready when you are",
+      "above": "Let's build something worth shipping.",
+      "upper": true,
+      "tracked": true,
+      "mono": false,
+      "pill": false,
+      "size": 12,
+      "top": 10220
+     }
+    ],
+    "numbered": [
+     {
+      "text": "01",
+      "size": 14,
+      "top": 5217
+     },
+     {
+      "text": "02",
+      "size": 14,
+      "top": 5217
+     },
+     {
+      "text": "03",
+      "size": 14,
+      "top": 5217
+     },
+     {
+      "text": "04",
+      "size": 14,
+      "top": 5436
+     },
+     {
+      "text": "05",
+      "size": 14,
+      "top": 5436
+     },
+     {
+      "text": "06",
+      "size": 14,
+      "top": 5436
+     }
+    ],
+    "color": {
+     "bodyBg": "#ffffff",
+     "bodyBgHsl": {
+      "h": 0,
+      "s": 0,
+      "l": 1
+     },
+     "dark": false,
+     "sectionBgs": [
+      {
+       "color": "#e5e5e5",
+       "top": 5184,
+       "hsl": {
+        "h": 0,
+        "s": 0,
+        "l": 0.9
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#737373",
+       "share": 0.62
+      },
+      {
+       "color": "#0a0a0a",
+       "share": 0.33
+      },
+      {
+       "color": "#ffffff",
+       "share": 0.04
+      },
+      {
+       "color": "#fafafa",
+       "share": 0
+      },
+      {
+       "color": "#171717",
+       "share": 0
+      }
+     ],
+     "button": {
+      "bg": "#ffffff",
+      "hsl": {
+       "h": 0,
+       "s": 0,
+       "l": 1
+      },
+      "fg": "#0a0a0a"
+     },
+     "lowContrast": [
+      {
+       "text": "Designers",
+       "ratio": 4.3,
+       "need": 4.5,
+       "size": 14,
+       "fg": "#737373",
+       "bg": "#f5f5f5"
+      },
+      {
+       "text": "Web Developers",
+       "ratio": 4.3,
+       "need": 4.5,
+       "size": 14,
+       "fg": "#737373",
+       "bg": "#f5f5f5"
+      },
+      {
+       "text": "Product Managers",
+       "ratio": 4.3,
+       "need": 4.5,
+       "size": 14,
+       "fg": "#737373",
+       "bg": "#f5f5f5"
+      },
+      {
+       "text": "Mobile Developers",
+       "ratio": 4.3,
+       "need": 4.5,
+       "size": 14,
+       "fg": "#737373",
+       "bg": "#f5f5f5"
+      },
+      {
+       "text": "Devops",
+       "ratio": 4.3,
+       "need": 4.5,
+       "size": 14,
+       "fg": "#737373",
+       "bg": "#f5f5f5"
+      },
+      {
+       "text": "AI Specialists",
+       "ratio": 4.3,
+       "need": 4.5,
+       "size": 14,
+       "fg": "#737373",
+       "bg": "#f5f5f5"
+      }
+     ]
+    },
+    "buttons": {
+     "count": 14,
+     "inHero": 3,
+     "radius": 10,
+     "height": 58,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "Get in touch",
+      "Book a free consultation",
+      "View our work"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 34,
+     "shadowOverlay": 0,
+     "shadowSamples": [
+      "div.mt-14.grid → rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0",
+      "div.flex.flex-col → rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0",
+      "div.flex.flex-col → rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0",
+      "div.flex.flex-col → rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0"
+     ],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 17,
+     "hairlineSamples": [
+      "header.sticky.top-0 1440px",
+      "figcaption.mt-auto.flex 307px",
+      "figcaption.mt-auto.flex 307px",
+      "figcaption.mt-auto.flex 307px",
+      "figcaption.mt-auto.flex 307px"
+     ],
+     "outlinedBoxes": 39,
+     "dashed": 0,
+     "blurred": 1,
+     "roundedBoxes": 48,
+     "boxRadius": 14,
+     "squareMedia": 0,
+     "roundedMedia": 6,
+     "mediaRadius": 14,
+     "textShadow": 0,
+     "cardRows": [
+      {
+       "count": 4,
+       "iconTopped": false,
+       "rounded": false,
+       "top": 790
+      },
+      {
+       "count": 4,
+       "iconTopped": true,
+       "rounded": true,
+       "top": 1391
+      },
+      {
+       "count": 6,
+       "iconTopped": true,
+       "rounded": true,
+       "top": 2887
+      },
+      {
+       "count": 3,
+       "iconTopped": true,
+       "rounded": true,
+       "top": 4091
+      },
+      {
+       "count": 6,
+       "iconTopped": false,
+       "rounded": false,
+       "top": 5185
+      },
+      {
+       "count": 6,
+       "iconTopped": true,
+       "rounded": true,
+       "top": 6157
+      },
+      {
+       "count": 6,
+       "iconTopped": true,
+       "rounded": true,
+       "top": 7029
+      },
+      {
+       "count": 3,
+       "iconTopped": false,
+       "rounded": true,
+       "top": 8043
+      }
+     ]
+    },
+    "heroMedia": [],
+    "nav": {
+     "links": 9,
+     "fixed": true,
+     "height": 65,
+     "floatingPill": false,
+     "blur": true
+    },
+    "fontsLoaded": [
+     "geist",
+     "geist mono",
+     "instrument serif"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 1440,
+     "h": 900
+    },
+    "pageH": 11030,
+    "margins": {
+     "left": 168,
+     "right": 190
+    },
+    "sections": [
+     {
+      "sel": "main.flex.flex-1",
+      "tag": "main",
+      "top": 65,
+      "height": 10511,
+      "words": 1536,
+      "media": 6,
+      "middle": 0,
+      "heading": {
+       "text": "We design & build products",
+       "size": 72,
+       "tag": "h1"
+      },
+      "left": 168,
+      "right": 168,
+      "textLeft": 168,
+      "textRight": 190,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "footer.border-t.border-border/60",
+      "tag": "footer",
+      "top": 10576,
+      "height": 454,
+      "words": 63,
+      "media": 0,
+      "middle": 148,
+      "heading": null,
+      "left": 168,
+      "right": 168,
+      "textLeft": 168,
+      "textRight": 168,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [],
+    "h1s": [
+     {
+      "text": "We design & build products people love to use.",
+      "size": 72,
+      "top": 229,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 168,
+      "n": 22
+     },
+     {
+      "x": 193,
+      "n": 20
+     },
+     {
+      "x": 566,
+      "n": 12
+     },
+     {
+      "x": 936,
+      "n": 11
+     },
+     {
+      "x": 635,
+      "n": 6
+     },
+     {
+      "x": 450,
+      "n": 4
+     },
+     {
+      "x": 473,
+      "n": 3
+     },
+     {
+      "x": 948,
+      "n": 3
+     },
+     {
+      "x": 232,
+      "n": 2
+     },
+     {
+      "x": 577,
+      "n": 2
+     },
+     {
+      "x": 753,
+      "n": 2
+     },
+     {
+      "x": 1033,
+      "n": 2
+     }
+    ],
+    "leftBlocks": 90,
+    "bodySize": 14,
+    "stage": false,
+    "explains": true,
+    "slivers": [],
+    "voidShare": 0.34,
+    "voidBox": {
+     "x": 780,
+     "y": 120,
+     "w": 660,
+     "h": 660
+    }
+   },
+   "app": null,
+   "consoleErrors": []
+  },
+  {
+   "width": 768,
+   "height": 1024,
+   "load": "load",
+   "screens": 12,
+   "filled": [
+    0.31,
+    0.66,
+    0.32,
+    0.59,
+    0.37,
+    0.36,
+    0.56,
+    0.62,
+    0.48,
+    0.37,
+    0.84,
+    0.42
+   ],
+   "motion": {
+    "elements": 1,
+    "css": 1,
+    "transitions": 0,
+    "scripted": 0,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 768,
+     "h": 1024
+    },
+    "page": {
+     "height": 14988,
+     "screens": 14.6,
+     "words": 1555,
+     "img": 6,
+     "video": 0,
+     "canvas": 0,
+     "svg": 133,
+     "sections": 12,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 6,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [
+      "image?url=%2Fimages%2Fprojects%2Ffood_1.png&w=82",
+      "image?url=%2Fimages%2Fprojects%2Fheart_1.png&w=8",
+      "image?url=%2Fimages%2Fprojects%2Fs_1.png&w=828&q",
+      "image?url=%2Fimages%2Fteam%2Fsandeep_profile.png",
+      "image?url=%2Fimages%2Fteam%2Fabhishek.jpeg&w=384",
+      "image?url=%2Fimages%2Fteam%2Fshubham.jpeg&w=384&"
+     ],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [
+      "★"
+     ],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "We design & build products people love to use.",
+     "words": 9,
+     "chars": 46,
+     "lines": 3,
+     "size": 60,
+     "vw": 7.8,
+     "font": "Geist",
+     "weight": 600,
+     "tracking": -0.025,
+     "leading": 1.05,
+     "upper": false,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "center",
+     "widthRatio": 0.94,
+     "top": 213,
+     "mixedFonts": [
+      "Geist",
+      "Instrument Serif italic"
+     ],
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "We design & build products people love to use.",
+     "words": 9,
+     "lines": 3,
+     "size": 60,
+     "font": "Geist"
+    },
+    "headings": [
+     {
+      "text": "We design & build products people love to use.",
+      "words": 9,
+      "chars": 46,
+      "lines": 3,
+      "size": 60,
+      "vw": 7.8,
+      "font": "Geist",
+      "weight": 600,
+      "tracking": -0.025,
+      "leading": 1.05,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.94,
+      "top": 213,
+      "mixedFonts": [
+       "Geist",
+       "Instrument Serif italic"
+      ],
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "1.5+",
+      "words": 1,
+      "chars": 4,
+      "lines": 1,
+      "size": 36,
+      "vw": 4.7,
+      "font": "Geist",
+      "weight": 600,
+      "tracking": -0.025,
+      "leading": 1.11,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.17,
+      "top": 836,
+      "tag": "span",
+      "kind": "heading"
+     },
+     {
+      "text": "9+",
+      "words": 1,
+      "chars": 2,
+      "lines": 1,
+      "size": 36,
+      "vw": 4.7,
+      "font": "Geist",
+      "weight": 600,
+      "tracking": -0.025,
+      "leading": 1.11,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.17,
+      "top": 836,
+      "tag": "span",
+      "kind": "heading"
+     },
+     {
+      "text": "8+",
+      "words": 1,
+      "chars": 2,
+      "lines": 1,
+      "size": 36,
+      "vw": 4.7,
+      "font": "Geist",
+      "weight": 600,
+      "tracking": -0.025,
+      "leading": 1.11,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.17,
+      "top": 836,
+      "tag": "span",
+      "kind": "heading"
+     },
+     {
+      "text": "4.9★",
+      "words": 1,
+      "chars": 4,
+      "lines": 1,
+      "size": 36,
+      "vw": 4.7,
+      "font": "Geist",
+      "weight": 600,
+      "tracking": -0.025,
+      "leading": 1.11,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.17,
+      "top": 836,
+      "tag": "span",
+      "kind": "heading"
+     },
+     {
+      "text": "Early milestones that build trust",
+      "words": 5,
+      "chars": 33,
+      "lines": 2,
+      "size": 48,
+      "vw": 6.3,
+      "font": "Geist",
+      "weight": 600,
+      "tracking": -0.025,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.88,
+      "top": 1189,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "A small team, a senior bar",
+      "words": 6,
+      "chars": 26,
+      "lines": 1,
+      "size": 48,
+      "vw": 6.3,
+      "font": "Geist",
+      "weight": 600,
+      "tracking": -0.025,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.73,
+      "top": 2033,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Services built for shipping",
+      "words": 4,
+      "chars": 27,
+      "lines": 1,
+      "size": 48,
+      "vw": 6.3,
+      "font": "Geist",
+      "weight": 600,
+      "tracking": -0.025,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.74,
+      "top": 3217,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Work that moved the numbers",
+      "words": 5,
+      "chars": 27,
+      "lines": 2,
+      "size": 48,
+      "vw": 6.3,
+      "font": "Geist",
+      "weight": 600,
+      "tracking": -0.025,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.76,
+      "top": 4783,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "A process that removes surprises",
+      "words": 5,
+      "chars": 32,
+      "lines": 2,
+      "size": 48,
+      "vw": 6.3,
+      "font": "Geist",
+      "weight": 600,
+      "tracking": -0.025,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.88,
+      "top": 6621,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Tools we actually use",
+      "words": 4,
+      "chars": 21,
+      "lines": 1,
+      "size": 48,
+      "vw": 6.3,
+      "font": "Geist",
+      "weight": 600,
+      "tracking": -0.025,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.61,
+      "top": 7893,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Clients who said yes",
+      "words": 4,
+      "chars": 20,
+      "lines": 1,
+      "size": 48,
+      "vw": 6.3,
+      "font": "Geist",
+      "weight": 600,
+      "tracking": -0.025,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.58,
+      "top": 8975,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Senior people, no pass-through",
+      "words": 4,
+      "chars": 30,
+      "lines": 2,
+      "size": 48,
+      "vw": 6.3,
+      "font": "Geist",
+      "weight": 600,
+      "tracking": -0.025,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.75,
+      "top": 10208,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Transparent, senior-grade pricing",
+      "words": 3,
+      "chars": 33,
+      "lines": 2,
+      "size": 48,
+      "vw": 6.3,
+      "font": "Geist",
+      "weight": 600,
+      "tracking": -0.025,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.76,
+      "top": 11512,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "From ₹10,900",
+      "words": 2,
+      "chars": 12,
+      "lines": 1,
+      "size": 36,
+      "vw": 4.7,
+      "font": "Geist",
+      "weight": 600,
+      "tracking": -0.025,
+      "leading": 1.11,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.3,
+      "top": 11837,
+      "tag": "span",
+      "kind": "heading"
+     },
+     {
+      "text": "From ₹25,999",
+      "words": 2,
+      "chars": 12,
+      "lines": 1,
+      "size": 36,
+      "vw": 4.7,
+      "font": "Geist",
+      "weight": 600,
+      "tracking": -0.025,
+      "leading": 1.11,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.3,
+      "top": 12288,
+      "tag": "span",
+      "kind": "heading"
+     },
+     {
+      "text": "From ₹6,500",
+      "words": 2,
+      "chars": 11,
+      "lines": 1,
+      "size": 36,
+      "vw": 4.7,
+      "font": "Geist",
+      "weight": 600,
+      "tracking": -0.025,
+      "leading": 1.11,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.28,
+      "top": 12771,
+      "tag": "span",
+      "kind": "heading"
+     },
+     {
+      "text": "Objections, answered",
+      "words": 2,
+      "chars": 20,
+      "lines": 1,
+      "size": 48,
+      "vw": 6.3,
+      "font": "Geist",
+      "weight": 600,
+      "tracking": -0.025,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.61,
+      "top": 13321,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Let's build something worth shipping.",
+      "words": 5,
+      "chars": 37,
+      "lines": 2,
+      "size": 36,
+      "vw": 4.7,
+      "font": "Geist",
+      "weight": 600,
+      "tracking": -0.025,
+      "leading": 1.11,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.75,
+      "top": 14090,
+      "tag": "h2",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 19,
+     "maxLines": 3,
+     "over2Lines": 1,
+     "statements": 0,
+     "centered": 0,
+     "medianWords": 4,
+     "mixedFontHeadings": 1
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Geist",
+       "share": 1,
+       "mono": false
+      },
+      {
+       "family": "Geist Mono",
+       "share": 0,
+       "mono": true
+      },
+      {
+       "family": "Instrument Serif",
+       "share": 0,
+       "mono": false
+      }
+     ],
+     "familyCount": 3,
+     "sizes": [
+      11,
+      12,
+      14,
+      16,
+      18,
+      20,
+      24,
+      36,
+      48,
+      60
+     ],
+     "sizeCount": 10,
+     "notLoaded": [],
+     "body": {
+      "font": "Geist",
+      "size": 14,
+      "leading": 1.71,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 4.7
+     },
+     "measureChars": 40,
+     "max": {
+      "size": 60,
+      "vw": 7.8,
+      "font": "Geist",
+      "text": "We design & build products to use."
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [
+      "Geist Mono"
+     ],
+     "monoSamples": [
+      "01",
+      "02",
+      "03",
+      "04",
+      "05",
+      "06"
+     ],
+     "microLabels": 22,
+     "microLabelShare": 0.026,
+     "microSamples": [
+      "Highlights",
+      "About us",
+      "Our philosophy",
+      "Team size & structure",
+      "What we do",
+      "Case studies"
+     ],
+     "upperShare": 0.03,
+     "centerShare": 0,
+     "smallText": 39
+    },
+    "eyebrows": [
+     {
+      "text": "Available for new projects",
+      "above": "We design & build products people love t",
+      "upper": false,
+      "tracked": false,
+      "mono": false,
+      "pill": false,
+      "size": 14,
+      "top": 161
+     },
+     {
+      "text": "Highlights",
+      "above": "Early milestones that build trust",
+      "upper": true,
+      "tracked": true,
+      "mono": false,
+      "pill": false,
+      "size": 12,
+      "top": 1157
+     },
+     {
+      "text": "About us",
+      "above": "A small team, a senior bar",
+      "upper": true,
+      "tracked": true,
+      "mono": false,
+      "pill": false,
+      "size": 12,
+      "top": 2001
+     },
+     {
+      "text": "What we do",
+      "above": "Services built for shipping",
+      "upper": true,
+      "tracked": true,
+      "mono": false,
+      "pill": false,
+      "size": 12,
+      "top": 3185
+     },
+     {
+      "text": "Case studies",
+      "above": "Work that moved the numbers",
+      "upper": true,
+      "tracked": true,
+      "mono": false,
+      "pill": false,
+      "size": 12,
+      "top": 4751
+     },
+     {
+      "text": "How we work",
+      "above": "A process that removes surprises",
+      "upper": true,
+      "tracked": true,
+      "mono": false,
+      "pill": false,
+      "size": 12,
+      "top": 6589
+     },
+     {
+      "text": "Skills & tech stack",
+      "above": "Tools we actually use",
+      "upper": true,
+      "tracked": true,
+      "mono": false,
+      "pill": false,
+      "size": 12,
+      "top": 7861
+     },
+     {
+      "text": "Testimonials",
+      "above": "Clients who said yes",
+      "upper": true,
+      "tracked": true,
+      "mono": false,
+      "pill": false,
+      "size": 12,
+      "top": 8943
+     },
+     {
+      "text": "The team",
+      "above": "Senior people, no pass-through",
+      "upper": true,
+      "tracked": true,
+      "mono": false,
+      "pill": false,
+      "size": 12,
+      "top": 10176
+     },
+     {
+      "text": "Pricing",
+      "above": "Transparent, senior-grade pricing",
+      "upper": true,
+      "tracked": true,
+      "mono": false,
+      "pill": false,
+      "size": 12,
+      "top": 11480
+     },
+     {
+      "text": "A focused project, shipped fast",
+      "above": "From ₹10,900",
+      "upper": false,
+      "tracked": false,
+      "mono": false,
+      "pill": false,
+      "size": 14,
+      "top": 11793
+     },
+     {
+      "text": "End-to-end product delivery",
+      "above": "From ₹25,999",
+      "upper": false,
+      "tracked": false,
+      "mono": false,
+      "pill": false,
+      "size": 14,
+      "top": 12244
+     },
+     {
+      "text": "A senior team on call",
+      "above": "From ₹6,500",
+      "upper": false,
+      "tracked": false,
+      "mono": false,
+      "pill": false,
+      "size": 14,
+      "top": 12727
+     },
+     {
+      "text": "FAQ",
+      "above": "Objections, answered",
+      "upper": true,
+      "tracked": true,
+      "mono": false,
+      "pill": false,
+      "size": 12,
+      "top": 13289
+     },
+     {
+      "text": "Ready when you are",
+      "above": "Let's build something worth shipping.",
+      "upper": true,
+      "tracked": true,
+      "mono": false,
+      "pill": false,
+      "size": 12,
+      "top": 14062
+     }
+    ],
+    "numbered": [
+     {
+      "text": "01",
+      "size": 14,
+      "top": 6870
+     },
+     {
+      "text": "02",
+      "size": 14,
+      "top": 6870
+     },
+     {
+      "text": "03",
+      "size": 14,
+      "top": 7089
+     },
+     {
+      "text": "04",
+      "size": 14,
+      "top": 7089
+     },
+     {
+      "text": "05",
+      "size": 14,
+      "top": 7308
+     },
+     {
+      "text": "06",
+      "size": 14,
+      "top": 7308
+     }
+    ],
+    "color": {
+     "bodyBg": "#ffffff",
+     "bodyBgHsl": {
+      "h": 0,
+      "s": 0,
+      "l": 1
+     },
+     "dark": false,
+     "sectionBgs": [
+      {
+       "color": "#ffffff",
+       "top": 5674,
+       "hsl": {
+        "h": 0,
+        "s": 0,
+        "l": 1
+       }
+      },
+      {
+       "color": "#e5e5e5",
+       "top": 6837,
+       "hsl": {
+        "h": 0,
+        "s": 0,
+        "l": 0.9
+       }
+      },
+      {
+       "color": "#0a0a0a",
+       "top": 12179,
+       "hsl": {
+        "h": 0,
+        "s": 0,
+        "l": 0.04
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#737373",
+       "share": 0.62
+      },
+      {
+       "color": "#0a0a0a",
+       "share": 0.33
+      },
+      {
+       "color": "#ffffff",
+       "share": 0.04
+      },
+      {
+       "color": "#fafafa",
+       "share": 0
+      },
+      {
+       "color": "#171717",
+       "share": 0
+      }
+     ],
+     "button": {
+      "bg": "#ffffff",
+      "hsl": {
+       "h": 0,
+       "s": 0,
+       "l": 1
+      },
+      "fg": "#0a0a0a"
+     },
+     "lowContrast": [
+      {
+       "text": "Designers",
+       "ratio": 4.3,
+       "need": 4.5,
+       "size": 14,
+       "fg": "#737373",
+       "bg": "#f5f5f5"
+      },
+      {
+       "text": "Web Developers",
+       "ratio": 4.3,
+       "need": 4.5,
+       "size": 14,
+       "fg": "#737373",
+       "bg": "#f5f5f5"
+      },
+      {
+       "text": "Product Managers",
+       "ratio": 4.3,
+       "need": 4.5,
+       "size": 14,
+       "fg": "#737373",
+       "bg": "#f5f5f5"
+      },
+      {
+       "text": "Mobile Developers",
+       "ratio": 4.3,
+       "need": 4.5,
+       "size": 14,
+       "fg": "#737373",
+       "bg": "#f5f5f5"
+      },
+      {
+       "text": "Devops",
+       "ratio": 4.3,
+       "need": 4.5,
+       "size": 14,
+       "fg": "#737373",
+       "bg": "#f5f5f5"
+      },
+      {
+       "text": "AI Specialists",
+       "ratio": 4.3,
+       "need": 4.5,
+       "size": 14,
+       "fg": "#737373",
+       "bg": "#f5f5f5"
+      }
+     ]
+    },
+    "buttons": {
+     "count": 13,
+     "inHero": 2,
+     "radius": 10,
+     "height": 58,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "Book a free consultation",
+      "View our work"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 34,
+     "shadowOverlay": 0,
+     "shadowSamples": [
+      "div.mt-14.grid → rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0",
+      "div.flex.flex-col → rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0",
+      "div.flex.flex-col → rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0",
+      "div.flex.flex-col → rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0"
+     ],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 17,
+     "hairlineSamples": [
+      "header.sticky.top-0 768px",
+      "figcaption.mt-auto.flex 302px",
+      "figcaption.mt-auto.flex 302px",
+      "figcaption.mt-auto.flex 302px",
+      "figcaption.mt-auto.flex 302px"
+     ],
+     "outlinedBoxes": 39,
+     "dashed": 0,
+     "blurred": 1,
+     "roundedBoxes": 48,
+     "boxRadius": 14,
+     "squareMedia": 0,
+     "roundedMedia": 6,
+     "mediaRadius": 14,
+     "textShadow": 0,
+     "cardRows": [
+      {
+       "count": 4,
+       "iconTopped": false,
+       "rounded": false,
+       "top": 804
+      },
+      {
+       "count": 4,
+       "iconTopped": true,
+       "rounded": true,
+       "top": 1405
+      },
+      {
+       "count": 6,
+       "iconTopped": true,
+       "rounded": true,
+       "top": 3385
+      },
+      {
+       "count": 3,
+       "iconTopped": true,
+       "rounded": true,
+       "top": 4999
+      },
+      {
+       "count": 6,
+       "iconTopped": false,
+       "rounded": false,
+       "top": 6838
+      },
+      {
+       "count": 6,
+       "iconTopped": true,
+       "rounded": true,
+       "top": 8061
+      },
+      {
+       "count": 6,
+       "iconTopped": true,
+       "rounded": true,
+       "top": 9143
+      },
+      {
+       "count": 3,
+       "iconTopped": false,
+       "rounded": true,
+       "top": 10424
+      }
+     ]
+    },
+    "heroMedia": [],
+    "nav": {
+     "links": 1,
+     "fixed": true,
+     "height": 65,
+     "floatingPill": false,
+     "blur": true
+    },
+    "fontsLoaded": [
+     "geist",
+     "geist mono",
+     "instrument serif"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 768,
+     "h": 1024
+    },
+    "pageH": 14988,
+    "margins": {
+     "left": 24,
+     "right": 46
+    },
+    "sections": [
+     {
+      "sel": "main.flex.flex-1",
+      "tag": "main",
+      "top": 65,
+      "height": 14469,
+      "words": 1536,
+      "media": 6,
+      "middle": 0,
+      "heading": {
+       "text": "We design & build products",
+       "size": 60,
+       "tag": "h1"
+      },
+      "left": 24,
+      "right": 24,
+      "textLeft": 24,
+      "textRight": 46,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "footer.border-t.border-border/60",
+      "tag": "footer",
+      "top": 14534,
+      "height": 454,
+      "words": 63,
+      "media": 0,
+      "middle": 32,
+      "heading": null,
+      "left": 24,
+      "right": 24,
+      "textLeft": 24,
+      "textRight": 24,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [],
+    "h1s": [
+     {
+      "text": "We design & build products people love to use.",
+      "size": 60,
+      "top": 213,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 49,
+      "n": 33
+     },
+     {
+      "x": 24,
+      "n": 28
+     },
+     {
+      "x": 417,
+      "n": 20
+     },
+     {
+      "x": 396,
+      "n": 4
+     },
+     {
+      "x": 72,
+      "n": 2
+     },
+     {
+      "x": 429,
+      "n": 2
+     },
+     {
+      "x": 282,
+      "n": 1
+     }
+    ],
+    "leftBlocks": 90,
+    "bodySize": 14,
+    "stage": false,
+    "explains": true,
+    "slivers": [],
+    "voidShare": 0,
+    "voidBox": null
+   },
+   "app": null,
+   "consoleErrors": []
+  },
+  {
+   "width": 390,
+   "height": 844,
+   "load": "load",
+   "screens": 12,
+   "filled": [
+    0.36,
+    0.59,
+    0.48,
+    0.41,
+    0.39,
+    0.58,
+    0.43,
+    0.51,
+    0.55,
+    0.5,
+    0.52,
+    0.66
+   ],
+   "motion": {
+    "elements": 1,
+    "css": 1,
+    "transitions": 0,
+    "scripted": 0,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 390,
+     "h": 844
+    },
+    "page": {
+     "height": 21074,
+     "screens": 25,
+     "words": 1550,
+     "img": 6,
+     "video": 0,
+     "canvas": 0,
+     "svg": 133,
+     "sections": 12,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 3,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [
+      "image?url=%2Fimages%2Fprojects%2Ffood_1.png&w=64",
+      "image?url=%2Fimages%2Fprojects%2Fheart_1.png&w=6",
+      "image?url=%2Fimages%2Fprojects%2Fs_1.png&w=640&q"
+     ],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [
+      "★"
+     ],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "We design & build products people love to use.",
+     "words": 9,
+     "chars": 46,
+     "lines": 3,
+     "size": 36,
+     "vw": 9.2,
+     "font": "Geist",
+     "weight": 600,
+     "tracking": -0.025,
+     "leading": 1.05,
+     "upper": false,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "center",
+     "widthRatio": 0.92,
+     "top": 181,
+     "mixedFonts": [
+      "Geist",
+      "Instrument Serif italic"
+     ],
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "We design & build products people love to use.",
+     "words": 9,
+     "lines": 3,
+     "size": 36,
+     "font": "Geist"
+    },
+    "headings": [
+     {
+      "text": "We design & build products people love to use.",
+      "words": 9,
+      "chars": 46,
+      "lines": 3,
+      "size": 36,
+      "vw": 9.2,
+      "font": "Geist",
+      "weight": 600,
+      "tracking": -0.025,
+      "leading": 1.05,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 181,
+      "mixedFonts": [
+       "Geist",
+       "Instrument Serif italic"
+      ],
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "1.5+",
+      "words": 1,
+      "chars": 4,
+      "lines": 1,
+      "size": 30,
+      "vw": 7.7,
+      "font": "Geist",
+      "weight": 600,
+      "tracking": -0.025,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.33,
+      "top": 847,
+      "tag": "span",
+      "kind": "heading"
+     },
+     {
+      "text": "9+",
+      "words": 1,
+      "chars": 2,
+      "lines": 1,
+      "size": 30,
+      "vw": 7.7,
+      "font": "Geist",
+      "weight": 600,
+      "tracking": -0.025,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.33,
+      "top": 847,
+      "tag": "span",
+      "kind": "heading"
+     },
+     {
+      "text": "8+",
+      "words": 1,
+      "chars": 2,
+      "lines": 1,
+      "size": 30,
+      "vw": 7.7,
+      "font": "Geist",
+      "weight": 600,
+      "tracking": -0.025,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.33,
+      "top": 972,
+      "tag": "span",
+      "kind": "heading"
+     },
+     {
+      "text": "4.9★",
+      "words": 1,
+      "chars": 4,
+      "lines": 1,
+      "size": 30,
+      "vw": 7.7,
+      "font": "Geist",
+      "weight": 600,
+      "tracking": -0.025,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.33,
+      "top": 972,
+      "tag": "span",
+      "kind": "heading"
+     },
+     {
+      "text": "Early milestones that build trust",
+      "words": 5,
+      "chars": 33,
+      "lines": 2,
+      "size": 30,
+      "vw": 7.7,
+      "font": "Geist",
+      "weight": 600,
+      "tracking": -0.025,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 1321,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "A small team, a senior bar",
+      "words": 6,
+      "chars": 26,
+      "lines": 1,
+      "size": 30,
+      "vw": 7.7,
+      "font": "Geist",
+      "weight": 600,
+      "tracking": -0.025,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 2537,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Services built for shipping",
+      "words": 4,
+      "chars": 27,
+      "lines": 1,
+      "size": 30,
+      "vw": 7.7,
+      "font": "Geist",
+      "weight": 600,
+      "tracking": -0.025,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 4285,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Work that moved the numbers",
+      "words": 5,
+      "chars": 27,
+      "lines": 2,
+      "size": 30,
+      "vw": 7.7,
+      "font": "Geist",
+      "weight": 600,
+      "tracking": -0.025,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 7049,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "A full-stack food delivery platform with real-time ordering and admin controls",
+      "words": 11,
+      "chars": 78,
+      "lines": 3,
+      "size": 24,
+      "vw": 6.2,
+      "font": "Geist",
+      "weight": 600,
+      "tracking": -0.025,
+      "leading": 1.33,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.79,
+      "top": 7560,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "A community-driven initiative for spreading kindness and support",
+      "words": 8,
+      "chars": 64,
+      "lines": 3,
+      "size": 24,
+      "vw": 6.2,
+      "font": "Geist",
+      "weight": 600,
+      "tracking": -0.025,
+      "leading": 1.33,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.79,
+      "top": 8196,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "A graph-native commerce platform built for relationship intelligence",
+      "words": 8,
+      "chars": 68,
+      "lines": 3,
+      "size": 24,
+      "vw": 6.2,
+      "font": "Geist",
+      "weight": 600,
+      "tracking": -0.025,
+      "leading": 1.33,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.79,
+      "top": 8832,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "A process that removes surprises",
+      "words": 5,
+      "chars": 32,
+      "lines": 2,
+      "size": 30,
+      "vw": 7.7,
+      "font": "Geist",
+      "weight": 600,
+      "tracking": -0.025,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 9445,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Tools we actually use",
+      "words": 4,
+      "chars": 21,
+      "lines": 1,
+      "size": 30,
+      "vw": 7.7,
+      "font": "Geist",
+      "weight": 600,
+      "tracking": -0.025,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 11446,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Clients who said yes",
+      "words": 4,
+      "chars": 20,
+      "lines": 1,
+      "size": 30,
+      "vw": 7.7,
+      "font": "Geist",
+      "weight": 600,
+      "tracking": -0.025,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 13146,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Senior people, no pass-through",
+      "words": 4,
+      "chars": 30,
+      "lines": 2,
+      "size": 30,
+      "vw": 7.7,
+      "font": "Geist",
+      "weight": 600,
+      "tracking": -0.025,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 15224,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Transparent, senior-grade pricing",
+      "words": 3,
+      "chars": 33,
+      "lines": 2,
+      "size": 30,
+      "vw": 7.7,
+      "font": "Geist",
+      "weight": 600,
+      "tracking": -0.025,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 17006,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "From ₹10,900",
+      "words": 2,
+      "chars": 12,
+      "lines": 2,
+      "size": 36,
+      "vw": 9.2,
+      "font": "Geist",
+      "weight": 600,
+      "tracking": -0.025,
+      "leading": 1.11,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.56,
+      "top": 17379,
+      "tag": "span",
+      "kind": "heading"
+     },
+     {
+      "text": "From ₹25,999",
+      "words": 2,
+      "chars": 12,
+      "lines": 2,
+      "size": 36,
+      "vw": 9.2,
+      "font": "Geist",
+      "weight": 600,
+      "tracking": -0.025,
+      "leading": 1.11,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.56,
+      "top": 17870,
+      "tag": "span",
+      "kind": "heading"
+     },
+     {
+      "text": "From ₹6,500",
+      "words": 2,
+      "chars": 11,
+      "lines": 1,
+      "size": 36,
+      "vw": 9.2,
+      "font": "Geist",
+      "weight": 600,
+      "tracking": -0.025,
+      "leading": 1.11,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.55,
+      "top": 18393,
+      "tag": "span",
+      "kind": "heading"
+     },
+     {
+      "text": "Objections, answered",
+      "words": 2,
+      "chars": 20,
+      "lines": 1,
+      "size": 30,
+      "vw": 7.7,
+      "font": "Geist",
+      "weight": 600,
+      "tracking": -0.025,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 18943,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Let's build something worth shipping.",
+      "words": 5,
+      "chars": 37,
+      "lines": 2,
+      "size": 30,
+      "vw": 7.7,
+      "font": "Geist",
+      "weight": 600,
+      "tracking": -0.025,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.79,
+      "top": 19752,
+      "tag": "h2",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 22,
+     "maxLines": 3,
+     "over2Lines": 4,
+     "statements": 0,
+     "centered": 0,
+     "medianWords": 4,
+     "mixedFontHeadings": 1
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Geist",
+       "share": 1,
+       "mono": false
+      },
+      {
+       "family": "Geist Mono",
+       "share": 0,
+       "mono": true
+      },
+      {
+       "family": "Instrument Serif",
+       "share": 0,
+       "mono": false
+      }
+     ],
+     "familyCount": 3,
+     "sizes": [
+      11,
+      12,
+      14,
+      16,
+      18,
+      20,
+      24,
+      30,
+      36
+     ],
+     "sizeCount": 9,
+     "notLoaded": [],
+     "body": {
+      "font": "Geist",
+      "size": 14,
+      "leading": 1.71,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 4.7
+     },
+     "measureChars": 44,
+     "max": {
+      "size": 36,
+      "vw": 9.2,
+      "font": "Geist",
+      "text": "We design & build products to use."
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [
+      "Geist Mono"
+     ],
+     "monoSamples": [
+      "01",
+      "02",
+      "03",
+      "04",
+      "05",
+      "06"
+     ],
+     "microLabels": 22,
+     "microLabelShare": 0.026,
+     "microSamples": [
+      "Highlights",
+      "About us",
+      "Our philosophy",
+      "Team size & structure",
+      "What we do",
+      "Case studies"
+     ],
+     "upperShare": 0.03,
+     "centerShare": 0,
+     "smallText": 39
+    },
+    "eyebrows": [
+     {
+      "text": "Available for new projects",
+      "above": "We design & build products people love t",
+      "upper": false,
+      "tracked": false,
+      "mono": false,
+      "pill": false,
+      "size": 14,
+      "top": 129
+     },
+     {
+      "text": "Highlights",
+      "above": "Early milestones that build trust",
+      "upper": true,
+      "tracked": true,
+      "mono": false,
+      "pill": false,
+      "size": 12,
+      "top": 1289
+     },
+     {
+      "text": "About us",
+      "above": "A small team, a senior bar",
+      "upper": true,
+      "tracked": true,
+      "mono": false,
+      "pill": false,
+      "size": 12,
+      "top": 2505
+     },
+     {
+      "text": "What we do",
+      "above": "Services built for shipping",
+      "upper": true,
+      "tracked": true,
+      "mono": false,
+      "pill": false,
+      "size": 12,
+      "top": 4253
+     },
+     {
+      "text": "Case studies",
+      "above": "Work that moved the numbers",
+      "upper": true,
+      "tracked": true,
+      "mono": false,
+      "pill": false,
+      "size": 12,
+      "top": 7017
+     },
+     {
+      "text": "How we work",
+      "above": "A process that removes surprises",
+      "upper": true,
+      "tracked": true,
+      "mono": false,
+      "pill": false,
+      "size": 12,
+      "top": 9413
+     },
+     {
+      "text": "Skills & tech stack",
+      "above": "Tools we actually use",
+      "upper": true,
+      "tracked": true,
+      "mono": false,
+      "pill": false,
+      "size": 12,
+      "top": 11414
+     },
+     {
+      "text": "Testimonials",
+      "above": "Clients who said yes",
+      "upper": true,
+      "tracked": true,
+      "mono": false,
+      "pill": false,
+      "size": 12,
+      "top": 13114
+     },
+     {
+      "text": "The team",
+      "above": "Senior people, no pass-through",
+      "upper": true,
+      "tracked": true,
+      "mono": false,
+      "pill": false,
+      "size": 12,
+      "top": 15192
+     },
+     {
+      "text": "Pricing",
+      "above": "Transparent, senior-grade pricing",
+      "upper": true,
+      "tracked": true,
+      "mono": false,
+      "pill": false,
+      "size": 12,
+      "top": 16974
+     },
+     {
+      "text": "A focused project, shipped fast",
+      "above": "From ₹10,900",
+      "upper": false,
+      "tracked": false,
+      "mono": false,
+      "pill": false,
+      "size": 14,
+      "top": 17335
+     },
+     {
+      "text": "End-to-end product delivery",
+      "above": "From ₹25,999",
+      "upper": false,
+      "tracked": false,
+      "mono": false,
+      "pill": false,
+      "size": 14,
+      "top": 17826
+     },
+     {
+      "text": "A senior team on call",
+      "above": "From ₹6,500",
+      "upper": false,
+      "tracked": false,
+      "mono": false,
+      "pill": false,
+      "size": 14,
+      "top": 18349
+     },
+     {
+      "text": "FAQ",
+      "above": "Objections, answered",
+      "upper": true,
+      "tracked": true,
+      "mono": false,
+      "pill": false,
+      "size": 12,
+      "top": 18911
+     },
+     {
+      "text": "Ready when you are",
+      "above": "Let's build something worth shipping.",
+      "upper": true,
+      "tracked": true,
+      "mono": false,
+      "pill": false,
+      "size": 12,
+      "top": 19724
+     }
+    ],
+    "numbered": [
+     {
+      "text": "01",
+      "size": 14,
+      "top": 9698
+     },
+     {
+      "text": "02",
+      "size": 14,
+      "top": 9917
+     },
+     {
+      "text": "03",
+      "size": 14,
+      "top": 10136
+     },
+     {
+      "text": "04",
+      "size": 14,
+      "top": 10355
+     },
+     {
+      "text": "05",
+      "size": 14,
+      "top": 10574
+     },
+     {
+      "text": "06",
+      "size": 14,
+      "top": 10793
+     }
+    ],
+    "color": {
+     "bodyBg": "#ffffff",
+     "bodyBgHsl": {
+      "h": 0,
+      "s": 0,
+      "l": 1
+     },
+     "dark": false,
+     "sectionBgs": [
+      {
+       "color": "#ffffff",
+       "top": 4485,
+       "hsl": {
+        "h": 0,
+        "s": 0,
+        "l": 1
+       }
+      },
+      {
+       "color": "#e5e5e5",
+       "top": 9665,
+       "hsl": {
+        "h": 0,
+        "s": 0,
+        "l": 0.9
+       }
+      },
+      {
+       "color": "#0a0a0a",
+       "top": 17761,
+       "hsl": {
+        "h": 0,
+        "s": 0,
+        "l": 0.04
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#737373",
+       "share": 0.62
+      },
+      {
+       "color": "#0a0a0a",
+       "share": 0.33
+      },
+      {
+       "color": "#ffffff",
+       "share": 0.04
+      },
+      {
+       "color": "#fafafa",
+       "share": 0
+      },
+      {
+       "color": "#171717",
+       "share": 0
+      }
+     ],
+     "button": {
+      "bg": "#ffffff",
+      "hsl": {
+       "h": 0,
+       "s": 0,
+       "l": 1
+      },
+      "fg": "#0a0a0a"
+     },
+     "lowContrast": [
+      {
+       "text": "Designers",
+       "ratio": 4.3,
+       "need": 4.5,
+       "size": 14,
+       "fg": "#737373",
+       "bg": "#f5f5f5"
+      },
+      {
+       "text": "Web Developers",
+       "ratio": 4.3,
+       "need": 4.5,
+       "size": 14,
+       "fg": "#737373",
+       "bg": "#f5f5f5"
+      },
+      {
+       "text": "Product Managers",
+       "ratio": 4.3,
+       "need": 4.5,
+       "size": 14,
+       "fg": "#737373",
+       "bg": "#f5f5f5"
+      },
+      {
+       "text": "Mobile Developers",
+       "ratio": 4.3,
+       "need": 4.5,
+       "size": 14,
+       "fg": "#737373",
+       "bg": "#f5f5f5"
+      },
+      {
+       "text": "Devops",
+       "ratio": 4.3,
+       "need": 4.5,
+       "size": 14,
+       "fg": "#737373",
+       "bg": "#f5f5f5"
+      },
+      {
+       "text": "AI Specialists",
+       "ratio": 4.3,
+       "need": 4.5,
+       "size": 14,
+       "fg": "#737373",
+       "bg": "#f5f5f5"
+      }
+     ]
+    },
+    "buttons": {
+     "count": 13,
+     "inHero": 2,
+     "radius": 10,
+     "height": 58,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "Book a free consultation",
+      "View our work"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 34,
+     "shadowOverlay": 0,
+     "shadowSamples": [
+      "div.mt-14.grid → rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0",
+      "div.flex.flex-col → rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0",
+      "div.flex.flex-col → rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0",
+      "div.flex.flex-col → rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0"
+     ],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 17,
+     "hairlineSamples": [
+      "header.sticky.top-0 390px",
+      "figcaption.mt-auto.flex 308px",
+      "figcaption.mt-auto.flex 308px",
+      "figcaption.mt-auto.flex 308px",
+      "figcaption.mt-auto.flex 308px"
+     ],
+     "outlinedBoxes": 39,
+     "dashed": 0,
+     "blurred": 1,
+     "roundedBoxes": 49,
+     "boxRadius": 14,
+     "squareMedia": 0,
+     "roundedMedia": 6,
+     "mediaRadius": 14,
+     "textShadow": 0,
+     "cardRows": [
+      {
+       "count": 4,
+       "iconTopped": false,
+       "rounded": false,
+       "top": 815
+      }
+     ]
+    },
+    "heroMedia": [],
+    "nav": {
+     "links": 1,
+     "fixed": true,
+     "height": 65,
+     "floatingPill": false,
+     "blur": true
+    },
+    "fontsLoaded": [
+     "geist",
+     "geist mono",
+     "instrument serif"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 390,
+     "h": 844
+    },
+    "pageH": 21074,
+    "margins": {
+     "left": 16,
+     "right": 17
+    },
+    "sections": [
+     {
+      "sel": "main.flex.flex-1",
+      "tag": "main",
+      "top": 65,
+      "height": 20151,
+      "words": 1533,
+      "media": 6,
+      "middle": 0,
+      "heading": {
+       "text": "We design & build products",
+       "size": 36,
+       "tag": "h1"
+      },
+      "left": 16,
+      "right": 16,
+      "textLeft": 16,
+      "textRight": 16,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "footer.border-t.border-border/60",
+      "tag": "footer",
+      "top": 20216,
+      "height": 858,
+      "words": 63,
+      "media": 0,
+      "middle": 0,
+      "heading": null,
+      "left": 16,
+      "right": 27,
+      "textLeft": 16,
+      "textRight": 27,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [],
+    "h1s": [
+     {
+      "text": "We design & build products people love to use.",
+      "size": 36,
+      "top": 181,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 40,
+      "n": 61
+     },
+     {
+      "x": 16,
+      "n": 28
+     },
+     {
+      "x": 171,
+      "n": 1
+     }
+    ],
+    "leftBlocks": 90,
+    "bodySize": 14,
+    "stage": false,
+    "explains": true,
+    "slivers": [],
+    "voidShare": 0,
+    "voidBox": null
+   },
+   "app": null,
+   "consoleErrors": []
+  }
+ ],
+ "findings": [
+  {
+   "level": "FAIL",
+   "id": "headline-lines",
+   "width": 1440,
+   "message": "1 headline(s) wrap past two lines at 1440px: \"We design & build products people love to use.\" → 3 lines (9 words, 72px)",
+   "fix": "Cut words first (a headline is a title, not a sentence). Then give it a wider measure. Lower the size only as a last resort and never below the scale you chose. A real statement paragraph belongs in a <p> or <blockquote> at 36px or less."
+  },
+  {
+   "level": "WARN",
+   "id": "mixed-font-headline",
+   "width": 1440,
+   "message": "1 headline(s) switch typeface or to italic mid-line (the \"one italic serif word\" move).",
+   "fix": "Set the whole headline in one face. Emphasis comes from the words.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "FAIL",
+   "id": "eyebrow",
+   "width": 1440,
+   "message": "15 eyebrow/kicker label(s) above headings: \"Available for new projects\" above \"We design & build products people love t\"; \"Highlights\" above \"Early milestones that build trust\"; \"About us\" above \"A small team, a senior bar\"; \"What we do\" above \"Services built for shipping\"; \"Case studies\" above \"Work that moved the numbers\"",
+   "fix": "Delete them. If the label carried real information, fold it into the headline or the supporting sentence.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "FAIL",
+   "id": "numbering",
+   "width": 1440,
+   "message": "Decorative index numbers: \"01\", \"02\", \"03\", \"04\", \"05\", \"06\"",
+   "fix": "Remove them. If order truly matters, write it into the words (\"First, …\") or use a real <ol>.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "FAIL",
+   "id": "micro-label",
+   "width": 1440,
+   "message": "22 tiny uppercase letter-spaced labels (e.g. \"Highlights\", \"About us\", \"Our philosophy\", \"Team size & structure\").",
+   "fix": "Use sentence-case text at a readable size, or delete the label.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "FAIL",
+   "id": "emoji",
+   "width": 1440,
+   "message": "Emoji in the page: ★",
+   "fix": "Remove. Use words or real imagery.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "FAIL",
+   "id": "shadow",
+   "width": 1440,
+   "message": "34 box-shadow(s) on elements at rest: div.mt-14.grid → rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0 | div.flex.flex-col → rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0 | div.flex.flex-col → rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0",
+   "fix": "Remove. Separate surfaces with a tone step or space. Shadows are for things that really float (menus, dialogs, sticky bars).",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "FAIL",
+   "id": "hairline",
+   "width": 1440,
+   "message": "17 thin rule(s)/divider line(s): header.sticky.top-0 1440px | figcaption.mt-auto.flex 307px | figcaption.mt-auto.flex 307px | figcaption.mt-auto.flex 307px",
+   "fix": "Delete. Separate with space, a tone change, or scale. Lines are only for real tables and form fields.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "FAIL",
+   "id": "outlined-box",
+   "width": 1440,
+   "message": "39 boxes drawn with a 1px outline.",
+   "fix": "Define a surface by its fill (one tone step from the page) or leave the content unboxed.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "FAIL",
+   "id": "icon-cards",
+   "width": 1440,
+   "message": "5 row(s) of identical cards each topped with a small icon (4, 6, 3, 6, 6 cards).",
+   "fix": "Replace with one composed section from the direction: a narrative split, a list set in large type, or real imagery per item.",
+   "alsoAt": [
+    768
+   ]
+  },
+  {
+   "level": "WARN",
+   "id": "contrast",
+   "width": 1440,
+   "message": "Low-contrast text: \"Designers\" 4.3:1 needs 4.5:1; \"Web Developers\" 4.3:1 needs 4.5:1; \"Product Managers\" 4.3:1 needs 4.5:1; \"Mobile Developers\" 4.3:1 needs 4.5:1",
+   "fix": "Darken or lighten the text colour.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "WARN",
+   "id": "size-count",
+   "width": 1440,
+   "message": "11 different font sizes (11, 12, 13, 14, 16, 18, 20, 24, 36, 48, 72).",
+   "fix": "A page needs about five: display, heading, lead, body, small.",
+   "alsoAt": [
+    768
+   ]
+  },
+  {
+   "level": "FAIL",
+   "id": "body-size",
+   "width": 1440,
+   "message": "Body text is 14px (the size most of the running text is set in).",
+   "fix": "Body copy 16–20px. Map small sizes from blueprints onto your body step.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "WARN",
+   "id": "grey-body",
+   "width": 1440,
+   "message": "The running text is a soft grey on its ground (4.7:1).",
+   "fix": "Set body copy in the full ink (7:1 or more). Keep the muted ink for secondary notes; pages read thin and unfinished when everything is grey.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "WARN",
+   "id": "no-footage",
+   "width": 1440,
+   "message": "No video anywhere on the page.",
+   "fix": "Look for one honest clip with scripts/assets.mjs --video (the place, the material, the process) and use it as a muted loop with a poster frame. Defend its absence only if no clip fits the subject."
+  },
+  {
+   "level": "FAIL",
+   "id": "small-text",
+   "width": 1440,
+   "message": "40 text blocks under 13px.",
+   "fix": "Nothing meant to be read goes below 13px.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "WARN",
+   "id": "off-centre",
+   "width": 1440,
+   "message": "The margins differ: 168px on the left, 190px on the right, at 1440px.",
+   "fix": "Put the navigation and the content on one pair of margins; check for padding on one side only, a scrollbar gutter, or a header on another inset than the page.",
+   "alsoAt": [
+    768
+   ]
+  },
+  {
+   "level": "WARN",
+   "id": "hero-void",
+   "width": 1440,
+   "message": "34% of the first screen is one empty block (660×660px at 780,120).",
+   "fix": "Place the void on purpose or fill it: move the picture, the film or one fact into it, grow the headline to meet it, or shrink the screen to its content. A void reads as placed only when something closes it on the far side and it is the screen's one rest."
+  },
+  {
+   "level": "FAIL",
+   "id": "still-page",
+   "width": 1440,
+   "message": "Only 1 element(s) moved while the page loaded and scrolled.",
+   "fix": "Build the motion layer (SKILL.md step 9, references/motion.md): the signature move, an entrance for the parts of every section, feedback on every control, and one moving picture. Transform and opacity only, with a reduced-motion fallback."
+  },
+  {
+   "level": "FAIL",
+   "id": "headline-lines",
+   "width": 768,
+   "message": "1 headline(s) wrap past two lines at 768px: \"We design & build products people love to use.\" → 3 lines (9 words, 60px)",
+   "fix": "Cut words first (a headline is a title, not a sentence). Then give it a wider measure. Lower the size only as a last resort and never below the scale you chose. A real statement paragraph belongs in a <p> or <blockquote> at 32px or less."
+  },
+  {
+   "level": "FAIL",
+   "id": "headline-lines",
+   "width": 390,
+   "message": "4 headline(s) wrap past two lines at 390px: \"We design & build products people love to use.\" → 3 lines (9 words, 36px); \"A full-stack food delivery platform with real-ti\" → 3 lines (11 words, 24px); \"A community-driven initiative for spreading kind\" → 3 lines (8 words, 24px); \"A graph-native commerce platform built for relat\" → 3 lines (8 words, 24px)",
+   "fix": "Cut words first (a headline is a title, not a sentence). Then give it a wider measure. Lower the size only as a last resort and never below the scale you chose. A real statement paragraph belongs in a <p> or <blockquote> at 24px or less."
+  }
+ ],
+ "images": [
+  {
+   "viewport": "desktop",
+   "width": 1440,
+   "fold": "/home/shubham/shubham/sas3d/.taste-skill/before/desktop-fold.jpg",
+   "pages": [
+    "/home/shubham/shubham/sas3d/.taste-skill/before/desktop-page-01.jpg",
+    "/home/shubham/shubham/sas3d/.taste-skill/before/desktop-page-02.jpg",
+    "/home/shubham/shubham/sas3d/.taste-skill/before/desktop-page-03.jpg"
+   ],
+   "film": []
+  },
+  {
+   "viewport": "tablet",
+   "width": 768,
+   "fold": "/home/shubham/shubham/sas3d/.taste-skill/before/tablet-fold.jpg",
+   "pages": [
+    "/home/shubham/shubham/sas3d/.taste-skill/before/tablet-page-01.jpg",
+    "/home/shubham/shubham/sas3d/.taste-skill/before/tablet-page-02.jpg"
+   ],
+   "film": []
+  },
+  {
+   "viewport": "mobile",
+   "width": 390,
+   "fold": "/home/shubham/shubham/sas3d/.taste-skill/before/mobile-fold.jpg",
+   "pages": [
+    "/home/shubham/shubham/sas3d/.taste-skill/before/mobile-page-01.jpg",
+    "/home/shubham/shubham/sas3d/.taste-skill/before/mobile-page-02.jpg"
+   ],
+   "film": []
+  }
+ ]
+}
