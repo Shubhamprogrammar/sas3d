@@ -91,23 +91,25 @@ export const TOOLS = [
 ] as const;
 
 export const SITE = {
-  name: "SAS3D Studio",
+  name: "SAS3D",
   shortName: "SAS3D",
-  tagline: "We design & build products that people love to use",
+  tagline: "Building Digital Solutions That Move Businesses Forward",
   description:
-    "SAS3D is a freelance team of designers, developers and Devops engineers helping early-to-mid-stage companies ship fast, high-quality digital products.",
+    "SAS3D helps businesses turn ideas and operational challenges into practical digital solutions through web development, custom software, business automation and AI-powered technology.",
   keywords: [
-    "freelance team",
-    "web development",
-    "UI UX design",
-    "product design",
-    "devops",
-    "marketing",
-    "portfolio",
+    "website development services",
+    "web application development",
+    "custom software development",
+    "business automation services",
+    "workflow automation",
+    "AI development services",
+    "AI integration",
+    "software development agency India",
   ],
   url: "https://sas3d.in",
   email: "sas3dev@gmail.com",
   phone: "+91 8850093749",
+  whatsappNumber: "918850093749",
   location: "Remote — worldwide",
   foundingYear: 2025,
   teamSize: 3,
@@ -115,13 +117,24 @@ export const SITE = {
   projectsDelivered: 9,
   happyClients: 8,
   socials: [
-    { name: "Instagram", href: "https://sas3d.net" },
+    { name: "Instagram", href: "https://www.instagram.com/sas3dev/" },
     { name: "Twitter", href: "https://sas3d.com" },
     { name: "GitHub", href: "https://github.com/sas3dev" },
     { name: "LinkedIn", href: "https://sas3d.com" },
   ],
-  bookingUrl: "https://sas3d.in",
+  bookingUrl: "mailto:sas3dev@gmail.com?subject=Book%20a%20free%2030-min%20consultation",
 } as const;
+
+const DEFAULT_WHATSAPP_MESSAGE =
+  "Hello SAS3D, I would like to discuss a project. Could we schedule a consultation?";
+
+export function whatsappUrl(message: string = DEFAULT_WHATSAPP_MESSAGE): string {
+  return `https://wa.me/${SITE.whatsappNumber}?text=${encodeURIComponent(message)}`;
+}
+
+export function inquiryMailto(subject = "Project inquiry"): string {
+  return `mailto:${SITE.email}?subject=${encodeURIComponent(subject)}`;
+}
 
 export const NAV_LINKS = [
   { label: "About", href: "/about" },

@@ -27,7 +27,7 @@ export default function Image() {
             {SITE.tagline}
           </div>
           <div style={{ fontSize: 30, color: "#a3a3a3" }}>
-            Design · Development · DevOps
+            Web Development · Custom Software · Automation · AI
           </div>
         </div>
         <div style={{ fontSize: 28, color: "#a3a3a3" }}>{SITE.url.replace("https://", "")}</div>

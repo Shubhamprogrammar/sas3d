@@ -11,11 +11,11 @@ export function ServicesSection() {
       <div className="mx-auto max-w-6xl px-4 sm:px-6">
         <SectionHeading
           eyebrow="What we do"
-          title="Services built for shipping"
-          description="One team, every craft you need to take a product from idea to launch — and make it grow after."
-          action={{ label: "All services", href: "/services" }}
+          title="Our Expertise"
+          description="Four ways we help businesses turn ideas and operational challenges into working digital solutions."
+          action={{ label: "View Services", href: "/services" }}
         />
-        <div className="mt-12 grid gap-4 md:grid-cols-2 lg:grid-cols-3">
+        <div className="mt-12 grid gap-4 md:grid-cols-2">
           {services.map((service) => (
             <div
               key={service.id}
@@ -31,7 +31,7 @@ export function ServicesSection() {
                 {service.description}
               </p>
               <ul className="mt-auto flex flex-col gap-2 pt-2">
-                {service.deliverables.slice(0, 3).map((item) => (
+                {service.deliverables.map((item) => (
                   <li
                     key={item}
                     className="flex items-center gap-2 text-sm text-muted-foreground"
@@ -42,8 +42,9 @@ export function ServicesSection() {
                 ))}
               </ul>
               <Link
-                href="/services"
+                href={`/services/${service.id}`}
                 className="inline-flex items-center gap-1 pt-2 text-sm font-medium underline-offset-4 hover:underline"
+                aria-label={`Learn more about ${service.title}`}
               >
                 Learn more
                 <ArrowUpRight className="size-4" />

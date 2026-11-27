@@ -18,9 +18,9 @@ export const projects: Project[] = [
     excerpt:
       "A modern full-stack food delivery platform with seamless user experience, real-time admin controls, secure Stripe payments, and order tracking — built with React, Node.js, and MongoDB.",
     problem:
-      "Building a food delivery platform requires handling multiple complex workflows simultaneously — user authentication, real-time menu browsing, cart management, secure payment processing, order tracking, and an admin panel for restaurant management. The challenge was to deliver a production-grade experience across all these surfaces with a clean, maintainable codebase.",
+      "People want to order food quickly from good local kitchens, but it often takes too long. Menus are spread across different places, it’s hard to filter by what you feel like eating, and you don’t know when the order will arrive. Small local kitchens also struggle to reach customers online.",
     solution:
-      "We built a complete full-stack food delivery platform called Tomato with a React frontend, Node.js/Express backend, and MongoDB database. The platform features JWT authentication, Stripe payment integration, real-time order management, and a dedicated admin panel for menu and order control — all deployed across Vercel and Render.",
+      "Tomato is one web platform where users can browse dishes, filter them by category, add items to a cart and place orders. It brings many local kitchens together with clear prices and ratings. A mobile app adds live order tracking, app-only deals, saved addresses and one-tap reorder. The aim is delivery in under 30 minutes, and the first order is free.",
     approach: [
       "Mapped the end-to-end food ordering flow — from user registration and menu browsing through cart management, Stripe checkout, and order tracking — to define the core application surfaces.",
       "Designed a clean, fast user interface with responsive food item browsing, category filtering, cart management, and order history, plus a separate admin panel for menu and order control.",
@@ -52,9 +52,9 @@ export const projects: Project[] = [
     excerpt:
       "A PWA community platform for organizing kindness initiatives — installable, offline-capable, with real-time notifications. Built with Next.js, TypeScript, and a Node.js/Express backend with Socket.IO.",
     problem:
-      "Communities often lack a centralized platform to organize and coordinate acts of kindness and support for those in need. Spreading empathy and help requires structured initiatives that can connect people with opportunities to make a difference — accessible even on low-bandwidth or offline scenarios.",
+      "Many people carry feelings like loneliness, anxiety, heartbreak or quiet gratitude, and have nowhere safe to say them. Mainstream social media rewards image, follower counts and debate. That makes it hard to share something vulnerable without fear of being judged.",
     solution:
-      "We designed and built Open Your Hearts as a Progressive Web App (PWA) — a community platform that enables people to discover, participate in, and contribute to kindness initiatives. The platform connects volunteers with causes, tracks community impact, and creates a space where empathy and support can flourish, with full offline support and native app-like experience.",
+      "Open Your Hearts is a gentle community platform where people can share a small truth, a poem or a moment of courage, and be heard. It’s built to feel like “a softer place to land.” Users can post under their name or anonymously (“Someone”), tag each post with a mood, and get support through likes, comments and bookmarks rather than competition.",
     approach: [
       "Mapped the core community engagement journey — discovering initiatives, participating in events, and tracking collective impact — to define the essential product surfaces.",
       "Designed a warm, inviting interface with intuitive navigation that encourages community participation and makes it easy to find ways to help.",
@@ -74,8 +74,8 @@ export const projects: Project[] = [
     featured: true,
   },
   {
-    slug: "luma-saas-dashboard",
-    title: "A graph-native commerce platform built for relationship intelligence",
+    slug: "customer-management-platform",
+    title: "One connected system for the full client lifecycle, from first lead to final payment",
     client: "WEXA.AI",
     year: "2026",
     category: "Web Development",
@@ -88,22 +88,22 @@ export const projects: Project[] = [
       "/images/projects/s_3.png",
     ],
     excerpt:
-      "A graph-first commerce platform where every screen is powered by traversals over a graph database, helping teams explore the hidden relationships between customers, products, sellers, and brands instead of digging through flat relational tables.",
+      "An internal CRM and business management platform that brings leads, sales, proposals, projects, invoices, and payments into one system, with role-based access for every team.",
     problem:
-      "Marketplace data — customers, products, sellers, categories, brands — is deeply relational, but traditional dashboards flatten it into isolated tables and reports. Teams could see individual records, but not how those records connected to one another, making it slow and difficult to answer questions that spanned multiple entities or to spot patterns hidden a few hops away.",
+      "Running a client lifecycle touches sales, delivery, and finance, and each stage depends on the one before it. When that work is spread across separate tools, a client's history is hard to follow, follow-ups can slip, and it takes real effort to answer simple questions about what has been sold, delivered, and paid.",
     solution:
-      "We built a graph-native commerce platform where every screen is powered by traversal queries over a graph database instead of conventional relational lookups. The experience centers on an interactive graph explorer that lets users search for any node — customer, product, seller, or brand — and visually walk its multi-hop connections, backed by dedicated Customer, Product, and Seller intelligence modules for deeper analysis.",
+      "We built a single platform that follows each client from first contact to final payment. Leads move through a drag-and-drop pipeline and convert into clients and projects, proposals and invoices generate branded PDFs, and project progress is calculated from completed work. Reports, global search, notifications, and an audit log tie the whole system together.",
     approach: [
-      "Mapped the core marketplace entities and their relationships — customers, products, sellers, categories, and brands — to define what a graph-first data model needed to support.",
-      "Designed an interactive graph explorer and dedicated intelligence modules (Customer, Product, Seller) that make multi-hop relationships easy to search, traverse, and understand at a glance.",
-      "Built a production-ready platform with an analytics suite, recommendations engine, and live database health monitoring, backed by a scalable design system and reliable deployment workflows."
-    ],
+    "Mapped the full client lifecycle, from lead capture through pipeline, proposal, project delivery, invoicing, and payment, so each stage carries its records into the next.",
+    "Designed focused modules for each team, with six roles and record-level access control, so sales, project managers, developers, and finance each work with the information they need.",
+    "Built for real financial workflows, including partial payments, payment voiding, automatic overdue detection, and separate totals for each currency, backed by database transactions and automated tests."
+  ],
     results: [
-      { label: "First report in week 1", value: "22 → 71%" },
-      { label: "Activation", value: "+49%" },
-      { label: "Churn", value: "-27%" },
-    ],
-    liveUrl: "https://shopgraph.vercel.app/",
+    { label: "User roles with record-level access", value: "6" },
+    { label: "Currencies, never mixed in totals", value: "7" },
+    { label: "Report areas with CSV export", value: "4" },
+  ],
+    liveUrl: "https://customer-management-portal.sas3d.in/",
     tags: ["SaaS", "Dashboard", "IA"],
     featured: true,
   },
@@ -137,22 +137,20 @@ export const projects: Project[] = [
       { label: "Team onboarding", value: "Streamlined" },
       { label: "Workflow clarity", value: "End-to-end" },
     ],
-    liveUrl: "https://launchflow-automate.duckdns.org/",
     tags: ["Internal Tools", "SaaS", "Web App"],
   },
   {
-    slug: "atlas-content-platform",
-    title: "Grocery is One Step a way from Your Door",
-    client: "Atlas",
-    year: "2024",
-    category: "Content Writing",
+    slug: "celebcart-grocery-platform",
+    title: "CelebCart — an online grocery store for everyday essentials",
+    client: "CelebCart",
+    year: "2025",
+    category: "E-commerce",
     role: ["Product Design", "UX Research", "Design System", "Web Development", "Devops"],
     status: "live",
     cover: "/images/projects/celeb_1.png",
     gallery: [
       "/images/projects/celeb_1.png",
       "/images/projects/celeb_2.png",
-      "/images/projects/p1.svg",
     ],
     excerpt:
       "A convenient online grocery platform that connects customers with everyday essentials and makes ordering fresh groceries for doorstep delivery simple and hassle-free.",
@@ -176,7 +174,7 @@ export const projects: Project[] = [
   {
     slug: "streamify-social-learning",
     title: "A social learning platform where friends learn languages together",
-    client: "Stremify",
+    client: "Streamify",
     year: "2026",
     category: "Web Development",
     role: ["Product Design", "UX Research", "Design System", "Web Development", "Devops"],
@@ -190,9 +188,9 @@ export const projects: Project[] = [
     excerpt:
       "A social learning platform built with the MERN stack that lets users connect with friends, chat in real time, and make video calls — so people can learn new languages together in an interactive, engaging way.",
     problem:
-      "Language learning is often a lonely, repetitive grind. Learners practicing alone quickly lose motivation, most apps offer little real human interaction, and coordinating practice with friends means juggling separate chat and video tools. The challenge was to bring connection, conversation, and collaborative language learning into one seamless social experience.",
+      "People learning a new language struggle to find native speakers to practise with. Classroom and app-based learning doesn’t give enough real conversation practice, and finding a matching partner (someone who speaks the language you’re learning and wants to learn yours) is hard.",
     solution:
-      "We built Stremify, a social learning platform powered by the MERN stack where users connect with friends, chat in real time, and jump into video calls together. By combining social interaction with collaborative language practice, Stremify makes learning new languages fun, social, and effective — keeping learners engaged, accountable, and coming back.",
+      "Streamify is a language-exchange platform that connects learners with partners who complement them. Each user lists a native language, a learning language, a location and a short bio. The app then suggests matching partners, so you can send friend requests, build a network of practice buddies, and talk to them to improve your skills.",
     approach: [
       "Mapped the core learner journey — connecting with friends, starting conversations, joining video calls, and practicing languages together — to define the essential product surfaces.",
       "Designed an interactive, engaging interface with friend connections, real-time chat, and seamless video call flows that make collaborative learning feel natural and fun.",

@@ -1,12 +1,16 @@
 import { MongoClient, type Collection } from "mongodb";
 
-export interface ContactDoc {
-  name: string;
-  email: string;
-  message: string;
-  status: "new" | "replied" | "closed";
+import type { ContactData } from "@/lib/validations";
+
+export const CONTACT_STATUSES = ["new", "replied", "closed"] as const;
+export type ContactStatus = (typeof CONTACT_STATUSES)[number];
+
+export interface ContactDoc extends ContactData {
+  status: ContactStatus;
   emailSent: boolean;
   createdAt: Date;
+  updatedAt?: Date;
+  ip: string;
   userAgent: string | null;
 }
 
@@ -23,10 +27,7 @@ async function connectContacts() {
   const contacts = client
     .db(process.env.MONGODB_DB ?? "sas3d")
     .collection<ContactDoc>("contacts");
-  await Promise.all([
-    contacts.createIndex({ createdAt: -1 }),
-    contacts.createIndex({ email: 1, createdAt: -1 }),
-  ]);
+  await contacts.createIndex({ createdAt: -1 });
   return contacts;
 }
 

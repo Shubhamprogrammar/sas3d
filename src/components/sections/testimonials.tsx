@@ -2,7 +2,6 @@ import { Quote } from "lucide-react";
 
 import { StarRating } from "@/components/sections/star-rating";
 import { SectionHeading } from "@/components/sections/section-heading";
-import { Avatar } from "@/components/sections/team-grid";
 import { testimonials } from "@/data/testimonials";
 
 export function Testimonials() {

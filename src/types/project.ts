@@ -11,6 +11,8 @@ export interface Project {
   category: string;
   role: string[];
   status: "live" | "case-study" | "confidential";
+  /** Who the project was built for. Leave unset until the owner confirms it. */
+  classification?: "Internal Project" | "Demonstration Project" | "Client Project";
   cover: string;
   gallery: string[];
   excerpt: string;

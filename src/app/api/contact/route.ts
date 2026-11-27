@@ -1,122 +1,200 @@
 import { NextResponse } from "next/server";
-import { Resend } from "resend";
 import type { ObjectId } from "mongodb";
 
-import { contactSchema } from "@/lib/validations";
 import { SITE } from "@/lib/constants";
+import { getTransporter, isMailerConfigured, mailFrom } from "@/lib/mailer";
 import { getContactsCollection } from "@/lib/mongodb";
+import { rateLimit } from "@/lib/rate-limit";
+import {
+  HONEYPOT_FIELD,
+  MIN_FILL_TIME_MS,
+  contactSchema,
+  type ContactData,
+} from "@/lib/validations";
 
 export const runtime = "nodejs";
 
-const RATE_LIMIT = 5;
-const RATE_WINDOW_MS = 60 * 60 * 1000;
+const MAX_BODY_BYTES = 20_000;
+const RATE_LIMIT = { limit: 5, windowMs: 10 * 60 * 1000 };
+
+function json(body: Record<string, unknown>, status: number, headers?: HeadersInit) {
+  return NextResponse.json(body, { status, headers });
+}
+
+function clientIp(request: Request): string {
+  const forwarded = request.headers.get("x-forwarded-for");
+  if (forwarded) return forwarded.split(",")[0]!.trim();
+  return request.headers.get("x-real-ip") ?? "unknown";
+}
+
+/** Reject cross-site form posts. Requests without an Origin header (curl, some proxies) are allowed. */
+function isSameOrigin(request: Request): boolean {
+  const origin = request.headers.get("origin");
+  if (!origin) return true;
+  try {
+    const originHost = new URL(origin).host;
+    const host = request.headers.get("x-forwarded-host") ?? request.headers.get("host");
+    return originHost === host || originHost === new URL(SITE.url).host;
+  } catch {
+    return false;
+  }
+}
+
+function notificationText(data: ContactData, ip: string): string {
+  const line = (label: string, value: string) => `${label}: ${value || "—"}`;
+  return [
+    `New project inquiry received through ${SITE.url}/contact`,
+    "",
+    line("Full name", data.name),
+    line("Email", data.email),
+    line("Company", data.company),
+    line("Phone", data.phone),
+    line("Service", data.service),
+    line("Budget", data.budget),
+    line("Timeline", data.timeline),
+    "",
+    "Project description:",
+    data.message,
+    "",
+    "---",
+    `Submitted: ${new Date().toISOString()}`,
+    `IP: ${ip}`,
+    "Reply to this email to respond to the visitor directly.",
+  ].join("\n");
+}
+
+// Deliberately does not echo the visitor's name or message: the address is
+// unverified, so the auto-reply must not be usable to send arbitrary text.
+const CONFIRMATION_TEXT = [
+  "Hello,",
+  "",
+  `Thank you for contacting ${SITE.shortName}! Your inquiry has been received. Our team will review your requirements and get back to you.`,
+  "",
+  `If you need to add anything, reply to this email or message us on WhatsApp at ${SITE.phone}.`,
+  "",
+  `— ${SITE.shortName}`,
+  SITE.url,
+].join("\n");
+
+/** Store the inquiry first so it is kept even if email delivery fails. Returns null when it couldn't be saved. */
+async function saveInquiry(data: ContactData, ip: string, userAgent: string | null) {
+  try {
+    const contacts = await getContactsCollection();
+    const { insertedId } = await contacts.insertOne({
+      ...data,
+      status: "new",
+      emailSent: false,
+      createdAt: new Date(),
+      ip,
+      userAgent,
+    });
+    return insertedId;
+  } catch (error) {
+    console.error("[contact] Failed to save inquiry:", error);
+    return null;
+  }
+}
+
+async function markEmailSent(id: ObjectId) {
+  try {
+    const contacts = await getContactsCollection();
+    await contacts.updateOne({ _id: id }, { $set: { emailSent: true } });
+  } catch (error) {
+    console.error("[contact] Failed to update inquiry:", error);
+  }
+}
 
 export async function POST(request: Request) {
-  let body: Record<string, unknown>;
-  try {
-    body = await request.json();
-  } catch {
-    return NextResponse.json(
-      { error: "Invalid request body" },
-      { status: 400 }
+  if (!isSameOrigin(request)) {
+    return json({ error: "Invalid request origin" }, 403);
+  }
+
+  const ip = clientIp(request);
+  const limited = rateLimit(`contact:${ip}`, RATE_LIMIT);
+  if (!limited.allowed) {
+    return json(
+      { error: "Too many submissions. Please try again later or contact us directly." },
+      429,
+      { "Retry-After": String(limited.retryAfterSeconds) }
     );
   }
 
-  // Honeypot: real visitors never see this field, so only bots fill it in.
-  if (body.website) {
-    return NextResponse.json({ ok: true }, { status: 200 });
+  let body: Record<string, unknown>;
+  try {
+    const raw = await request.text();
+    if (raw.length > MAX_BODY_BYTES) {
+      return json({ error: "Submission is too large" }, 413);
+    }
+    const parsedBody: unknown = JSON.parse(raw);
+    if (!parsedBody || typeof parsedBody !== "object" || Array.isArray(parsedBody)) {
+      return json({ error: "Invalid request body" }, 400);
+    }
+    body = parsedBody as Record<string, unknown>;
+  } catch {
+    return json({ error: "Invalid request body" }, 400);
+  }
+
+  // Spam checks: a filled honeypot or an instant submission is treated as a bot.
+  // Respond as if it succeeded so bots get no signal, but send nothing.
+  const honeypot = body[HONEYPOT_FIELD];
+  const startedAt = Number(body.startedAt);
+  const tooFast = Number.isFinite(startedAt) && Date.now() - startedAt < MIN_FILL_TIME_MS;
+  if ((typeof honeypot === "string" && honeypot.trim() !== "") || tooFast) {
+    return json({ ok: true }, 200);
   }
 
   const parsed = contactSchema.safeParse(body);
   if (!parsed.success) {
-    return NextResponse.json(
-      { error: "Invalid submission", issues: parsed.error.flatten() },
-      { status: 400 }
-    );
-  }
-
-  const { name, email, message } = parsed.data;
-
-  // Save first so the inquiry is kept even if sending email fails.
-  let savedId: ObjectId | null = null;
-  try {
-    const contacts = await getContactsCollection();
-    const recent = await contacts.countDocuments({
-      email,
-      createdAt: { $gt: new Date(Date.now() - RATE_WINDOW_MS) },
-    });
-    if (recent >= RATE_LIMIT) {
-      return NextResponse.json(
-        { error: "Too many messages, please try again later" },
-        { status: 429 }
-      );
+    const fieldErrors: Record<string, string> = {};
+    for (const issue of parsed.error.issues) {
+      const field = String(issue.path[0] ?? "form");
+      fieldErrors[field] ??= issue.message;
     }
-
-    const { insertedId } = await contacts.insertOne({
-      name,
-      email,
-      message,
-      status: "new",
-      emailSent: false,
-      createdAt: new Date(),
-      userAgent: request.headers.get("user-agent"),
-    });
-    savedId = insertedId;
-  } catch (error) {
-    console.error("Failed to save contact message", error);
+    return json({ error: "Please check the highlighted fields", fieldErrors }, 400);
   }
 
-  const emailSent = await sendEmails(name, email, message);
+  const data = parsed.data;
+  const savedId = await saveInquiry(data, ip, request.headers.get("user-agent"));
 
-  if (savedId && emailSent) {
-    try {
-      const contacts = await getContactsCollection();
-      await contacts.updateOne({ _id: savedId }, { $set: { emailSent: true } });
-    } catch (error) {
-      console.error("Failed to update contact message", error);
-    }
+  if (!isMailerConfigured()) {
+    console.error("[contact] SMTP_HOST, SMTP_USER or SMTP_PASS is not set; inquiry could not be emailed.");
+    if (savedId) return json({ ok: true }, 200);
+    return json({ error: "The inquiry service is temporarily unavailable" }, 503);
   }
 
-  if (!savedId && !emailSent) {
-    return NextResponse.json(
-      { error: "Failed to send message" },
-      { status: 500 }
-    );
-  }
-
-  return NextResponse.json({ ok: true }, { status: 200 });
-}
-
-async function sendEmails(name: string, email: string, message: string) {
-  if (!process.env.RESEND_API_KEY) {
-    console.error("RESEND_API_KEY is not set");
-    return false;
-  }
-
-  const contactEmail = process.env.CONTACT_EMAIL ?? SITE.email;
-  const from = process.env.CONTACT_FROM ?? `SAS3D Studio <onboarding@resend.dev>`;
-  const resend = new Resend(process.env.RESEND_API_KEY);
+  const contactEmail = process.env.CONTACT_EMAIL || SITE.email;
+  const from = mailFrom();
+  const transporter = getTransporter();
 
   try {
-    const [confirmation, notification] = await Promise.all([
-      resend.emails.send({
-        from,
-        to: [email],
-        replyTo: contactEmail,
-        subject: `We got your message, ${name} — ${SITE.name}`,
-        text: `Hi ${name},\n\nThanks for reaching out. We've received your message and will get back to you within one business day.\n\nYour message:\n${message}\n\n— ${SITE.name} team`,
-      }),
-      resend.emails.send({
-        from,
-        to: [contactEmail],
-        replyTo: email,
-        subject: `New inquiry from ${name} <${email}>`,
-        text: `Name: ${name}\nEmail: ${email}\n\n${message}`,
-      }),
-    ]);
-    return !confirmation.error && !notification.error;
+    await transporter.sendMail({
+      from,
+      to: contactEmail,
+      replyTo: data.email,
+      subject: `New inquiry: ${data.service} — ${data.name}`,
+      text: notificationText(data, ip),
+    });
   } catch (error) {
-    console.error("Failed to send contact emails", error);
-    return false;
+    console.error("[contact] Notification email failed:", error);
+    if (savedId) return json({ ok: true }, 200);
+    return json({ error: "We couldn't send your inquiry" }, 502);
   }
+
+  if (savedId) await markEmailSent(savedId);
+
+  // The inquiry has reached the team at this point. A failed confirmation
+  // email is logged but does not turn the visitor's submission into an error.
+  try {
+    await transporter.sendMail({
+      from,
+      to: data.email,
+      replyTo: contactEmail,
+      subject: `We've received your inquiry — ${SITE.shortName}`,
+      text: CONFIRMATION_TEXT,
+    });
+  } catch (error) {
+    console.warn("[contact] Confirmation email failed:", error);
+  }
+
+  return json({ ok: true }, 200);
 }

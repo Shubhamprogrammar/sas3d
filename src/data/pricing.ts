@@ -55,19 +55,19 @@ export const engagementModels = [
     title: "Hourly",
     description:
       "Best for small, open-ended tasks — audits, fixes, reviews. Billed in 0.5h increments, invoiced weekly.",
-    startingAt: "$95/hr",
+    startingAt: "₹500/hr",
   },
   {
     title: "Fixed-price",
     description:
       "Best for well-scoped projects. Fixed scope, fixed price, milestone payments. We absorb overruns.",
-    startingAt: "$4,900",
+    startingAt: "₹10,900",
   },
   {
     title: "Retainer",
     description:
       "Best for ongoing work. A monthly commitment gets you priority access and a dedicated senior team.",
-    startingAt: "$6,500/mo",
+    startingAt: "₹6,500/mo",
   },
 ];
 

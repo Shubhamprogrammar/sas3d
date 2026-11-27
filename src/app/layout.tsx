@@ -2,8 +2,13 @@ import type { Metadata } from "next";
 import { Geist, Geist_Mono, Instrument_Serif } from "next/font/google";
 import { Navbar } from "@/components/layout/navbar";
 import { Footer } from "@/components/layout/footer";
-import { JsonLd } from "@/components/json-ld";
 import { SITE } from "@/lib/constants";
+import { JsonLd } from "@/components/seo/json-ld";
+import {
+  GoogleTagManager,
+  GoogleTagManagerNoScript,
+} from "@/components/analytics/google-tag-manager";
+import { pageOpenGraph, pageTwitter } from "@/lib/seo";
 import { siteJsonLd } from "@/lib/structured-data";
 import "./globals.css";
 
@@ -32,19 +37,13 @@ export const metadata: Metadata = {
   },
   description: SITE.description,
   keywords: [...SITE.keywords],
-  openGraph: {
-    title: SITE.name,
-    description: SITE.description,
-    url: SITE.url,
-    siteName: SITE.name,
-    type: "website",
-  },
-  twitter: {
-    card: "summary_large_image",
-    title: SITE.name,
-    description: SITE.description,
-  },
+  openGraph: pageOpenGraph("/"),
+  twitter: pageTwitter(),
   metadataBase: new URL(SITE.url),
+  applicationName: SITE.name,
+  authors: [{ name: SITE.name, url: SITE.url }],
+  creator: SITE.name,
+  formatDetection: { telephone: false },
 };
 
 export default function RootLayout({
@@ -59,7 +58,9 @@ export default function RootLayout({
       suppressHydrationWarning
     >
       <body className="min-h-full flex flex-col">
-        <JsonLd data={siteJsonLd} />
+        <GoogleTagManagerNoScript />
+        <GoogleTagManager />
+        <JsonLd data={siteJsonLd()} />
         <Navbar />
         <main className="flex flex-1 flex-col">{children}</main>
         <Footer />
