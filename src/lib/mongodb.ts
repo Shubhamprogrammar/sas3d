@@ -1,3 +1,4 @@
+import dns from "node:dns";
 import { MongoClient, type Collection } from "mongodb";
 
 import type { ContactData } from "@/lib/validations";
@@ -22,6 +23,13 @@ const globalForMongo = globalThis as unknown as {
 async function connectContacts() {
   const uri = process.env.MONGODB_URI;
   if (!uri) throw new Error("MONGODB_URI is not set");
+
+  // // On some Windows setups Node can't read the system DNS config and falls
+  // // back to 127.0.0.1, which breaks the SRV lookup for mongodb+srv:// URIs.
+  // const servers = dns.getServers();
+  // if (uri.startsWith("mongodb+srv://") && servers.length === 1 && servers[0] === "127.0.0.1") {
+  //   dns.setServers(["1.1.1.1", "8.8.8.8"]);
+  // }
 
   const client = await new MongoClient(uri).connect();
   const contacts = client

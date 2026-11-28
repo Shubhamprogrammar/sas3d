@@ -16,7 +16,7 @@ import { pageSeo } from "@/lib/seo";
 
 const title = "Pricing";
 const description =
-  "Pricing and engagement models for SAS3D — fixed-price sprints, full engagements and monthly retainers.";
+  "Pricing and engagement models for SAS3D — Essential, Growth and Custom packages, hourly rates and maintenance plans.";
 
 export const metadata: Metadata = {
   title,

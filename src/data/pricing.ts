@@ -2,49 +2,50 @@ import type { PricingPlan } from "@/types";
 
 export const pricingPlans: PricingPlan[] = [
   {
-    id: "sprint",
-    name: "Sprint",
-    tagline: "A focused project, shipped fast",
-    price: "From ₹10,900",
+    id: "essential",
+    name: "Essential",
+    tagline: "Business launch for startups, small businesses & professionals",
+    price: "From ₹15,000",
     period: "per project",
     features: [
-      "1 dedicated sas3d lead",
-      "2-week design or build sprint",
-      "Fixed scope & fixed price",
-      "Weekly demos & async updates",
-      "30 days of post-launch support",
+      "5–8 responsive pages",
+      "UI implementation & contact forms",
+      "WhatsApp integration",
+      "Basic SEO & deployment",
+      "15 days of bug support",
     ],
-    cta: "Book a sprint",
+    cta: "Get started",
   },
   {
-    id: "engagement",
-    name: "Engagement",
-    tagline: "End-to-end product delivery",
-    price: "From ₹25,999",
+    id: "growth",
+    name: "Growth",
+    tagline: "Business solutions for growing businesses & startups",
+    price: "From ₹50,000",
     period: "per project",
     features: [
-      "Full cross-functional team",
-      "Discovery → design → build → launch",
-      "Dedicated Slack channel",
-      "Weekly stakeholder calls",
-      "QA, deployment & analytics",
-      "60 days of post-launch support",
+      "Custom website or web application",
+      "Frontend, backend & database integration",
+      "Authentication & admin dashboard",
+      "API integrations",
+      "Testing & deployment",
+      "30 days of bug support",
     ],
     cta: "Get a quote",
     featured: true,
   },
   {
-    id: "retainer",
-    name: "Retainer",
-    tagline: "A senior team on call",
-    price: "From ₹6,500",
-    period: "per month",
+    id: "custom",
+    name: "Custom",
+    tagline: "Digital transformation for established businesses & funded startups",
+    price: "From ₹75,000",
+    period: "per project",
     features: [
-      "Priority access to the team",
-      "Up to 40 hours/month",
-      "Iteration, maintenance & growth",
-      "Monthly roadmap & reporting",
-      "Pause or cancel anytime",
+      "Custom software architecture",
+      "Complex backends & multiple user roles",
+      "Advanced integrations & workflow automation",
+      "AI features where required",
+      "Cloud deployment, documentation & handover",
+      "30–45 days of bug support",
     ],
     cta: "Book a call",
   },
@@ -54,20 +55,20 @@ export const engagementModels = [
   {
     title: "Hourly",
     description:
-      "Best for small, open-ended tasks — audits, fixes, reviews. Billed in 0.5h increments, invoiced weekly.",
-    startingAt: "₹500/hr",
+      "Best when the scope isn't defined enough for a fixed price — audits, fixes, ongoing changes. Billed at role-based hourly rates.",
+    startingAt: "₹700/hr",
   },
   {
     title: "Fixed-price",
     description:
-      "Best for well-scoped projects. Fixed scope, fixed price, milestone payments. We absorb overruns.",
-    startingAt: "₹10,900",
+      "Best for well-scoped projects. Approved scope document, fixed price and 40/40/20 milestone payments. Scope changes are quoted in writing.",
+    startingAt: "₹8,000",
   },
   {
-    title: "Retainer",
+    title: "Maintenance",
     description:
-      "Best for ongoing work. A monthly commitment gets you priority access and a dedicated senior team.",
-    startingAt: "₹6,500/mo",
+      "Best for ongoing upkeep after launch. Monthly or annual plans covering updates, fixes and support for websites and applications.",
+    startingAt: "₹2,000/mo",
   },
 ];
 
@@ -75,12 +76,22 @@ export const faqs = [
   {
     question: "How fast will you respond?",
     answer:
-      "We reply to every inquiry within one business day. In a sprint or retainer, you get responses within a few hours during working time via your dedicated Slack channel.",
+      "We reply to every inquiry within one business day. During a project, you get responses within a few hours during working time via your dedicated channel.",
   },
   {
     question: "What if the scope changes mid-project?",
     answer:
-      "Our fixed-price quotes include a clear change-control process. Small changes are absorbed; significant new scope is quoted transparently before any work begins — no surprises.",
+      "Every fixed-price project starts from an approved scope document. Any change needs your written approval and a revised estimate before work begins — no surprises.",
+  },
+  {
+    question: "How do payments work?",
+    answer:
+      "Standard projects are billed 40% in advance, 40% at the development milestone and 20% on completion. Small projects are 50% in advance and 50% before handover. Proposals are valid for 15 days.",
+  },
+  {
+    question: "Are taxes and third-party costs included?",
+    answer:
+      "No. GST is stated separately where applicable. Hosting, domains, WhatsApp provider fees, AI API usage and other third-party charges are billed separately — never hidden in development fees.",
   },
   {
     question: "Can you sign an NDA?",
@@ -90,16 +101,16 @@ export const faqs = [
   {
     question: "Do you work with clients in our timezone?",
     answer:
-      "We're fully remote and overlap with US, EU and Asia-Pacific timezones. Weekly calls are scheduled at your convenience and everything else runs async.",
+      "We're fully remote and overlap with US, EU and Asia-Pacific timezones. International projects are quoted in USD. Weekly calls are scheduled at your convenience and everything else runs async.",
   },
   {
     question: "Who owns the code and designs?",
     answer:
-      "You do. Once the invoice is paid, all designs, code, and content are 100% yours — including the files, repos and credentials.",
+      "You do. Source-code ownership and transfer terms are written into every contract — once the final invoice is paid, all designs, code and content are yours, including the files, repos and credentials.",
   },
   {
     question: "What if we need ongoing support after launch?",
     answer:
-      "Every project includes a free post-launch support window. After that, you can move to a monthly retainer or buy support hours as needed.",
+      "Every project includes 15–45 days of bug support, depending on the package. After that, you can move to a monthly or annual maintenance plan starting at ₹2,000/month.",
   },
 ];
